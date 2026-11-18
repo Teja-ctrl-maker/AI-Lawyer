@@ -125,7 +125,8 @@
 <dialog id="guestGate" aria-labelledby="guestTitle">
   <span class="brand-mark" aria-hidden="true">§</span>
   <h2 id="guestTitle">Welcome to Case Companion</h2>
-  <form id="accountForm" method="post" action="/api/login">
+  <p id="demoInstructions" class="fine" hidden>Reviewer demo. Use the sample or another fictional case. Choose <strong>Try a sample</strong> to follow a consumer complaint through to Word export.</p>
+  <form id="accountForm" method="post" action="/api/login" hidden>
     <label for="username">Username</label>
     <input id="username" name="username" type="text" autocomplete="username" maxlength="32" required>
     <label for="accountPassword">Password</label>
@@ -161,4 +162,4 @@
   <p class="fine">Check this page number against the original file if you need the full page.</p>
   <pre id="passageText" class="source-text"></pre>
 </dialog>
-<div id="printArea"></div><script src="/app.js?v=document-formats"></script></body></html>
+<div id="printArea"></div><script src="/app.js?v=guest-review"></script></body></html>

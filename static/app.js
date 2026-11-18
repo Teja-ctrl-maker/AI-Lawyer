@@ -687,12 +687,21 @@ window.addEventListener('pageshow', event => {
 });
 fetch('/api/config').then(r=>r.json()).then(c=>{
     config=c;
+    $('accountForm').hidden = c.accounts === false;
+    $('demoInstructions').hidden = c.accounts !== false;
+    if (c.accounts === false) {
+        $('startGuest').className = 'primary';
+        $('consent').closest('label').hidden = true;
+        $('guestTitle').textContent = 'Case Companion reviewer demo';
+    }
     $('consent').disabled=!c.live;
-    $('modeHelp').textContent=c.live?'Local by default. OpenRouter requests require zero-retention routing.':'Local mode is available in English. Live AI is unavailable.';
+    $('modeHelp').textContent=c.accounts === false?'Guest demo uses local legal reference search in English.':c.live?'Local by default. OpenRouter requests require zero-retention routing.':'Local mode is available in English. Live AI is unavailable.';
     $('kind').replaceChildren(...Object.keys(c.document_formats).map(kind => new Option(kind, kind)));
     $('kind').value = 'Case brief';
     renderDraftFields();
-}).catch(()=>notice('Could not reach the local server. Start server.py and reload.'));
+}).catch(()=>{
+    $('guestStatus').textContent = 'Could not reach Case Companion. Reload the page and try again.';
+});
 
 const pdfDocuments = new Map();
 let nextDocument = 1;

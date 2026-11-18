@@ -123,6 +123,14 @@ class Handler(BaseHTTPRequestHandler):
     server_version = 'CaseCompanion'
     sys_version = ''
     timeout = 10
+    accounts_enabled = True
+    guest_limit = 200
+
+    def live_enabled(self):
+        return core.configured()
+
+    def request_origin(self):
+        return f"http://{self.headers['Host']}"
 
     def log_message(self, *_):
         pass  # Do not log user material or session IDs.
@@ -153,7 +161,7 @@ class Handler(BaseHTTPRequestHandler):
 
     def start_session(self, username=None):
         with LOCK:
-            if len(GUESTS) >= 200:
+            if len(GUESTS) >= self.guest_limit:
                 return self.respond({'error':'Too many sessions. Try again shortly.'}, 503)
             token = secrets.token_urlsafe(32)
             GUESTS[token] = Session(time.monotonic() + GUEST_IDLE_SECONDS, username)
@@ -204,7 +212,7 @@ class Handler(BaseHTTPRequestHandler):
             return self.respond({'error':'Invalid host'},403)
         path=urllib.parse.urlsplit(self.path).path
         if path=='/api/config':
-            return self.respond({'live':core.configured(),'guest_idle_seconds':GUEST_IDLE_SECONDS,
+            return self.respond({'live':self.live_enabled(),'accounts':self.accounts_enabled,'guest_idle_seconds':GUEST_IDLE_SECONDS,
                 'model':os.getenv('LAWYER_MODEL','Not configured'),
                 'sample':core.DEMO_STORY,'source_count':len(core.sources()),'document_formats':FORMATS})
         files={'/':('index.html','text/html; charset=utf-8'),'/app.js':('app.js','text/javascript; charset=utf-8'),'/style.css':('style.css','text/css; charset=utf-8')}
@@ -217,7 +225,7 @@ class Handler(BaseHTTPRequestHandler):
         if not self.safe_host():
             return self.respond({'error':'Invalid host'},403)
         origin=self.headers.get('Origin')
-        if ((origin and origin != f"http://{self.headers['Host']}")
+        if ((origin and origin != self.request_origin())
                 or self.headers.get('Sec-Fetch-Site') in ('cross-site', 'same-site')):
             # Drain a bounded request before closing so Windows can deliver the 403
             # rather than resetting a connection with unread input.
@@ -244,6 +252,8 @@ class Handler(BaseHTTPRequestHandler):
             if self.path == '/api/guest':
                 return self.start_session()
             if self.path in ('/api/register', '/api/login'):
+                if not self.accounts_enabled:
+                    return self.respond({'error':'This demo is guest-only.'}, 404)
                 return self.account_session(payload, self.path == '/api/register')
             guest = payload.get('guest')
             with LOCK:
@@ -281,7 +291,7 @@ class Handler(BaseHTTPRequestHandler):
                 if language not in ('English','Hindi','Hinglish'):
                     raise ValueError('Choose a supported language.')
                 demo=payload.get('demo') is True
-                live = payload.get('live_consent') is True and core.configured() and not demo
+                live = payload.get('live_consent') is True and self.live_enabled() and not demo
                 if not demo and not live and language!='English':
                     raise ValueError('Hindi and Hinglish need a live model. Offline extraction only recognises English dates.')
                 documents = core.document_passages(payload.get('documents', []))
@@ -321,7 +331,7 @@ class Handler(BaseHTTPRequestHandler):
                     mark_question(case, current['key'])
                     return self.respond({'insights': case_insights(case)})
                 if self.path == '/api/follow-up':
-                    live = payload.get('live_consent') is True and core.configured()
+                    live = payload.get('live_consent') is True and self.live_enabled()
                     update = core.textfield(payload.get('story'), 'case update', 12000).strip()
                     documents = core.document_passages(payload.get('documents', case['documents']))
                     question = None

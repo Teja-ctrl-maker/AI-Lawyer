@@ -30,6 +30,17 @@ OpenAI and Gemini can also be configured through their compatible endpoints. Pre
 
 Guest mode defaults to local extraction and reference search. Select **Use live AI** before organising the story to opt in for that case. Live calls can send the story, pasted evidence, relevant selected PDF passages, and statute excerpts to the provider. OpenRouter requests require Zero Data Retention routing and deny provider data collection. OpenRouter account-level prompt logging and broadcast settings are managed separately. [OpenRouter data retention controls](https://openrouter.ai/blog/insights/zero-data-retention/) · [OpenRouter logging information](https://openrouter.ai/support)
 
+## Host the reviewer demo
+
+The hosted build runs the existing case workflow in one Waitress process behind managed HTTPS. It accepts guest sessions and disables both account endpoints and provider calls. No account database, persistent disk or API key is required. Active cases expire after 30 minutes of inactivity and clear when the process restarts. Reviewers can use the sample or enter fictional facts, and can save the generated Word draft or encrypted chat file on their device.
+
+1. In Render, create a **Blueprint** from this repository. [Blueprint setup](https://render.com/docs/infrastructure-as-code)
+2. Review the compute plan before activating it. The supplied `render.yaml` selects Starter for a review link that stays awake between visits. Select Free if a cold start is acceptable. [Render service behavior](https://render.com/docs/faq)
+3. Render installs `requirements-hosted.txt`, starts `hosted.py`, and checks `/healthz`. The public origin defaults to Render’s assigned HTTPS host. For a custom domain, set `CASE_COMPANION_ORIGIN` to its exact HTTPS origin without a trailing slash. Keep the service at one instance while sessions live in process memory. [Render web services](https://render.com/docs/web-services)
+4. Open the actual HTTPS URL in an incognito window. Follow **Continue as guest → Try a sample → Organise my story**, confirm the account, open a legal citation, and check that the exported Word document opens. Repeat with a different fictional input and submit the tested HTTPS URL.
+
+To test the guest build locally, install the hosting dependencies with `python -m pip install --target .deps -r requirements-hosted.txt`, put `.deps` on `PYTHONPATH`, and run `python hosted.py`. It binds to loopback when no public origin is configured. Stop the local server first or choose another `PORT`.
+
 ## Workflow and limits
 
 1. Submit a story with optional evidence text, a labelled `.txt` file, or a text PDF. PDF extraction runs in a short-lived local worker. Preview the text and select up to eight pages. Live intake and analysis each receive excerpts of up to 1,600 characters from up to five relevant selected pages. Click references such as `[D1 p.2]` to check the extracted passage and its page number. Image-only scans still need a manually pasted passage. Use **Anything to correct or add?** and confirm the revised timeline when facts change.

@@ -1,0 +1,10 @@
+services:
+  - type: web
+    name: case-companion-review
+    runtime: python
+    plan: starter
+    buildCommand: python -m pip install --target .deps -r requirements-hosted.txt
+    startCommand: PYTHONPATH=.deps python hosted.py
+    healthCheckPath: /healthz
+    numInstances: 1
+    autoDeployTrigger: 'off'
