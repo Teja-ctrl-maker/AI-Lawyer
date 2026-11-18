@@ -106,6 +106,7 @@ Return ONLY a JSON object matching the requested schema, no markdown fences.
                          {'role': 'user', 'content': json.dumps(payload, ensure_ascii=False)}]}
     if endpoint.hostname in ('openrouter.ai', 'eu.openrouter.ai', 'us.openrouter.ai'):
         request_body['provider'] = {'zdr': True, 'data_collection': 'deny'}
+        request_body['response_format'] = {'type': 'json_object'}
     data = json.dumps(request_body).encode()
     headers = {'Content-Type': 'application/json', 'User-Agent':'CaseCompanion/0.1'}
     if endpoint.hostname in ('openrouter.ai', 'eu.openrouter.ai', 'us.openrouter.ai'):
@@ -125,8 +126,14 @@ Return ONLY a JSON object matching the requested schema, no markdown fences.
             raise ValueError('The model response was too large. Try a shorter request.')
         result = json.loads(raw)
         text = result['choices'][0]['message']['content'].strip()
-        text = re.sub(r'^```(?:json)?\s*|\s*```$', '', text)
-        return json.loads(text)
+        try:
+            return json.loads(text)
+        except json.JSONDecodeError:
+            # Keep compatibility with providers that wrap an otherwise valid reply in a JSON fence.
+            fenced = re.fullmatch(r'```(?:json)?\s*(\{.*\})\s*```', text, flags=re.DOTALL)
+            if not fenced:
+                raise
+            return json.loads(fenced.group(1))
     except urllib.error.HTTPError as exc:
         status=exc.code
         exhausted=False

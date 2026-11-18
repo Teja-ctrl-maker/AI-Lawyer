@@ -36,6 +36,12 @@ class ProviderTests(unittest.TestCase):
             self.assertEqual(request.get_header('Http-referer'),'https://example.test')
             self.assertEqual(request.get_header('X-title'),'Case Companion — AI Lawyer')
             self.assertEqual(json.loads(request.data)['provider'],{'zdr':True,'data_collection':'deny'})
+            self.assertEqual(json.loads(request.data)['response_format'],{'type':'json_object'})
+
+    def test_provider_accepts_a_fenced_json_object(self):
+        response=io.BytesIO(json.dumps({'choices':[{'message':{'content':'```json\n{"ok":true}\n```'}}]}).encode())
+        with self.settings(),patch('core.MODEL_OPENER.open',return_value=response):
+            self.assertEqual(core.model_json('Return JSON',{}),{'ok':True})
 
     def test_key_rejection_has_safe_message(self):
         error=urllib.error.HTTPError('https://provider.invalid',403,'Forbidden',{},io.BytesIO(b'secret provider body'))
