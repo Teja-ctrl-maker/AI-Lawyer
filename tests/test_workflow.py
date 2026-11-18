@@ -19,6 +19,23 @@ class WorkflowTests(unittest.TestCase):
         self.assertEqual([e['date'] for e in c['events']],['2025-03-01','2025-03-03',None])
         self.assertIn('Yesterday',c['events'][-1]['description'])
 
+    def test_undated_followups_stay_between_chronological_date_anchors(self):
+        story = ('I ordered a laptop on 5 October 2026. It was delivered on 10 October 2026. '
+                 'Upon opening it I discovered a specification mismatch. I immediately asked for a replacement. '
+                 'Support said they would respond within 48 hours. I complained again over the next two weeks. '
+                 'As of 18 November 2026, I had neither a replacement nor a refund.')
+        record = core.offline_intake(story, '')
+        self.assertEqual([event['date'] for event in record['events']],
+                         ['2026-10-05', '2026-10-10', None, None, None, None, '2026-11-18'])
+        self.assertIn('specification mismatch', record['events'][2]['description'])
+        self.assertIn('next two weeks', record['events'][-2]['description'])
+
+    def test_several_dates_in_one_statement_require_clarification(self):
+        record = core.offline_intake('The invoice says 5 October 2026 but the debit says 7 October 2026.', '')
+        self.assertIsNone(record['events'][0]['date'])
+        self.assertIn('Multiple dates', record['events'][0]['basis'])
+        self.assertIn('Which date belongs to each event?', record['questions'][0])
+
     def test_invalid_dates_rejected(self):
         self.case['events'][0]['date']='2026-02-30'
         with self.assertRaises(ValueError):core.validate_record(self.case)

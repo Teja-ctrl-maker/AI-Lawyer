@@ -76,8 +76,8 @@ const calendarLabel = new Intl.DateTimeFormat('en-IN', {
 function renderTimeline(events) {
     let previousDay = null;
     return events.map((event, index) => {
-        const day = event.date ? calendarLabel.format(new Date(event.date + 'T00:00:00Z')) : event.day || '';
-        const heading = day && day !== previousDay ? '<h4 class="timeline-day">' + esc(day) + '</h4>' : '';
+        const day = event.date ? calendarLabel.format(new Date(event.date + 'T00:00:00Z')) : event.day || 'Date not specified';
+        const heading = day !== previousDay ? '<h4 class="timeline-day">' + esc(day) + '</h4>' : '';
         previousDay = day;
         const timing = esc(event.time || ('Event ' + (index + 1)));
         return heading + '<div class="event"><time>' + timing + '</time><div><p>' +

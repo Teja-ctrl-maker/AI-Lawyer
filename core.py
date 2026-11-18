@@ -312,6 +312,7 @@ def offline_intake(story, evidence):
     day = ''
     active_date = None
     day_number = 1
+    ambiguous_dates = False
     single_day = bool(re.search(r'\b(?:all (?:of this |events )?happened (?:on )?the same day|all in one day)\b', story, re.I))
     segments = re.split(r'(?<![ap]\.m\.)(?<=[.!?;])\s+|\n+|,?\s+\b(?:and then|then)\s+(?=(?:at|around|on|in|the next)\b)', story, flags=re.I)
     for sentence in segments:
@@ -321,11 +322,16 @@ def offline_intake(story, evidence):
             continue
         if re.search(r'\b(have|evidence|receipt|invoice|agreement|document|witness|screenshot)\b',sentence,re.I):
             reported_evidence.append('User statement (unverified): '+sentence.strip())
-        date = next((parsed for match in DATE_PATTERN.finditer(sentence)
-                     if (parsed := calendar_date(match.group()))), None)
+        dates = list(dict.fromkeys(parsed for match in DATE_PATTERN.finditer(sentence)
+                                   if (parsed := calendar_date(match.group()))))
+        multiple_dates = len(dates) > 1
+        ambiguous_dates = ambiguous_dates or multiple_dates
+        date = dates[0] if len(dates) == 1 else None
         explicit_day = re.search(r'\b(?:today|yesterday|the next day|the following day)\b', sentence, re.I)
         same_day = re.search(r'\b(?:(?:the|that) same day|(?:earlier|later) that day|(?:that|the same) (?:morning|afternoon|evening|night))\b', sentence, re.I)
-        if date:
+        if multiple_dates:
+            active_date, day = None, ''
+        elif date:
             active_date, day = date, ''
         elif explicit_day:
             cue = explicit_day.group().lower()
@@ -345,9 +351,12 @@ def offline_intake(story, evidence):
                           times[0].group() if times else '')
         if time_label and re.search(r'\b(?:around|about|approximately)\s+' + re.escape(time_label), sentence, re.I):
             time_label = 'Around ' + time_label
-        event = {'date': date, 'day': day or ('Same day' if single_day else ''),
+        event_day = '' if multiple_dates else day or ('Same day' if single_day else '')
+        basis = ('Multiple dates in this statement. Check which date belongs to each event.' if multiple_dates else
+                 'User account; not independently verified')
+        event = {'date': date, 'day': event_day,
                  'time': time_label, 'description': sentence.strip(),
-                 'basis': 'User account; not independently verified'}
+                 'basis': basis}
         if (events and not time_label and re.match(r'\s*earlier that day\b', sentence, re.I)
                 and (date, event['day']) == (events[-1]['date'], events[-1]['day'])):
             events.insert(len(events) - 1, event)
@@ -358,16 +367,21 @@ def offline_intake(story, evidence):
         for event in events:
             if event['day'] == 'Same day':
                 event['date'] = next(iter(known_dates))
-    # Offline extraction cannot place an unanchored relative day among
-    # calendar dates unless the account explicitly links them.
-    events.sort(key=lambda event: event['date'] is None)
+    # Keep narrative context between chronological date anchors. When those
+    # anchors arrive out of order, leave unanchored events for the user to place.
+    dated_sequence = [event['date'] for event in events if event['date']]
+    if dated_sequence != sorted(dated_sequence):
+        events.sort(key=lambda event: event['date'] is None)
+    questions = ['Is the order right? Did any events shown without a date happen on the same day?',
+                 'Who is involved, where did this happen, and what outcome do you want?',
+                 'Which document supports each event? Are there any notices, deadlines or urgent safety concerns?',
+                 'Offline extraction does not detect contradictions reliably. Please identify any conflicting details.']
+    if ambiguous_dates:
+        questions.insert(0, 'Some statements contain several dates. Which date belongs to each event?')
     return validate_record({'summary': 'I’ve arranged the events using the dates and time clues I could read. Check the order and add any missing details in your own words.',
         'goal': 'Please confirm the outcome you want.', 'location': 'Please confirm city and state.',
         'events': events, 'evidence': reported_evidence, 'contradictions': [],
-        'questions': ['Is the order right? Did any events shown without a date happen on the same day?',
-                      'Who is involved, where did this happen, and what outcome do you want?',
-                      'Which document supports each event? Are there any notices, deadlines or urgent safety concerns?',
-                      'Offline extraction does not detect contradictions reliably. Please identify any conflicting details.']})
+        'questions': questions})
 
 
 def intake(story, evidence='', language='English', demo=False, documents=(), *, use_live=None, previous_record=None,
