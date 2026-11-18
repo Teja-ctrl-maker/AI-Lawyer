@@ -57,6 +57,13 @@ class ProviderTests(unittest.TestCase):
                 core.model_json('Return JSON',{})
             self.assertNotIn('I cannot provide structured data.', str(failure.exception))
 
+    def test_provider_network_error_has_a_safe_explanation(self):
+        failure = urllib.error.URLError('connection detail')
+        with self.settings(),patch('core.MODEL_OPENER.open',side_effect=failure):
+            with self.assertRaisesRegex(ValueError, 'could not connect to the model provider') as result:
+                core.model_json('Return JSON',{})
+            self.assertNotIn('connection detail', str(result.exception))
+
     def test_key_rejection_has_safe_message(self):
         error=urllib.error.HTTPError('https://provider.invalid',403,'Forbidden',{},io.BytesIO(b'secret provider body'))
         with self.settings(),patch('core.MODEL_OPENER.open',side_effect=error):

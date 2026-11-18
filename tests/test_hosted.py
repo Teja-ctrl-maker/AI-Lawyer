@@ -54,6 +54,7 @@ class HostedDemoTests(unittest.TestCase):
             self.assertEqual(status, 200)
             self.assertIs(json.loads(raw)['accounts'], False)
             self.assertIs(json.loads(raw)['live'], False)
+            self.assertEqual(json.loads(raw)['build'], core.BUILD_ID)
 
             def post(path, payload):
                 status, headers, body = self.call(app, '/api/' + path, payload, origin=self.origin)

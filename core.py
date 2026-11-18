@@ -19,6 +19,7 @@ from legal_documents import document_draft
 from research import CONCEPTS, concept_scores, has_phrase, normalise, relevant_passages
 
 ROOT = Path(__file__).resolve().parent
+BUILD_ID = 'live-ai-provider-diagnostics-v1'
 for line in (ROOT / '.env').read_text(encoding='utf-8').splitlines() if (ROOT / '.env').exists() else []:
     if '=' in line and not line.lstrip().startswith('#'):
         k, v = line.split('=', 1)
@@ -190,7 +191,11 @@ Return ONLY a JSON object matching the requested schema, no markdown fences.
         raise ValueError(f'{message} (HTTP {status}) Your confirmed case is unchanged.') from None
     except ProviderOutputError:
         raise
-    except (urllib.error.URLError, KeyError, IndexError, TypeError, AttributeError, ValueError, RecursionError, TimeoutError) as exc:
+    except urllib.error.URLError as exc:
+        raise ValueError('The server could not connect to the model provider. Check Railway outbound access and retry.') from exc
+    except TimeoutError as exc:
+        raise ValueError('The model provider did not respond in time. Retry shortly.') from exc
+    except (KeyError, IndexError, TypeError, AttributeError, ValueError, RecursionError) as exc:
         raise ValueError('The model request failed or returned invalid JSON. Your confirmed case is unchanged. Check provider settings and retry.') from exc
     finally:
         MODEL_SLOTS.release()

@@ -217,7 +217,7 @@ class Handler(BaseHTTPRequestHandler):
         path=urllib.parse.urlsplit(self.path).path
         if path=='/api/config':
             return self.respond({'live':self.live_enabled(),'accounts':self.accounts_enabled,'guest_idle_seconds':GUEST_IDLE_SECONDS,
-                'model':os.getenv('LAWYER_MODEL','Not configured'),
+                'model':os.getenv('LAWYER_MODEL','Not configured'),'build':core.BUILD_ID,
                 'sample':core.DEMO_STORY,'source_count':len(core.sources()),'document_formats':FORMATS})
         files={'/':('index.html','text/html; charset=utf-8'),'/app.js':('app.js','text/javascript; charset=utf-8'),'/style.css':('style.css','text/css; charset=utf-8')}
         if path not in files:
