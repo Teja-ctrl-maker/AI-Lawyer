@@ -398,6 +398,7 @@ updateProcedureQuestion();
 function resetAnalysis() {
     analysis = null;
     sourceList = [];
+    $('runLegalReview').textContent = 'Explore relevant laws →';
     renderEvidencePlan(null);
     renderCourtGuidance(null);
     for (const id of ['legalContent', 'scenarioContent', 'practiceFeedback', 'reviewChanges']) {
@@ -438,39 +439,45 @@ $('confirm').onclick = () => task(async () => {
     }
     unlocked = 1;
     show(1);
+    if (config?.accounts === false) {
+        await runLegalReview(false);
+    }
 });
+
+async function runLegalReview(scrollToResults = true) {
+    const result = await request('analyse', {
+        stage: $('procedureStage').value,
+        details: $('procedureDetails').value,
+    });
+    reviewSnapshot = result.review_snapshot;
+    rememberDraft();
+    remember('You', 'Latest procedural step', [stageQuestions[$('procedureStage').value], $('procedureDetails').value].filter(Boolean).join('\n'));
+    remember('Case Companion', 'Legal analysis and scenarios', analysisText(result));
+    const draftInputs = Object.fromEntries(['demand', 'reference'].map(id => [id, $(id).value]));
+    const hadAnalysis = Boolean(analysis);
+    resetAnalysis();
+    analysis = result.analysis;
+    sourceList = result.sources;
+    renderAnalysis();
+    if (hadAnalysis) {
+        for (const [id, value] of Object.entries(draftInputs)) $(id).value = value;
+    }
+    const guidance = document.createElement('div');
+    guidance.className = 'card';
+    guidance.innerHTML = `<h2>Next step for your stage</h2><p><strong>${esc(analysis.procedure.label)}</strong></p><p>${esc(analysis.procedure.guidance)}</p>`;
+    $('legalContent').prepend(guidance);
+    $('practiceScenario').innerHTML = analysis.scenarios.map((scenario, index) =>
+        `<option value="${index}">${esc(scenario.question)}</option>`).join('');
+    $('practiceForm').hidden = !analysis.scenarios.length;
+    $('toScenarios').hidden = false;
+    $('runLegalReview').textContent = 'Update legal review →';
+    unlocked = 3;
+    if (scrollToResults) guidance.scrollIntoView({behavior: 'smooth'});
+}
 
 $('legalForm').onsubmit = event => {
     event.preventDefault();
-    task(async () => {
-        const result = await request('analyse', {
-            stage: $('procedureStage').value,
-            details: $('procedureDetails').value,
-        });
-        reviewSnapshot = result.review_snapshot;
-        rememberDraft();
-        remember('You', 'Latest procedural step', [stageQuestions[$('procedureStage').value], $('procedureDetails').value].filter(Boolean).join('\n'));
-        remember('Case Companion', 'Legal analysis and scenarios', analysisText(result));
-        const draftInputs = Object.fromEntries(['demand', 'reference'].map(id => [id, $(id).value]));
-        const hadAnalysis = Boolean(analysis);
-        resetAnalysis();
-        analysis = result.analysis;
-        sourceList = result.sources;
-        renderAnalysis();
-        if (hadAnalysis) {
-            for (const [id, value] of Object.entries(draftInputs)) $(id).value = value;
-        }
-        const guidance = document.createElement('div');
-        guidance.className = 'card';
-        guidance.innerHTML = `<h2>Next step for your stage</h2><p><strong>${esc(analysis.procedure.label)}</strong></p><p>${esc(analysis.procedure.guidance)}</p>`;
-        $('legalContent').prepend(guidance);
-        $('practiceScenario').innerHTML = analysis.scenarios.map((scenario, index) =>
-            `<option value="${index}">${esc(scenario.question)}</option>`).join('');
-        $('practiceForm').hidden = !analysis.scenarios.length;
-        $('toScenarios').hidden = false;
-        unlocked = 3;
-        guidance.scrollIntoView({behavior: 'smooth'});
-    });
+    task(() => runLegalReview());
 };
 
 $('practiceScenario').onchange = () => {

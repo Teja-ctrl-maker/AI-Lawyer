@@ -1,5 +1,5 @@
 <!doctype html>
-<html lang="en"><head><meta charset="UTF-8"><meta name="viewport" content="width=device-width, initial-scale=1"><title>Case Companion · AI Lawyer</title><link rel="stylesheet" href="/style.css?v=document-formats"></head>
+<html lang="en"><head><meta charset="UTF-8"><meta name="viewport" content="width=device-width, initial-scale=1"><title>Case Companion · AI Lawyer</title><link rel="stylesheet" href="/style.css?v=visible-legal-review"></head>
 <body>
 <aside class="sidebar">
   <a class="brand" href="/" aria-label="Case Companion home"><span class="brand-mark" aria-hidden="true">§</span><span>Case Companion</span></a>
@@ -57,15 +57,13 @@
 <details id="factMap" class="scope" hidden>
   <summary>Fact-to-evidence map</summary>
   <div id="factMapContent"></div>
-</details><details id="historyPanel" hidden><summary>Case conversation</summary><div id="chatHistory"></div></details><label for="clarification">Anything to correct or add?</label><textarea autocomplete="off" id="clarification" rows="3" placeholder="For example: The call was around 4 pm that same day, after I paid."></textarea><button id="clarify" class="secondary">Update my case summary</button><details><summary>Advanced case editor</summary><p class="fine">You can give timing corrections in your own words above. Editing the sample here turns it into your own case.</p><textarea autocomplete="off" id="recordEditor" rows="16" spellcheck="false" aria-label="Structured case JSON"></textarea></details><label class="check"><input id="confirmed" type="checkbox"> I have checked the timeline, evidence labels and unresolved details.</label><button id="confirm" class="primary">Confirm account →</button></div></section>
+</details><details id="historyPanel" hidden><summary>Case conversation</summary><div id="chatHistory"></div></details><label for="clarification">Anything to correct or add?</label><textarea autocomplete="off" id="clarification" rows="3" placeholder="For example: The call was around 4 pm that same day, after I paid."></textarea><button id="clarify" class="secondary">Update my case summary</button><details><summary>Advanced case editor</summary><p class="fine">You can give timing corrections in your own words above. Editing the sample here turns it into your own case.</p><textarea autocomplete="off" id="recordEditor" rows="16" spellcheck="false" aria-label="Structured case JSON"></textarea></details><label class="check"><input id="confirmed" type="checkbox"> I have checked the timeline, evidence labels and unresolved details.</label><button id="confirm" class="primary">Confirm timeline and open legal review →</button></div></section>
 <section id="stage1" class="stage" hidden>
 <div class="stage-heading"><h1>Legal review</h1><p class="lead">See which Indian laws may apply. Open a numbered citation to read the source.</p></div>
 <p class="fine">Case Companion displays provisions and court decisions from its reviewed Indian source library. If the library cannot answer a question, verify the current law with a qualified Indian lawyer.</p>
-<details class="scope"><summary>What this review covers</summary><p>Selected provisions cover consumer disputes, food safety, property, theft, sexual offences, child protection, criminal procedure and evidence. You can start with the facts you have.</p></details>
-<section id="courtGuidance" class="card court-guidance" aria-labelledby="courtGuidanceHeading" hidden></section>
-<section id="evidencePlan" class="card evidence-plan" aria-label="Evidence collection guidance" hidden></section>
 <form id="legalForm" class="card">
-  <h2>Where does your matter stand?</h2>
+  <details class="scope">
+  <summary>Add or change the case stage <span class="optional">Optional</span></summary>
   <label for="procedureStage">Latest step</label>
   <select id="procedureStage">
     <option value="unknown">I’m unsure</option>
@@ -78,9 +76,14 @@
   <label id="procedureLabel" for="procedureDetails"></label>
   <textarea autocomplete="off" id="procedureDetails" rows="3" maxlength="2000" aria-describedby="procedureHelp"></textarea>
   <p class="fine" id="procedureHelp">Optional. Leave out personal identifiers.</p>
-  <button class="primary">Explore relevant laws →</button>
+  </details>
+  <button id="runLegalReview" class="primary">Explore relevant laws →</button>
 </form>
-<div id="reviewChanges"></div><div id="legalContent"></div><button id="toScenarios" class="primary" hidden>Practise a scenario →</button></section>
+<div id="reviewChanges"></div><div id="legalContent"></div>
+<details class="scope"><summary>What this review covers</summary><p>Selected provisions cover consumer disputes, food safety, property, theft, sexual offences, child protection, criminal procedure and evidence. You can start with the facts you have.</p></details>
+<section id="courtGuidance" class="card court-guidance" aria-labelledby="courtGuidanceHeading" hidden></section>
+<section id="evidencePlan" class="card evidence-plan" aria-label="Evidence collection guidance" hidden></section>
+<button id="toScenarios" class="primary" hidden>Practise a scenario →</button></section>
 <section id="stage2" class="stage" hidden>
 <div class="stage-heading"><h1>What-if practice</h1><p class="lead">Try answering a hypothetical question about your case.</p></div>
 <div id="scenarioContent"></div>
@@ -162,4 +165,4 @@
   <p class="fine">Check this page number against the original file if you need the full page.</p>
   <pre id="passageText" class="source-text"></pre>
 </dialog>
-<div id="printArea"></div><script src="/app.js?v=guest-review"></script></body></html>
+<div id="printArea"></div><script src="/app.js?v=visible-legal-review"></script></body></html>

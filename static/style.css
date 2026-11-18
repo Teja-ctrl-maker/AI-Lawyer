@@ -217,6 +217,7 @@ details > summary + * { margin-top: 8px; }
   font-size: 13px;
 }
 .scope p { margin-bottom: 3px; color: var(--muted); }
+#runLegalReview { margin-top: 12px; }
 .optional { margin-inline-start: 5px; font-size: 11px; color: var(--muted); font-weight: 400; }
 
 .primary, .secondary, .quiet, .citation {
