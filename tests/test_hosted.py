@@ -27,6 +27,10 @@ class HostedDemoTests(unittest.TestCase):
         with patch.dict('os.environ', {'CASE_COMPANION_LIVE_AI': '1'}, clear=True):
             self.assertFalse(request.live_enabled())
 
+    def test_hosted_live_ai_has_no_guest_call_cap(self):
+        request = object.__new__(hosted.HostedRequest)
+        self.assertIsNone(request.reserve_live_calls('expired-or-new-guest', 10_000))
+
     def call(self, app, path, payload=None, *, host='case-companion.onrender.com', origin=None):
         environ = {}
         setup_testing_defaults(environ)
