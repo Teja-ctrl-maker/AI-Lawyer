@@ -125,15 +125,27 @@ Return ONLY a JSON object matching the requested schema, no markdown fences.
         if len(raw) > MODEL_REPLY_LIMIT:
             raise ValueError('The model response was too large. Try a shorter request.')
         result = json.loads(raw)
-        text = result['choices'][0]['message']['content'].strip()
+        content = result['choices'][0]['message']['content']
+        if isinstance(content, list):
+            content = ''.join(part.get('text', '') for part in content if isinstance(part, dict))
+        if not isinstance(content, str):
+            raise ValueError('The model response did not contain text.')
+        text = content.strip()
         try:
             return json.loads(text)
         except json.JSONDecodeError:
             # Keep compatibility with providers that wrap an otherwise valid reply in a JSON fence.
             fenced = re.fullmatch(r'```(?:json)?\s*(\{.*\})\s*```', text, flags=re.DOTALL)
-            if not fenced:
+            if fenced:
+                return json.loads(fenced.group(1))
+            # Some OpenAI-compatible routers add a short preface despite JSON mode.
+            start = text.find('{')
+            if start < 0:
                 raise
-            return json.loads(fenced.group(1))
+            parsed, _ = json.JSONDecoder().raw_decode(text[start:])
+            if not isinstance(parsed, dict):
+                raise ValueError('The model response was not a JSON object.')
+            return parsed
     except urllib.error.HTTPError as exc:
         status=exc.code
         exhausted=False
