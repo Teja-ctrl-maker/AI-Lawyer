@@ -1,0 +1,24 @@
+{
+  "case": 2,
+  "title": "Food safety and poisoning (civil and regulatory)",
+  "intake": {
+    "story": "On a Friday evening, the Kapoor family of four ordered a family platter from a mid-sized restaurant, \"Spice Terrace,\" for a birthday dinner. Within 6 to 10 hours, all four developed severe vomiting, diarrhea, and fever. The youngest, 7-year-old Aarav, was hospitalized for two days with dehydration, and his father, Sanjay, a daily-wage contractor, lost a week of earnings. The family believes the cause was the chicken biryani and the cold dessert, since they ate nothing else common to all four that day. They have not eaten out elsewhere in the previous 48 hours.\n\nWhen the family called the restaurant on Saturday morning, the manager first apologized, then denied responsibility, saying \"no other customers complained.\" The family posted a review online, and the restaurant responded publicly that the complaint was \"fabricated for compensation.\" Sanjay is now seeking reimbursement for medical bills, lost wages, and compensation for suffering, and wants the restaurant inspected. The restaurant's owner has threatened a defamation claim over the review. The family also wants to know whether they should complain to the food-safety authority, and what to do first.",
+    "evidence": "The family has the online order confirmation and payment receipt showing the exact dishes, timestamp, and amount, along with the delivery photo. Hospital discharge summaries for Aarav and outpatient prescriptions for the other three note \"acute gastroenteritis, probable food-borne origin,\" with stool culture ordered for Aarav only, results pending. Sanjay's employer has issued a letter confirming 6 days of lost work. A neighbor says Sanjay's wife mentioned the biryani \"smelled slightly off\" that night, but this is secondhand and she is not sure.\n\nNo food samples exist because the family threw away the leftovers. Two other customers have since commented on the review thread saying they were sick after eating there the same week, but they are anonymous and unverified. A screenshot of the manager's apology call, saved as a call log with a 2-minute duration, shows contact but no content, and no recording exists. The restaurant's most recent food-safety inspection report is public and shows a \"minor violations\" rating from 8 months ago, including temperature-control issues in cold storage. The restaurant's legal notice threatening defamation is dated Monday.",
+    "language": "English",
+    "demo": false,
+    "live_consent": false
+  },
+  "legal_review": {
+    "stage": "notice",
+    "live_consent": false
+  },
+  "evaluation_notes_not_sent": "The legal issues include proving causation between the meal and the illness, since the family kept no leftovers. They also include the restaurant's duty of care and liability for negligent food handling, quantifying the damages, and the interplay between a civil claim, a regulatory complaint, and the defamation threat. The AI should explain what evidence is strong and weak, how to preserve what remains, whether a collective claim or a consumer forum is the right route, and how to answer the defamation threat without escalating.",
+  "draft": {
+    "options": {
+      "kind": "Food safety grievance",
+      "subject": "Food safety and poisoning (civil and regulatory)",
+      "facts": "On a Friday evening, the Kapoor family of four ordered a family platter from a mid-sized restaurant, \"Spice Terrace,\" for a birthday dinner. Within 6 to 10 hours, all four developed severe vomiting, diarrhea, and fever. The youngest, 7-year-old Aarav, was hospitalized for two days with dehydration, and his father, Sanjay, a daily-wage contractor, lost a week of earnings. The family believes the cause was the chicken biryani and the cold dessert, since they ate nothing else common to all four that day. They have not eaten out elsewhere in the previous 48 hours.\n\nWhen the family called the restaurant on Saturday morning, the manager first apologized, then denied responsibility, saying \"no other customers complained.\" The family posted a review online, and the restaurant responded publicly that the complaint was \"fabricated for compensation.\" Sanjay is now seeking reimbursement for medical bills, lost wages, and compensation for suffering, and wants the restaurant inspected. The restaurant's owner has threatened a defamation claim over the review. The family also wants to know whether they should complain to the food-safety authority, and what to do first.",
+      "enclosures": "None"
+    }
+  }
+}

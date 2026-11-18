@@ -1,0 +1,24 @@
+{
+  "case": 9,
+  "title": "Child custody modification (family law)",
+  "intake": {
+    "story": "Anjali and Ravi Menon divorced three years ago under a consent decree giving them joint legal custody of their 8-year-old son, Aarush, with primary residence with Anjali in the city of Pune and weekend and holiday visitation with Ravi. Two months ago, Anjali received a job offer in another city 900 km away, with a significantly higher salary, and notified Ravi in writing that she plans to relocate with Aarush at the end of the school term in four months. Ravi objects and has filed a petition to modify custody, asking that Aarush remain in Pune with him if Anjali moves.\n\nAnjali argues that the move is necessary for financial stability and that she will arrange video calls, long summer visits, and travel costs for Ravi. Ravi says he has been involved in Aarush's daily life, attending school events and medical appointments, and that the move would effectively end their relationship. Anjali claims Ravi is often late and sometimes cancels visits, while Ravi says Anjali has restricted his time on several occasions. Aarush's school counselor has reported that he is anxious about the possible change but has not expressed a preference.",
+    "evidence": "The existing custody order specifies visitation as alternate weekends and half of school holidays. Anjali's job offer letter lists the salary and a start date, and she has a housing arrangement and school admission letter for Aarush in the new city. Ravi has attendance records from parent-teacher meetings showing he went to five of the last six, and pediatric records showing him at three of four recent appointments.\n\nMessages between the parents show two cancelled visits by Ravi in the past year, both with explanations of work travel, and three occasions when Anjali declined a swap request. One message from Anjali reads \"you can see him whenever you want, just not this weekend.\" The school counselor's note describes Aarush as \"attached to both parents\" and anxious about change. No evaluation by a child psychologist exists, and neither parent has made allegations of abuse or neglect.",
+    "language": "English",
+    "demo": false,
+    "live_consent": false
+  },
+  "legal_review": {
+    "stage": "decision",
+    "live_consent": false
+  },
+  "evaluation_notes_not_sent": "The core issue is the best interests of the child, weighing stability, each parent's involvement, the reason for relocation, the feasibility of maintaining the father-child relationship, and the child's own views given his age. The AI must stay strictly neutral, avoid favoring either parent by gender, explain how courts commonly approach relocation requests, identify what each side must prove, and suggest mediation and parenting-plan options rather than adversarial litigation wherever possible.",
+  "draft": {
+    "options": {
+      "kind": "Case brief",
+      "subject": "Child custody modification (family law)",
+      "facts": "Anjali and Ravi Menon divorced three years ago under a consent decree giving them joint legal custody of their 8-year-old son, Aarush, with primary residence with Anjali in the city of Pune and weekend and holiday visitation with Ravi. Two months ago, Anjali received a job offer in another city 900 km away, with a significantly higher salary, and notified Ravi in writing that she plans to relocate with Aarush at the end of the school term in four months. Ravi objects and has filed a petition to modify custody, asking that Aarush remain in Pune with him if Anjali moves.\n\nAnjali argues that the move is necessary for financial stability and that she will arrange video calls, long summer visits, and travel costs for Ravi. Ravi says he has been involved in Aarush's daily life, attending school events and medical appointments, and that the move would effectively end their relationship. Anjali claims Ravi is often late and sometimes cancels visits, while Ravi says Anjali has restricted his time on several occasions. Aarush's school counselor has reported that he is anxious about the possible change but has not expressed a preference.",
+      "enclosures": "None"
+    }
+  }
+}

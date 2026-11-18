@@ -1,0 +1,16 @@
+{
+  "case": 5,
+  "title": "Inheritance and property dispute (civil, family)",
+  "intake": {
+    "story": "Lakshmi Reddy, 68, owned a house and a small plot of agricultural land. She died 14 months ago, leaving three adult children: Suresh, who lived with her and cared for her in her final years, Anita, who lives abroad, and Kiran, who lives in another city. Two weeks before her death, while she was in hospital, a will was reportedly signed in Suresh's favor, leaving him the house and the land, with a small cash sum for each sibling. Anita and Kiran learned about the will only after the funeral and are shocked because Lakshmi had told both of them for years that the property would be divided equally.\n\nAnita and Kiran suspect the will was signed when Lakshmi was too ill and medicated to understand it, and that Suresh influenced her. Suresh responds that he did everything for his mother while the others \"visited twice a year,\" that she freely chose to reward him, and that the will was properly witnessed. He has already begun the process of mutating the property in his name and has put the land on the market. Anita and Kiran want to know whether they can contest the will, whether they can stop the sale immediately, and what their realistic chances are.",
+    "evidence": "The will is a typed one-page document dated 9 days before Lakshmi's death, signed with a shaky signature and witnessed by two people: the hospital's administrative clerk and Suresh's friend. It was not registered. Hospital records show Lakshmi was admitted for kidney failure and was receiving sedatives and pain medication, and a nursing note from the day before the will records her as \"intermittently confused, oriented to person only.\" There is no doctor's certificate of capacity on the day of signing.\n\nAn earlier handwritten note from 6 years ago, found by Anita in a family album, says \"all three children should share equally,\" but it is unwitnessed and unsigned beyond initials. Suresh's bank statements show he paid most of the hospital bills, which supports his caregiving claim. A cousin states that Suresh asked Lakshmi to \"sign something\" in hospital and she \"didn't seem to know what it was,\" but the cousin was not present for the signing. The property listing for the land is already live online, and the municipal record shows Suresh's mutation application filed three weeks ago, still pending.",
+    "language": "English",
+    "demo": false,
+    "live_consent": true
+  },
+  "legal_review": {
+    "stage": "starting",
+    "live_consent": true
+  },
+  "evaluation_notes_not_sent": "The legal questions are testamentary capacity, undue influence, due execution and witnessing, and whether there is any earlier will or intestacy rule that would give each child an equal share. There is also an urgency issue, since the land sale could complete before any court acts. The AI should explain the burden of proof, the value of interim relief such as an injunction, the limitation period for challenging a will, and what evidence Anita and Kiran should gather quickly, while being fair to Suresh's caregiving role."
+}

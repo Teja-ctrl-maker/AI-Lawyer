@@ -1,0 +1,16 @@
+{
+  "case": 15,
+  "title": "Large document dump in a commercial lease dispute (commercial/real estate)",
+  "intake": {
+    "story": "Spice Route Cafés, a restaurant chain, leased a 2,400 sq. ft. ground-floor unit from Meridian Estates in 2019 under a nine-year lease at a base rent with 5% annual escalation. Since then, the lease has been amended three times: once to extend the fit-out period, once to reduce the rent for six months during a construction disruption, and once to add a second storage room. Last month, Meridian sent a notice saying Spice Route has underpaid rent by 7,20,000 over two years and is in breach, threatening termination and forfeiture of the security deposit.\n\nSpice Route says that the second amendment, a rent reduction, was meant to be followed by a return to the original schedule without back-charging, and that Meridian's calculation wrongly applies the escalation twice. Meridian says the reduction was a one-time concession and that the escalation compounds from the original rent. The company's finance manager has compiled the lease, three amendments, and about 100 emails, and asks the AI to determine who is right and whether termination is justified.",
+    "evidence": "The 40-page lease includes clause 4.2 (annual escalation of 5% \"on the rent then payable\"), clause 18 (default and 30-day cure period), and clause 22 (amendments only effective if signed by both parties). Amendment 2, dated October 2021, reduces rent by 30% for six months \"after which rent shall revert to the amount payable under the lease.\" It does not say whether the escalation continued during the reduced period. Amendment 3 adds the storage room at a fixed monthly sum and states \"all other terms unchanged.\"\n\nThe emails show Meridian's accountant writing in April 2022 \"rent from May will be at the escalated rate as per schedule,\" and Spice Route paying exactly that amount for 14 months without objection. A later email from Meridian's property manager says \"we'll not chase the difference from the reduced period,\" which Spice Route treats as a waiver, though it was not signed and may not satisfy clause 22. The notice of breach was sent by email only, whereas clause 25 requires registered post, and the 30-day cure period has not yet run.",
+    "language": "English",
+    "demo": false,
+    "live_consent": true
+  },
+  "legal_review": {
+    "stage": "notice",
+    "live_consent": true
+  },
+  "evaluation_notes_not_sent": "The core issues are the interpretation of overlapping amendments, the order of precedence between the lease and amendments, whether the escalation clause compounds or applies simply, the cure period before termination, and waiver by conduct. The AI must build an accurate timeline, cite the specific clauses and emails it relies on, avoid inventing terms, and say clearly where the documents are ambiguous or silent."
+}

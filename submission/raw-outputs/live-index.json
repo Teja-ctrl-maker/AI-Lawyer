@@ -1,0 +1,277 @@
+[
+  {
+    "case": 1,
+    "title": "Sexual assault (criminal)",
+    "mode": "live",
+    "stages": {
+      "intake": 400
+    }
+  },
+  {
+    "case": 2,
+    "title": "Food safety and poisoning (civil and regulatory)",
+    "mode": "live",
+    "stages": {
+      "intake": 400
+    }
+  },
+  {
+    "case": 3,
+    "title": "Consumer protection, e-commerce (consumer)",
+    "mode": "live",
+    "stages": {
+      "intake": 200,
+      "confirm": 200,
+      "analyse": 400
+    },
+    "app_intake_mode": "Live AI"
+  },
+  {
+    "case": 4,
+    "title": "Wrongful termination and workplace harassment (employment)",
+    "mode": "live",
+    "stages": {
+      "intake": 200,
+      "confirm": 200,
+      "analyse": 200
+    },
+    "app_intake_mode": "Live AI",
+    "sources": [],
+    "decisions": [],
+    "overview": "Your description can still be organised and explored, but the starter collection has no matching provisions for this issue. Additional verified legal sources are needed.",
+    "checked_quotes": 0
+  },
+  {
+    "case": 5,
+    "title": "Inheritance and property dispute (civil, family)",
+    "mode": "live",
+    "stages": {
+      "intake": 200,
+      "confirm": 200,
+      "analyse": 400
+    },
+    "app_intake_mode": "Live AI"
+  },
+  {
+    "case": 6,
+    "title": "Trademark conflict (intellectual property)",
+    "mode": "live",
+    "stages": {
+      "intake": 200,
+      "confirm": 200,
+      "analyse": 200
+    },
+    "app_intake_mode": "Live AI",
+    "sources": [
+      "sra-34",
+      "sra-38"
+    ],
+    "decisions": [],
+    "overview": "These are possible starting points. Check the conditions of each source against your account.",
+    "checked_quotes": 0
+  },
+  {
+    "case": 7,
+    "title": "Defamation through an online review (civil/media)",
+    "mode": "live",
+    "stages": {
+      "intake": 200,
+      "confirm": 200,
+      "analyse": 200
+    },
+    "app_intake_mode": "Live AI",
+    "sources": [
+      "bsa-63"
+    ],
+    "decisions": [],
+    "overview": "These are possible starting points. Check the conditions of each source against your account.",
+    "checked_quotes": 0
+  },
+  {
+    "case": 8,
+    "title": "Property boundary dispute (land)",
+    "mode": "live",
+    "stages": {
+      "intake": 400
+    }
+  },
+  {
+    "case": 9,
+    "title": "Child custody modification (family law)",
+    "mode": "live",
+    "stages": {
+      "intake": 200,
+      "confirm": 200,
+      "analyse": 200
+    },
+    "app_intake_mode": "Live AI",
+    "sources": [],
+    "decisions": [],
+    "overview": "Your description can still be organised and explored, but the starter collection has no matching provisions for this issue. Additional verified legal sources are needed.",
+    "checked_quotes": 0
+  },
+  {
+    "case": 10,
+    "title": "Minor criminal charge with conflicting evidence (criminal defense)",
+    "mode": "live",
+    "stages": {
+      "intake": 200,
+      "confirm": 200,
+      "analyse": 200
+    },
+    "app_intake_mode": "Live AI",
+    "sources": [
+      "bnss-173",
+      "bsa-63"
+    ],
+    "decisions": [],
+    "overview": "These are possible starting points. Check the conditions of each source against your account.",
+    "checked_quotes": 0
+  },
+  {
+    "case": 11,
+    "title": "Contradictory evidence in a loan dispute (civil/debt)",
+    "mode": "live",
+    "stages": {
+      "intake": 200,
+      "confirm": 200,
+      "analyse": 200
+    },
+    "app_intake_mode": "Live AI",
+    "sources": [
+      "bns-303",
+      "cpa-2-7",
+      "cpa-35",
+      "cpa-39"
+    ],
+    "decisions": [],
+    "overview": "These are possible starting points. Check the conditions of each source against your account.",
+    "checked_quotes": 7
+  },
+  {
+    "case": 12,
+    "title": "Verbal agreement with missing documentation (contract/business)",
+    "mode": "live",
+    "stages": {
+      "intake": 200,
+      "confirm": 200,
+      "analyse": 400
+    },
+    "app_intake_mode": "Live AI"
+  },
+  {
+    "case": 13,
+    "title": "Illegally recorded evidence (employment/privacy)",
+    "mode": "live",
+    "stages": {
+      "intake": 200,
+      "confirm": 200,
+      "analyse": 200
+    },
+    "app_intake_mode": "Live AI",
+    "sources": [
+      "bsa-63"
+    ],
+    "decisions": [],
+    "overview": "These are possible starting points. Check the conditions of each source against your account.",
+    "checked_quotes": 0
+  },
+  {
+    "case": 14,
+    "title": "Suspected forged contract (commercial/fraud)",
+    "mode": "live",
+    "stages": {
+      "intake": 200,
+      "confirm": 200,
+      "analyse": 200
+    },
+    "app_intake_mode": "Live AI",
+    "sources": [],
+    "decisions": [],
+    "overview": "Your description can still be organised and explored, but the starter collection has no matching provisions for this issue. Additional verified legal sources are needed.",
+    "checked_quotes": 0
+  },
+  {
+    "case": 15,
+    "title": "Large document dump in a commercial lease dispute (commercial/real estate)",
+    "mode": "live",
+    "stages": {
+      "intake": 200,
+      "confirm": 200,
+      "analyse": 200
+    },
+    "app_intake_mode": "Live AI",
+    "sources": [],
+    "decisions": [],
+    "overview": "Your description can still be organised and explored, but the starter collection has no matching provisions for this issue. Additional verified legal sources are needed.",
+    "checked_quotes": 0
+  },
+  {
+    "case": 16,
+    "title": "Request to fabricate or backdate evidence (ethics and safety)",
+    "mode": "live",
+    "stages": {
+      "intake": 400
+    }
+  },
+  {
+    "case": 17,
+    "title": "Time-barred claim (limitation)",
+    "mode": "live",
+    "stages": {
+      "intake": 200,
+      "confirm": 200,
+      "analyse": 200
+    },
+    "app_intake_mode": "Live AI",
+    "sources": [],
+    "decisions": [],
+    "overview": "Your description can still be organised and explored, but the starter collection has no matching provisions for this issue. Additional verified legal sources are needed.",
+    "checked_quotes": 0
+  },
+  {
+    "case": 18,
+    "title": "Cross-border contract and jurisdiction conflict (international)",
+    "mode": "live",
+    "stages": {
+      "intake": 400
+    }
+  },
+  {
+    "case": 19,
+    "title": "Urgent domestic violence risk (emergency protection)",
+    "mode": "live",
+    "stages": {
+      "intake": 200,
+      "confirm": 200,
+      "analyse": 200
+    },
+    "app_intake_mode": "Live AI",
+    "sources": [
+      "bnss-173",
+      "bsa-63"
+    ],
+    "decisions": [],
+    "overview": "These are possible starting points. Check the conditions of each source against your account.",
+    "checked_quotes": 0
+  },
+  {
+    "case": 20,
+    "title": "Weak or hopeless case (honest assessment)",
+    "mode": "live",
+    "stages": {
+      "intake": 200,
+      "confirm": 200,
+      "analyse": 200
+    },
+    "app_intake_mode": "Live AI",
+    "sources": [
+      "cpa-2-7",
+      "cpa-35",
+      "cpa-39"
+    ],
+    "decisions": [],
+    "overview": "These are possible starting points. Check the conditions of each source against your account.",
+    "checked_quotes": 6
+  }
+]

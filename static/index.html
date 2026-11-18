@@ -1,0 +1,164 @@
+<!doctype html>
+<html lang="en"><head><meta charset="UTF-8"><meta name="viewport" content="width=device-width, initial-scale=1"><title>Case Companion · AI Lawyer</title><link rel="stylesheet" href="/style.css?v=document-formats"></head>
+<body>
+<aside class="sidebar">
+  <a class="brand" href="/" aria-label="Case Companion home"><span class="brand-mark" aria-hidden="true">§</span><span>Case Companion</span></a>
+  <nav aria-label="Case stages">
+    <button class="step active" data-stage="0" aria-current="step"><b>01</b><span>Your account</span></button>
+    <button class="step" data-stage="1" disabled><b>02</b><span>Legal review</span></button>
+    <button class="step" data-stage="2" disabled><b>03</b><span>What-if practice</span></button>
+    <button class="step" data-stage="3" disabled><b>04</b><span>Drafts</span></button>
+  </nav>
+  <div class="side-bottom"><span class="dot" aria-hidden="true"></span> Indian law · Local workspace</div>
+</aside>
+<main>
+<header class="topbar">
+  <div class="workspace-label"><span class="pill" id="accountName" hidden></span><span class="pill" id="mode">Guest</span></div>
+  <div class="session-actions">
+    <button id="openBackup" class="quiet">Download chat</button>
+    <button id="openImport" class="quiet">Import chat</button>
+    <button id="clear" class="quiet">Clear case</button>
+    <button id="endGuest" class="quiet">End session</button>
+  </div>
+</header>
+<div id="notice" role="status" aria-live="polite"></div>
+<section id="stage0" class="stage">
+<div class="stage-heading"><h1>Your account</h1><p class="lead">Describe what happened. We’ll organise it into a timeline for you to review.</p></div>
+<article class="card intake-card">
+  <div class="card-heading"><label for="story">What happened?</label><button id="sample" class="quiet">Try a sample ↗</button></div>
+  <textarea autocomplete="off" id="story" rows="7" placeholder="Tell the story in your own words. Include dates or times if you remember them."></textarea>
+  <p class="fine">Leave out personal identifiers. For sexual offences or child safety, a brief, non-graphic account is enough to start.</p>
+  <details class="evidence-options">
+    <summary>Evidence and documents <span class="optional">Optional</span></summary>
+<label for="evidence">Evidence notes</label><textarea autocomplete="off" id="evidence" rows="3" placeholder="List records, messages or witnesses. Label the source of any text you paste."></textarea><label for="evidenceFile" class="file-label">Add a plain-text evidence file (.txt, up to 100 KB)</label><input id="evidenceFile" type="file" accept=".txt,text/plain">  <label for="pdfFile">Text PDF (up to 2 MB and 20 pages)</label>
+  <input type="file" id="pdfFile" accept=".pdf,application/pdf">
+  <p class="fine">Select up to eight pages to include. Live AI can receive excerpts from up to five selected pages per request.</p>
+  <div id="pdfPages"></div>
+</details>
+<div class="intake-options">
+  <div><label for="language">Response language</label><select id="language"><option>English</option><option>Hindi</option><option>Hinglish</option></select></div>
+  <div><label class="check live-choice"><input type="checkbox" id="consent"><span><strong>Use live AI</strong><span class="fine">Send your story, selected evidence and practice answers to the model provider.</span></span></label></div>
+</div>
+<p class="fine" id="modeHelp"></p>
+<button id="intake" class="primary">Organise my story <span aria-hidden="true">→</span></button>
+</article>
+<div id="caseReview" hidden class="card review"><h2>Review your timeline</h2><div id="timelineChanges"></div>
+<div id="caseContent"></div>
+<section id="focusedFollowUp" class="scope" aria-label="Suggested follow-up" hidden>
+  <h3>One detail to clarify</h3>
+  <label id="focusedQuestion" for="focusedAnswer"></label>
+  <p id="focusedWhy" class="fine"></p>
+  <textarea id="focusedAnswer" autocomplete="off" rows="2" maxlength="12000"></textarea>
+  <div class="actions">
+    <button id="answerFocus" class="secondary">Add this answer</button>
+    <button id="skipFocus" class="quiet">Skip this question</button>
+  </div>
+</section>
+<details id="factMap" class="scope" hidden>
+  <summary>Fact-to-evidence map</summary>
+  <div id="factMapContent"></div>
+</details><details id="historyPanel" hidden><summary>Case conversation</summary><div id="chatHistory"></div></details><label for="clarification">Anything to correct or add?</label><textarea autocomplete="off" id="clarification" rows="3" placeholder="For example: The call was around 4 pm that same day, after I paid."></textarea><button id="clarify" class="secondary">Update my case summary</button><details><summary>Advanced case editor</summary><p class="fine">You can give timing corrections in your own words above. Editing the sample here turns it into your own case.</p><textarea autocomplete="off" id="recordEditor" rows="16" spellcheck="false" aria-label="Structured case JSON"></textarea></details><label class="check"><input id="confirmed" type="checkbox"> I have checked the timeline, evidence labels and unresolved details.</label><button id="confirm" class="primary">Confirm account →</button></div></section>
+<section id="stage1" class="stage" hidden>
+<div class="stage-heading"><h1>Legal review</h1><p class="lead">See which Indian laws may apply. Open a numbered citation to read the source.</p></div>
+<p class="fine">Case Companion displays provisions and court decisions from its reviewed Indian source library. If the library cannot answer a question, verify the current law with a qualified Indian lawyer.</p>
+<details class="scope"><summary>What this review covers</summary><p>Selected provisions cover consumer disputes, food safety, property, theft, sexual offences, child protection, criminal procedure and evidence. You can start with the facts you have.</p></details>
+<section id="courtGuidance" class="card court-guidance" aria-labelledby="courtGuidanceHeading" hidden></section>
+<section id="evidencePlan" class="card evidence-plan" aria-label="Evidence collection guidance" hidden></section>
+<form id="legalForm" class="card">
+  <h2>Where does your matter stand?</h2>
+  <label for="procedureStage">Latest step</label>
+  <select id="procedureStage">
+    <option value="unknown">I’m unsure</option>
+    <option value="starting">I’m deciding what to do</option>
+    <option value="reported">I’ve reported or filed it</option>
+    <option value="notice">I received a notice or reply</option>
+    <option value="hearing">I’m preparing for a hearing</option>
+    <option value="decision">I received a decision or order</option>
+  </select>
+  <label id="procedureLabel" for="procedureDetails"></label>
+  <textarea autocomplete="off" id="procedureDetails" rows="3" maxlength="2000" aria-describedby="procedureHelp"></textarea>
+  <p class="fine" id="procedureHelp">Optional. Leave out personal identifiers.</p>
+  <button class="primary">Explore relevant laws →</button>
+</form>
+<div id="reviewChanges"></div><div id="legalContent"></div><button id="toScenarios" class="primary" hidden>Practise a scenario →</button></section>
+<section id="stage2" class="stage" hidden>
+<div class="stage-heading"><h1>What-if practice</h1><p class="lead">Try answering a hypothetical question about your case.</p></div>
+<div id="scenarioContent"></div>
+<form id="practiceForm" class="card" hidden>
+  <h2>Try your answer</h2>
+  <label for="practiceScenario">Choose a hypothetical question</label>
+  <select id="practiceScenario"></select>
+  <label for="practiceAnswer">How would you answer in your own words?</label>
+  <textarea autocomplete="off" id="practiceAnswer" rows="3" maxlength="2500" placeholder="Say what you remember, what supports it and what you’re unsure about."></textarea>
+  <button class="primary">Get feedback</button>
+  <div id="practiceFeedback" aria-live="polite"></div>
+</form><button id="toDocuments" class="primary">Prepare a document →</button></section>
+<section id="stage3" class="stage" hidden>
+<div class="stage-heading"><h1>Drafts</h1><p class="lead">Prepare an editable document from your confirmed account. Review it before use.</p></div>
+<article class="card">
+  <div class="form-grid">
+    <div><label for="kind">Document type</label><select id="kind"><option>Case brief</option></select></div>
+    <div><label for="font">Font</label><select id="font"><option>Times New Roman</option><option>Arial</option><option>Calibri</option></select></div>
+    <div><label for="size">Font size</label><select id="size"><option>12</option><option>11</option><option>13</option><option>14</option></select></div>
+  </div>
+  <p id="draftRecommendation" class="fine" hidden></p>
+  <p id="formatHelp" class="fine"></p>
+  <label id="senderLabel" for="sender">Your name and address</label><textarea autocomplete="off" id="sender" rows="2" maxlength="2000"></textarea>
+  <label id="recipientLabel" for="recipient">Recipient’s name and address</label><textarea autocomplete="off" id="recipient" rows="2" maxlength="2000"></textarea>
+  <label for="subject">Subject</label><input id="subject" type="text" autocomplete="off" maxlength="400">
+  <label for="reference">Case, order or notice reference</label><input id="reference" type="text" autocomplete="off" maxlength="500">
+  <div id="formatFields"></div>
+  <div class="card-heading draft-facts-heading"><label for="facts">Material facts</label><button type="button" id="copyDraftTimeline" class="quiet">Copy confirmed timeline</button></div>
+  <textarea autocomplete="off" id="facts" rows="5" maxlength="26000" placeholder="Use one paragraph per line. Keep only the facts relevant to this document."></textarea>
+  <label id="demandLabel" for="demand">Outcome sought</label><textarea autocomplete="off" id="demand" rows="2" maxlength="3000"></textarea>
+  <label for="enclosures">Documents actually attached</label><textarea autocomplete="off" id="enclosures" rows="2" maxlength="4000" placeholder="One document per line, or write None."></textarea>
+  <p class="fine">Blank items appear as placeholders where needed. Verify each item and replace placeholders before sending or filing.</p>
+  <button id="draft" class="primary">Create draft →</button>
+  <div id="documentOutput" hidden>
+    <label for="draftText">Review and edit your draft</label><textarea autocomplete="off" id="draftText" rows="22" class="document"></textarea>
+    <label for="template">Optional Word template (.docx, up to 1 MB)</label><input id="template" type="file" accept=".docx">
+    <p class="fine">Put {{CASE_DRAFT}} alone in one paragraph to use its formatting. Use a static template without embedded files, external links or dynamic fields.</p>
+    <div class="actions"><button id="export" class="primary">Download Word draft ↓</button><button id="print" class="secondary">Print / save as PDF</button></div>
+  </div>
+</article></section>
+<footer>Legal information and draft assistance. Consult an advocate for urgent matters or formal filings.</footer></main>
+<dialog id="guestGate" aria-labelledby="guestTitle">
+  <span class="brand-mark" aria-hidden="true">§</span>
+  <h2 id="guestTitle">Welcome to Case Companion</h2>
+  <form id="accountForm" method="post" action="/api/login">
+    <label for="username">Username</label>
+    <input id="username" name="username" type="text" autocomplete="username" maxlength="32" required>
+    <label for="accountPassword">Password</label>
+    <input id="accountPassword" name="password" type="password" autocomplete="current-password" maxlength="128" required>
+    <p class="fine">For new accounts, use a password of at least 15 characters. Use an encrypted download to keep a case between sessions.</p>
+    <div class="actions auth-actions">
+      <button id="signIn" type="submit" class="primary">Sign in</button>
+      <button id="createAccount" type="submit" class="secondary">Create account</button>
+    </div>
+  </form>
+  <div class="guest-option">
+    <button id="startGuest" type="button" class="quiet">Continue as guest →</button>
+    <p class="fine">Your recent chats won’t be saved. Download an encrypted chat file if you want to resume later.</p>
+  </div>
+  <p id="guestStatus" role="status"></p>
+</dialog>
+<dialog id="caseFileDialog" aria-labelledby="caseFileTitle">
+  <form id="caseFileForm">
+    <h2 id="caseFileTitle"></h2>
+    <p id="caseFileHelp"></p>
+    <label for="caseFileInput" id="caseFileLabel">Saved case file</label>
+    <input type="file" id="caseFileInput" accept=".casecompanion,application/octet-stream">
+    <label for="caseFilePassword">File password</label>
+    <input type="password" id="caseFilePassword" autocomplete="off" maxlength="256" required>
+    <button id="caseFileSubmit" class="primary"></button>
+    <button id="closeCaseFile" type="button" class="quiet">Cancel</button>
+    <p id="caseFileStatus" role="status"></p>
+  </form>
+</dialog>
+<dialog id="citationDialog"><button id="closeCitation" class="dialog-close" aria-label="Close source details">×</button><div id="citationContent"></div></dialog><dialog id="passageDialog">
+  <form method="dialog"><button class="dialog-close" aria-label="Close passage">×</button></form>
+  <h2 id="passageTitle"></h2>
+  <p class="fine">Check this page number against the original file if you need the full page.</p>
+  <pre id="passageText" class="source-text"></pre>
+</dialog>
+<div id="printArea"></div><script src="/app.js?v=document-formats"></script></body></html>

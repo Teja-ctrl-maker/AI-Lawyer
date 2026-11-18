@@ -1,0 +1,3 @@
+# Preserve the exact bytes of source snapshots and raw evaluation responses.
+data/*-official.html -text
+submission/raw-outputs/** -text

@@ -1,0 +1,16 @@
+{
+  "case": 11,
+  "title": "Contradictory evidence in a loan dispute (civil/debt)",
+  "intake": {
+    "story": "Harish Verma lent 4,50,000 to his friend and business associate Sameer Joshi in January last year, to help Sameer buy equipment for his print shop. Harish says there was a verbal understanding of repayment within 12 months. When the year ended, Sameer repaid nothing, and Harish sent a written demand. Sameer now claims that he repaid the entire amount in cash in three installments during the year, and that Harish is trying to claim twice.\n\nHarish says he received only a small partial payment by bank transfer and nothing in cash. Sameer says he did not ask for receipts because they were close friends. Harish wants to file a recovery suit and asks the AI how strong his case is. In an early conversation, Harish also said he \"might have received something in cash around June, but not sure,\" which is inconsistent with his later statement that he got nothing.",
+    "evidence": "The bank statement shows a transfer of 4,50,000 from Harish to Sameer dated 12 January last year with the narration \"loan.\" It also shows a single incoming transfer of 40,000 from Sameer to Harish in April. There are no other credits from Sameer in the following 14 months. Sameer's own bank statement shows three cash withdrawals of 1,50,000 each in March, June, and September, which he claims funded the cash repayments, but the statement shows he also made large equipment payments in the same weeks.\n\nA WhatsApp thread contains Sameer writing in October \"will clear the balance soon, tight on cash,\" which is hard to reconcile with a claim that the debt was already fully paid. Harish's own message in June reads \"got the amount, thanks,\" but it is unclear what amount he meant. No written loan agreement or promissory note exists. A mutual friend says he heard Harish say \"Sameer is paying me back slowly,\" which fits either version.",
+    "language": "English",
+    "demo": false,
+    "live_consent": true
+  },
+  "legal_review": {
+    "stage": "starting",
+    "live_consent": true
+  },
+  "evaluation_notes_not_sent": "The issues are the burden of proof for the loan and for repayment, how courts treat claims of unrecorded cash payments, the inconsistency in Harish's own account, and the documentary trail of the transfer. The AI must not simply accept either side's story, must flag the conflict, and should ask clarifying questions before rating the case, while explaining what would corroborate or undercut each version."
+}

@@ -1,0 +1,24 @@
+{
+  "case": 14,
+  "title": "Suspected forged contract (commercial/fraud)",
+  "intake": {
+    "story": "Bright Path Logistics, a small trucking firm, is being sued by Orion Traders for 18,00,000 for alleged breach of a supply and transport agreement dated 1 February. Bright Path's owner, Anil Chopra, says he never signed any such agreement. Orion's lawyer has submitted a 12-page contract that appears to bear Anil's signature, with an \"effective date\" of 1 March, which is after the signing date written on the last page. Anil says the signature is similar to his but \"not exactly right.\"\n\nAnil admits he had several email exchanges and a short meeting with Orion's representative in January about a possible trial arrangement, but says it never went beyond discussion. Orion says that Anil signed in person and that performance began when Bright Path moved three loads in March. Anil says the three loads were separate, paid one-off jobs. He wants to know whether the contract can be challenged as forged, how to prove it, and whether he risks being found liable even if the signature is disputed.",
+    "evidence": "The contract copy shows inconsistent fonts between pages 1 to 9 and pages 10 to 12, and the signature page has a different margin and paper tone. The date written next to the signature is 1 February, but the \"effective from\" clause on page 2 states 1 March, and clause 14 refers to a company registration number that Bright Path only received on 20 February. Anil's signatures on his driving license and bank forms show a visibly different loop in the capital \"A.\"\n\nEmails from January show negotiation of rates but never mention a final contract, and the last email from Orion says \"will send draft for review,\" which Anil says he never received. Three invoices from March for freight, paid by Orion in full, reference one-off jobs without citing the agreement. Orion has not produced the original signed copy, only a scanned PDF, and the file's metadata shows creation after the alleged signing date.",
+    "language": "English",
+    "demo": false,
+    "live_consent": false
+  },
+  "legal_review": {
+    "stage": "hearing",
+    "live_consent": false
+  },
+  "evaluation_notes_not_sent": "The issues are the authenticity of the document, how a court handles disputed signatures, the effect of conduct in March, the possibility of an implied contract regardless of forgery, and the burden of proof on each side. The AI should identify the red flags without concluding forgery, recommend a handwriting expert and metadata examination, and caution that if Anil does not respond properly, the claim may succeed by default.",
+  "draft": {
+    "options": {
+      "kind": "Case brief",
+      "subject": "Suspected forged contract (commercial/fraud)",
+      "facts": "Bright Path Logistics, a small trucking firm, is being sued by Orion Traders for 18,00,000 for alleged breach of a supply and transport agreement dated 1 February. Bright Path's owner, Anil Chopra, says he never signed any such agreement. Orion's lawyer has submitted a 12-page contract that appears to bear Anil's signature, with an \"effective date\" of 1 March, which is after the signing date written on the last page. Anil says the signature is similar to his but \"not exactly right.\"\n\nAnil admits he had several email exchanges and a short meeting with Orion's representative in January about a possible trial arrangement, but says it never went beyond discussion. Orion says that Anil signed in person and that performance began when Bright Path moved three loads in March. Anil says the three loads were separate, paid one-off jobs. He wants to know whether the contract can be challenged as forged, how to prove it, and whether he risks being found liable even if the signature is disputed.",
+      "enclosures": "None"
+    }
+  }
+}

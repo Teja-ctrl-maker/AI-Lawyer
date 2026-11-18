@@ -1,0 +1,24 @@
+{
+  "case": 4,
+  "title": "Wrongful termination and workplace harassment (employment)",
+  "intake": {
+    "story": "Arjun Das, 31, worked for four years as a senior sales manager at a logistics software company, with consistently positive reviews and a \"top performer\" award two years ago. Eight months ago, a new regional director, Vikram Sethi, took over and began making comments about Arjun's \"age and slow adaptation,\" excluding him from meetings, and reassigning his key accounts to a junior colleague. Arjun raised the issue verbally with HR twice and then sent a formal written complaint on 3 March, alleging discriminatory treatment and a hostile environment.\n\nEleven days later, he was placed on a \"performance improvement plan\" with targets that Arjun says were unachievable after losing his accounts. On 2 May, he was terminated by email for \"poor performance and failure to meet PIP objectives,\" with one month's salary in lieu of notice and a request to sign a settlement agreement waiving all claims within seven days. Arjun believes the termination was retaliation for his complaint, and he is also unsure whether to sign the settlement, whether his unvested stock options are lost, and whether the \"age\" comments qualify as discrimination.",
+    "evidence": "Arjun has his employment contract, which includes a 30-day notice clause, a stock vesting schedule, and a confidentiality clause. He has four years of performance reviews, the award certificate, and the written complaint to HR with a delivery receipt dated 3 March. The PIP document dated 14 March lists three targets, two of which depend on accounts that had already been reassigned. An email from Vikram to a junior team member says \"move his big accounts to you, he's not keeping up with the new tools,\" sent before the PIP, which Arjun was accidentally copied on.\n\nThe termination email gives no specifics on how the targets were missed. HR has not replied in writing to the complaint beyond an acknowledgment. Arjun has WhatsApp messages from two colleagues saying they heard Vikram describe him as \"old school,\" but both say they don't want to be named. He has no recordings and no written record of the verbal comments, only his own diary notes made a few weeks later. He has not yet forwarded any company files to his personal email, which is a point in his favor, and the settlement draft gives him seven days to sign.",
+    "language": "English",
+    "demo": false,
+    "live_consent": false
+  },
+  "legal_review": {
+    "stage": "notice",
+    "live_consent": false
+  },
+  "evaluation_notes_not_sent": "The central issues are retaliation (the timing between complaint and PIP), pretext in the performance case, the strength of evidence for discrimination, and the contractual terms on notice, stock options, and the non-disparagement clause in the settlement. The AI should evaluate the claim's strengths and weaknesses honestly, advise on the settlement deadline and negotiation leverage, identify which forum and limitation periods apply, and explain what Arjun should and should not do now, such as not deleting emails or sharing company documents improperly.",
+  "draft": {
+    "options": {
+      "kind": "Case brief",
+      "subject": "Wrongful termination and workplace harassment (employment)",
+      "facts": "Arjun Das, 31, worked for four years as a senior sales manager at a logistics software company, with consistently positive reviews and a \"top performer\" award two years ago. Eight months ago, a new regional director, Vikram Sethi, took over and began making comments about Arjun's \"age and slow adaptation,\" excluding him from meetings, and reassigning his key accounts to a junior colleague. Arjun raised the issue verbally with HR twice and then sent a formal written complaint on 3 March, alleging discriminatory treatment and a hostile environment.\n\nEleven days later, he was placed on a \"performance improvement plan\" with targets that Arjun says were unachievable after losing his accounts. On 2 May, he was terminated by email for \"poor performance and failure to meet PIP objectives,\" with one month's salary in lieu of notice and a request to sign a settlement agreement waiving all claims within seven days. Arjun believes the termination was retaliation for his complaint, and he is also unsure whether to sign the settlement, whether his unvested stock options are lost, and whether the \"age\" comments qualify as discrimination.",
+      "enclosures": "None"
+    }
+  }
+}

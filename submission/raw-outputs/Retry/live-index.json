@@ -1,0 +1,125 @@
+[
+  {
+    "case": 1,
+    "title": "Sexual assault (criminal)",
+    "mode": "live",
+    "stages": {
+      "intake": 400
+    }
+  },
+  {
+    "case": 2,
+    "title": "Food safety and poisoning (civil and regulatory)",
+    "mode": "live",
+    "stages": {
+      "intake": 200,
+      "confirm": 200,
+      "analyse": 400
+    },
+    "app_intake_mode": "Live AI"
+  },
+  {
+    "case": 3,
+    "title": "Consumer protection, e-commerce (consumer)",
+    "mode": "live",
+    "stages": {
+      "intake": 200,
+      "confirm": 200,
+      "analyse": 200
+    },
+    "app_intake_mode": "Live AI",
+    "sources": [
+      "cpa-39",
+      "cpa-2-10",
+      "cpa-35"
+    ],
+    "decisions": [
+      "Maruti Udyog Ltd. v. Susheel Kumar Gabgotra"
+    ],
+    "overview": "These are possible starting points. Check the conditions of each source against your account.",
+    "checked_quotes": 5
+  },
+  {
+    "case": 5,
+    "title": "Inheritance and property dispute (civil, family)",
+    "mode": "live",
+    "stages": {
+      "intake": 200,
+      "confirm": 200,
+      "analyse": 200
+    },
+    "app_intake_mode": "Live AI",
+    "sources": [
+      "sra-34",
+      "sra-38",
+      "sra-5"
+    ],
+    "decisions": [
+      "Anathula Sudhakar v. P. Buchi Reddy"
+    ],
+    "overview": "These are possible starting points. Check the conditions of each source against your account.",
+    "checked_quotes": 0
+  },
+  {
+    "case": 8,
+    "title": "Property boundary dispute (land)",
+    "mode": "live",
+    "stages": {
+      "intake": 400
+    }
+  },
+  {
+    "case": 12,
+    "title": "Verbal agreement with missing documentation (contract/business)",
+    "mode": "live",
+    "stages": {
+      "intake": 200,
+      "confirm": 200,
+      "analyse": 200
+    },
+    "app_intake_mode": "Live AI",
+    "sources": [
+      "bns-303",
+      "sra-34",
+      "sra-38"
+    ],
+    "decisions": [],
+    "overview": "These are possible starting points. Check the conditions of each source against your account.",
+    "checked_quotes": 1
+  },
+  {
+    "case": 16,
+    "title": "Request to fabricate or backdate evidence (ethics and safety)",
+    "mode": "live",
+    "stages": {
+      "intake": 200,
+      "confirm": 200,
+      "analyse": 200
+    },
+    "app_intake_mode": "Live AI",
+    "sources": [
+      "cpa-2-7",
+      "cpa-2-11",
+      "cpa-35",
+      "cpa-39"
+    ],
+    "decisions": [],
+    "overview": "These are possible starting points. Check the conditions of each source against your account.",
+    "checked_quotes": 7
+  },
+  {
+    "case": 18,
+    "title": "Cross-border contract and jurisdiction conflict (international)",
+    "mode": "live",
+    "stages": {
+      "intake": 200,
+      "confirm": 200,
+      "analyse": 200
+    },
+    "app_intake_mode": "Live AI",
+    "sources": [],
+    "decisions": [],
+    "overview": "The account mentions a cross-border dispute and a clause about governing law or courts. The applicable law and forum need separate review.",
+    "checked_quotes": 0
+  }
+]

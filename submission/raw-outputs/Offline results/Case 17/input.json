@@ -1,0 +1,24 @@
+{
+  "case": 17,
+  "title": "Time-barred claim (limitation)",
+  "intake": {
+    "story": "Sheela Narayan says that eight years ago she lent 2,00,000 to her cousin, Mohan Das, to help him open a small shop. Mohan promised to repay in two years. He made no payment, and Sheela did not push him because of family ties. Recently, when she asked again, Mohan said \"that was a long time ago, and I don't owe you anything.\" She now wants to file a case to recover the money plus interest.\n\nSheela says Mohan acknowledged the debt on several occasions, including a family gathering about five years ago where he said, \"I'll return it once the shop picks up,\" and a message about three years ago saying \"give me some time, I haven't forgotten.\" She has been told the claim might be too old, and she wants to know whether it is already barred, whether the acknowledgments restart the clock, and whether there is any value in trying at all.",
+    "evidence": "Sheela has a bank statement showing a transfer of 2,00,000 to Mohan eight years and two months ago with the narration \"loan to Mohan.\" She has no written agreement or promissory note. She has a WhatsApp message from Mohan dated about three years ago stating \"give me some time, I haven't forgotten,\" which does not mention an amount. She also has a voice note from about two years ago in which Mohan says \"I know I owe the family, will sort it out,\" but names neither the debt nor the amount.\n\nThe alleged family-gathering admission five years ago has no recording, only the recollection of Sheela and her sister, who is also Mohan's cousin. Mohan has produced nothing and has not made any repayment. If the repayment date was two years after the loan, the limitation clock may have started six years ago, but whether the later messages meet the legal requirement for acknowledgment is uncertain, as they are vague and do not clearly admit a specific debt.",
+    "language": "English",
+    "demo": false,
+    "live_consent": false
+  },
+  "legal_review": {
+    "stage": "starting",
+    "live_consent": false
+  },
+  "evaluation_notes_not_sent": "The core issue is the limitation period for recovery of money lent, when it began to run, and whether written acknowledgments of liability can extend it, while oral acknowledgments typically cannot. The AI should address limitation first before the merits, calculate the dates carefully, identify which of the acknowledgments could count, point out any need for a lawyer to verify the local rule, and discuss non-litigation options such as family mediation.",
+  "draft": {
+    "options": {
+      "kind": "Case brief",
+      "subject": "Time-barred claim (limitation)",
+      "facts": "Sheela Narayan says that eight years ago she lent 2,00,000 to her cousin, Mohan Das, to help him open a small shop. Mohan promised to repay in two years. He made no payment, and Sheela did not push him because of family ties. Recently, when she asked again, Mohan said \"that was a long time ago, and I don't owe you anything.\" She now wants to file a case to recover the money plus interest.\n\nSheela says Mohan acknowledged the debt on several occasions, including a family gathering about five years ago where he said, \"I'll return it once the shop picks up,\" and a message about three years ago saying \"give me some time, I haven't forgotten.\" She has been told the claim might be too old, and she wants to know whether it is already barred, whether the acknowledgments restart the clock, and whether there is any value in trying at all.",
+      "enclosures": "None"
+    }
+  }
+}

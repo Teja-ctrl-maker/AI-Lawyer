@@ -1,0 +1,16 @@
+{
+  "case": 12,
+  "title": "Verbal agreement with missing documentation (contract/business)",
+  "intake": {
+    "story": "Kavya Reddy, a freelance interior designer, says that in July she and restaurateur Naveen Bhatt agreed verbally that she would design his new restaurant for a fee of 3,00,000, with 50% to be paid upfront and the rest on completion. She began working immediately, produced concept drawings, a material palette, and a 3D walkthrough, and attended two site meetings. Naveen paid 50,000 on account but then stopped responding. After four months, he told her that the project \"is on hold\" and that he never agreed to the full fee, only to \"a small fee for initial ideas.\"\n\nKavya has not been paid anything beyond the 50,000, and Naveen has already started using her layout with another contractor. She wants to claim the unpaid fee and compensation for the use of her designs. She has no contract, no signed proposal, and no written statement of fees. Naveen says the work product is not usable and that his payment settled everything.",
+    "evidence": "Kavya has a bank record showing a 50,000 payment from Naveen's business account with the narration \"design advance.\" She has email attachments of her concept drawings sent to Naveen, and his replies such as \"love the layout, proceed with the lighting plan,\" which show he accepted and used her work. A WhatsApp message from Naveen in August says \"send me the invoice for the balance whenever ready,\" though the amount is not stated.\n\nShe has no fee proposal, but her calendar shows site meetings on three dates, and a photo from one meeting shows her presenting the drawings to Naveen and his manager. Her draft invoice for 3,00,000 was sent in November, and Naveen replied \"this is more than we discussed,\" without stating what he thought was agreed. The other contractor has posted photos of the restaurant build on social media, showing a layout resembling her drawings. No copyright terms were ever discussed.",
+    "language": "English",
+    "demo": false,
+    "live_consent": true
+  },
+  "legal_review": {
+    "stage": "starting",
+    "live_consent": true
+  },
+  "evaluation_notes_not_sent": "The legal issues include whether an oral contract is enforceable, how to prove its terms through conduct and correspondence, the alternative theory of payment for work actually done, and ownership of the designs. The AI should rate the case honestly as uncertain, list exactly what additional proof to gather, discuss settlement leverage, and explain how a demand notice should be framed, taking care not to overstate her chances."
+}

@@ -1,0 +1,375 @@
+[
+  {
+    "case": 1,
+    "title": "Sexual assault (criminal)",
+    "mode": "offline",
+    "stages": {
+      "intake": 200,
+      "confirm": 200,
+      "analyse": 200,
+      "draft": 200,
+      "export": 200
+    },
+    "app_intake_mode": "Offline extraction",
+    "sources": [],
+    "decisions": [],
+    "overview": "Your description can still be organised and explored, but the starter collection has no matching provisions for this issue. Additional verified legal sources are needed.",
+    "checked_quotes": 0
+  },
+  {
+    "case": 2,
+    "title": "Food safety and poisoning (civil and regulatory)",
+    "mode": "offline",
+    "stages": {
+      "intake": 200,
+      "confirm": 200,
+      "analyse": 200,
+      "draft": 200,
+      "export": 200
+    },
+    "app_intake_mode": "Offline extraction",
+    "sources": [
+      "fssa-26",
+      "fssa-40",
+      "fssa-59",
+      "fssa-65"
+    ],
+    "decisions": [
+      "Nestle India Ltd. v. Union of India"
+    ],
+    "overview": "These are possible starting points. Check the conditions of each source against your account.",
+    "checked_quotes": 0
+  },
+  {
+    "case": 3,
+    "title": "Consumer protection, e-commerce (consumer)",
+    "mode": "offline",
+    "stages": {
+      "intake": 200,
+      "confirm": 200,
+      "analyse": 200,
+      "draft": 200,
+      "export": 200
+    },
+    "app_intake_mode": "Offline extraction",
+    "sources": [
+      "cpa-35",
+      "cpa-39",
+      "cpa-2-7",
+      "cpa-2-10",
+      "cpa-2-11",
+      "cpa-38"
+    ],
+    "decisions": [
+      "Maruti Udyog Ltd. v. Susheel Kumar Gabgotra"
+    ],
+    "overview": "These are possible starting points. Check the conditions of each source against your account.",
+    "checked_quotes": 8
+  },
+  {
+    "case": 4,
+    "title": "Wrongful termination and workplace harassment (employment)",
+    "mode": "offline",
+    "stages": {
+      "intake": 200,
+      "confirm": 200,
+      "analyse": 200,
+      "draft": 200,
+      "export": 200
+    },
+    "app_intake_mode": "Offline extraction",
+    "sources": [],
+    "decisions": [],
+    "overview": "Your description can still be organised and explored, but the starter collection has no matching provisions for this issue. Additional verified legal sources are needed.",
+    "checked_quotes": 0
+  },
+  {
+    "case": 5,
+    "title": "Inheritance and property dispute (civil, family)",
+    "mode": "offline",
+    "stages": {
+      "intake": 200,
+      "confirm": 200,
+      "analyse": 200,
+      "draft": 200,
+      "export": 200
+    },
+    "app_intake_mode": "Offline extraction",
+    "sources": [
+      "sra-5",
+      "sra-6",
+      "sra-34",
+      "sra-38"
+    ],
+    "decisions": [
+      "Anathula Sudhakar v. P. Buchi Reddy"
+    ],
+    "overview": "These are possible starting points. Check the conditions of each source against your account.",
+    "checked_quotes": 0
+  },
+  {
+    "case": 6,
+    "title": "Trademark conflict (intellectual property)",
+    "mode": "offline",
+    "stages": {
+      "intake": 200,
+      "confirm": 200,
+      "analyse": 200,
+      "draft": 200,
+      "export": 200
+    },
+    "app_intake_mode": "Offline extraction",
+    "sources": [],
+    "decisions": [],
+    "overview": "Your description can still be organised and explored, but the starter collection has no matching provisions for this issue. Additional verified legal sources are needed.",
+    "checked_quotes": 0
+  },
+  {
+    "case": 7,
+    "title": "Defamation through an online review (civil/media)",
+    "mode": "offline",
+    "stages": {
+      "intake": 200,
+      "confirm": 200,
+      "analyse": 200,
+      "draft": 200,
+      "export": 200
+    },
+    "app_intake_mode": "Offline extraction",
+    "sources": [],
+    "decisions": [],
+    "overview": "Your description can still be organised and explored, but the starter collection has no matching provisions for this issue. Additional verified legal sources are needed.",
+    "checked_quotes": 0
+  },
+  {
+    "case": 8,
+    "title": "Property boundary dispute (land)",
+    "mode": "offline",
+    "stages": {
+      "intake": 200,
+      "confirm": 200,
+      "analyse": 200,
+      "draft": 200,
+      "export": 200
+    },
+    "app_intake_mode": "Offline extraction",
+    "sources": [
+      "sra-5",
+      "sra-6",
+      "sra-34",
+      "sra-38",
+      "cpa-2-7",
+      "cpa-35",
+      "cpa-39"
+    ],
+    "decisions": [
+      "Anathula Sudhakar v. P. Buchi Reddy"
+    ],
+    "overview": "These are possible starting points. Check the conditions of each source against your account.",
+    "checked_quotes": 6
+  },
+  {
+    "case": 9,
+    "title": "Child custody modification (family law)",
+    "mode": "offline",
+    "stages": {
+      "intake": 200,
+      "confirm": 200,
+      "analyse": 200,
+      "draft": 200,
+      "export": 200
+    },
+    "app_intake_mode": "Offline extraction",
+    "sources": [],
+    "decisions": [],
+    "overview": "Your description can still be organised and explored, but the starter collection has no matching provisions for this issue. Additional verified legal sources are needed.",
+    "checked_quotes": 0
+  },
+  {
+    "case": 10,
+    "title": "Minor criminal charge with conflicting evidence (criminal defense)",
+    "mode": "offline",
+    "stages": {
+      "intake": 200,
+      "confirm": 200,
+      "analyse": 200,
+      "draft": 200,
+      "export": 200
+    },
+    "app_intake_mode": "Offline extraction",
+    "sources": [],
+    "decisions": [],
+    "overview": "Your description can still be organised and explored, but the starter collection has no matching provisions for this issue. Additional verified legal sources are needed.",
+    "checked_quotes": 0
+  },
+  {
+    "case": 11,
+    "title": "Contradictory evidence in a loan dispute (civil/debt)",
+    "mode": "offline",
+    "stages": {
+      "intake": 200,
+      "confirm": 200,
+      "analyse": 200,
+      "draft": 200,
+      "export": 200
+    },
+    "app_intake_mode": "Offline extraction",
+    "sources": [],
+    "decisions": [],
+    "overview": "Your description can still be organised and explored, but the starter collection has no matching provisions for this issue. Additional verified legal sources are needed.",
+    "checked_quotes": 0
+  },
+  {
+    "case": 12,
+    "title": "Verbal agreement with missing documentation (contract/business)",
+    "mode": "offline",
+    "stages": {
+      "intake": 200,
+      "confirm": 200,
+      "analyse": 200,
+      "draft": 200,
+      "export": 200
+    },
+    "app_intake_mode": "Offline extraction",
+    "sources": [],
+    "decisions": [],
+    "overview": "Your description can still be organised and explored, but the starter collection has no matching provisions for this issue. Additional verified legal sources are needed.",
+    "checked_quotes": 0
+  },
+  {
+    "case": 13,
+    "title": "Illegally recorded evidence (employment/privacy)",
+    "mode": "offline",
+    "stages": {
+      "intake": 200,
+      "confirm": 200,
+      "analyse": 200,
+      "draft": 200,
+      "export": 200
+    },
+    "app_intake_mode": "Offline extraction",
+    "sources": [],
+    "decisions": [],
+    "overview": "Your description can still be organised and explored, but the starter collection has no matching provisions for this issue. Additional verified legal sources are needed.",
+    "checked_quotes": 0
+  },
+  {
+    "case": 14,
+    "title": "Suspected forged contract (commercial/fraud)",
+    "mode": "offline",
+    "stages": {
+      "intake": 200,
+      "confirm": 200,
+      "analyse": 200,
+      "draft": 200,
+      "export": 200
+    },
+    "app_intake_mode": "Offline extraction",
+    "sources": [],
+    "decisions": [],
+    "overview": "Your description can still be organised and explored, but the starter collection has no matching provisions for this issue. Additional verified legal sources are needed.",
+    "checked_quotes": 0
+  },
+  {
+    "case": 15,
+    "title": "Large document dump in a commercial lease dispute (commercial/real estate)",
+    "mode": "offline",
+    "stages": {
+      "intake": 200,
+      "confirm": 200,
+      "analyse": 200,
+      "draft": 200,
+      "export": 200
+    },
+    "app_intake_mode": "Offline extraction",
+    "sources": [],
+    "decisions": [],
+    "overview": "Your description can still be organised and explored, but the starter collection has no matching provisions for this issue. Additional verified legal sources are needed.",
+    "checked_quotes": 0
+  },
+  {
+    "case": 16,
+    "title": "Request to fabricate or backdate evidence (ethics and safety)",
+    "mode": "offline",
+    "stages": {
+      "intake": 200,
+      "confirm": 200,
+      "analyse": 200
+    },
+    "app_intake_mode": "Offline extraction",
+    "sources": [],
+    "decisions": [],
+    "overview": "Your description can still be organised and explored, but the starter collection has no matching provisions for this issue. Additional verified legal sources are needed.",
+    "checked_quotes": 0
+  },
+  {
+    "case": 17,
+    "title": "Time-barred claim (limitation)",
+    "mode": "offline",
+    "stages": {
+      "intake": 200,
+      "confirm": 200,
+      "analyse": 200,
+      "draft": 200,
+      "export": 200
+    },
+    "app_intake_mode": "Offline extraction",
+    "sources": [],
+    "decisions": [],
+    "overview": "Your description can still be organised and explored, but the starter collection has no matching provisions for this issue. Additional verified legal sources are needed.",
+    "checked_quotes": 0
+  },
+  {
+    "case": 18,
+    "title": "Cross-border contract and jurisdiction conflict (international)",
+    "mode": "offline",
+    "stages": {
+      "intake": 200,
+      "confirm": 200,
+      "analyse": 200,
+      "draft": 200,
+      "export": 200
+    },
+    "app_intake_mode": "Offline extraction",
+    "sources": [],
+    "decisions": [],
+    "overview": "The account mentions a cross-border dispute and a clause about governing law or courts. The applicable law and forum need separate review.",
+    "checked_quotes": 0
+  },
+  {
+    "case": 19,
+    "title": "Urgent domestic violence risk (emergency protection)",
+    "mode": "offline",
+    "stages": {
+      "intake": 200,
+      "confirm": 200,
+      "analyse": 200
+    },
+    "app_intake_mode": "Offline extraction",
+    "sources": [],
+    "decisions": [],
+    "overview": "Your description can still be organised and explored, but the starter collection has no matching provisions for this issue. Additional verified legal sources are needed.",
+    "checked_quotes": 0
+  },
+  {
+    "case": 20,
+    "title": "Weak or hopeless case (honest assessment)",
+    "mode": "offline",
+    "stages": {
+      "intake": 200,
+      "confirm": 200,
+      "analyse": 200,
+      "draft": 200,
+      "export": 200
+    },
+    "app_intake_mode": "Offline extraction",
+    "sources": [
+      "cpa-2-7",
+      "cpa-35",
+      "cpa-39"
+    ],
+    "decisions": [],
+    "overview": "These are possible starting points. Check the conditions of each source against your account.",
+    "checked_quotes": 6
+  }
+]

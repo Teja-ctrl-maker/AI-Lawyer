@@ -1,0 +1,1368 @@
+[
+  {
+    "id": "cpa-2-7",
+    "kind": "statute",
+    "title": "Consumer Protection Act, 2019",
+    "section": "Section 2(7)",
+    "url": "https://consumeraffairs.gov.in/public/upload/files/CP%20Act%202019_1732700731.pdf",
+    "text": "(7) \"consumer\" means any person who—\n(i) buys any goods for a consideration which has been paid or promised\nor partly paid and partly promised, or under any system of deferred payment\nand includes any user of such goods other than the person who buys such\ngoods for consideration paid or promised or partly paid or partly promised, or\nunder any system of deferred payment, when such use is made with the approval\nof such person, but does not include a person who obtains such goods for\nresale or for any commercial purpose; or\n(ii) hires or avails of any service for a consideration which has been paid\nor promised or partly paid and partly promised, or under any system of deferred\npayment and includes any beneficiary of such service other than the person\nwho hires or avails of the services for consideration paid or promised, or partly\npaid and partly promised, or under any system of deferred payment, when such\nservices are availed of with the approval of the first mentioned person, but does\nnot include a person who avails of such service for any commercial purpose.\nExplanation.—For the purposes of this clause,—\n(a) the expression \"commercial purpose\" does not include use by a\nperson of goods bought and used by him exclusively for the purpose of\nearning his livelihood, by means of self-employment;\n(b) the expressions \"buys any goods\" and \"hires or avails any\nservices\" includes offline or online transactions through electronic means\nor by teleshopping or direct selling or multi-level marketing;",
+    "keywords": [
+      "consumer",
+      "purchase",
+      "bought",
+      "refund",
+      "seller",
+      "खरीद",
+      "वापस"
+    ],
+    "verified_on": "2026-11-18",
+    "version": "2019 Gazette publication; later amendments and rules are not comprehensively indexed",
+    "status": "Excerpt checked against downloaded official publication; not a current-law certification",
+    "sha256": "0ae7f82ab5b77d50087cd4cd2dd2dbc12755c0bdb31371fdefd042b020d50756",
+    "examples": [],
+    "domains": [
+      "consumer",
+      "food"
+    ],
+    "elements": [
+      "Purchase or hiring for consideration",
+      "Relevant consumer status and exclusions"
+    ],
+    "case_stage": "initial"
+  },
+  {
+    "id": "cpa-2-10",
+    "kind": "statute",
+    "title": "Consumer Protection Act, 2019",
+    "section": "Section 2(10)",
+    "url": "https://consumeraffairs.gov.in/public/upload/files/CP%20Act%202019_1732700731.pdf",
+    "text": "(10) \"defect\" means any fault, imperfection or shortcoming in the quality,\nquantity, potency, purity or standard which is required to be maintained by or under\nany law for the time being in force or under any contract, express or implied or as is\nclaimed by the trader in any manner whatsoever in relation to any goods or product\nand the expression \"defective\" shall be construed accordingly;",
+    "keywords": [
+      "defect",
+      "broken",
+      "stopped working",
+      "faulty",
+      "खराब"
+    ],
+    "verified_on": "2026-11-18",
+    "version": "2019 Gazette publication; later amendments and rules are not comprehensively indexed",
+    "status": "Excerpt checked against downloaded official publication; not a current-law certification",
+    "sha256": "0ae7f82ab5b77d50087cd4cd2dd2dbc12755c0bdb31371fdefd042b020d50756",
+    "examples": [],
+    "domains": [
+      "consumer",
+      "food"
+    ],
+    "elements": [
+      "Goods and the reported shortcoming",
+      "Relevant quality or contractual standard"
+    ],
+    "case_stage": "initial"
+  },
+  {
+    "id": "cpa-2-11",
+    "kind": "statute",
+    "title": "Consumer Protection Act, 2019",
+    "section": "Section 2(11)",
+    "url": "https://consumeraffairs.gov.in/public/upload/files/CP%20Act%202019_1732700731.pdf",
+    "text": "(11) \"deficiency\" means any fault, imperfection, shortcoming or inadequacy in\nthe quality, nature and manner of performance which is required to be maintained by or\nunder any law for the time being in force or has been undertaken to be performed by a\nperson in pursuance of a contract or otherwise in relation to any service and includes—\n(i) any act of negligence or omission or commission by such person which\ncauses loss or injury to the consumer; and\n(ii) deliberate withholding of relevant information by such person to the\nconsumer;",
+    "keywords": [
+      "service",
+      "deficiency",
+      "repair",
+      "सेवा"
+    ],
+    "verified_on": "2026-11-18",
+    "version": "2019 Gazette publication; later amendments and rules are not comprehensively indexed",
+    "status": "Excerpt checked against downloaded official publication; not a current-law certification",
+    "sha256": "0ae7f82ab5b77d50087cd4cd2dd2dbc12755c0bdb31371fdefd042b020d50756",
+    "examples": [
+      {
+        "title": "Pioneer Urban Land & Infrastructure Ltd. v. Govindan Raghavan",
+        "court": "Supreme Court of India",
+        "date": "2019-04-02",
+        "reference": "Civil Appeal 12238 of 2018 · paras. 9–10, PDF pp. 20–21",
+        "url": "https://api.sci.gov.in/supremecourt/2018/46308/46308_2018_Judgement_02-Apr-2019.pdf#page=20",
+        "takeaway": "The Court upheld a refund with interest where a builder offered possession of a flat after substantial delay.",
+        "difference": "The case concerned a flat purchase under the 1986 Act and specific contractual facts. Compare those facts and the law applicable to the present dispute."
+      }
+    ],
+    "domains": [
+      "consumer",
+      "food"
+    ],
+    "elements": [
+      "Service and required performance",
+      "Reported fault, omission or inadequacy"
+    ],
+    "case_stage": "initial"
+  },
+  {
+    "id": "cpa-35",
+    "kind": "statute",
+    "title": "Consumer Protection Act, 2019",
+    "section": "Section 35",
+    "url": "https://consumeraffairs.gov.in/public/upload/files/CP%20Act%202019_1732700731.pdf",
+    "text": "35. (1) A complaint, in relation to any goods sold or delivered or agreed to be sold or\ndelivered or any service provided or agreed to be provided, may be filed with a District\nCommission by—\n(a) the consumer,—\n(i) to whom such goods are sold or delivered or agreed to be sold or\ndelivered or such service is provided or agreed to be provided; or\n(ii) who alleges unfair trade practice in respect of such goods or service;\n(b) any recognised consumer association, whether the consumer to whom such\ngoods are sold or delivered or agreed to be sold or delivered or such service is provided\nor agreed to be provided, or who alleges unfair trade practice in respect of such goods\nor service, is a member of such association or not;\n(c) one or more consumers, where there are numerous consumers having the\nsame interest, with the permission of the District Commission, on behalf of, or for the\nbenefit of, all consumers so interested; or\n(d) the Central Government, the Central Authority or the State Government, as\nthe case may be:\nProvided that the complaint under this sub-section may be filed electronically in such\nmanner as may be prescribed.\nExplanation. —For the purposes of this sub-section, \"recognised consumer\nassociation\" means any voluntary consumer association registered under any law for the\ntime being in force.\n(2) Every complaint filed under sub-section (1) shall be accompanied with such fee\nand payable in such manner, including electronic form, as may be prescribed.",
+    "keywords": [
+      "consumer",
+      "refund",
+      "purchase",
+      "bought",
+      "seller",
+      "complaint",
+      "खरीद",
+      "वापस"
+    ],
+    "verified_on": "2026-11-18",
+    "version": "2019 Gazette publication; later amendments and rules are not comprehensively indexed",
+    "status": "Excerpt checked against downloaded official publication; not a current-law certification",
+    "sha256": "0ae7f82ab5b77d50087cd4cd2dd2dbc12755c0bdb31371fdefd042b020d50756",
+    "examples": [],
+    "domains": [
+      "consumer",
+      "food"
+    ],
+    "elements": [
+      "Complainant status",
+      "Subject of complaint and appropriate filing route"
+    ],
+    "case_stage": "initial"
+  },
+  {
+    "id": "cpa-39",
+    "kind": "statute",
+    "title": "Consumer Protection Act, 2019",
+    "section": "Section 39",
+    "url": "https://consumeraffairs.gov.in/public/upload/files/CP%20Act%202019_1732700731.pdf",
+    "text": "39. (1) Where the District Commission is satisfied that the goods complained against\nsuffer from any of the defects specified in the complaint or that any of the allegations\ncontained in the complaint about the services or any unfair trade practices, or claims for\ncompensation under product liability are proved, it shall issue an order to the opposite party\ndirecting him to do one or more of the following, namely:—\n(a) to remove the defect pointed out by the appropriate laboratory from the\ngoods in question;\n(b) to replace the goods with new goods of similar description which shall be\nfree from any defect;\n(c) to return to the complainant the price, or, as the case may be, the charges paid\nby the complainant along with such interest on such price or charges as may be\ndecided;\n(d) to pay such amount as may be awarded by it as compensation to the consumer\nfor any loss or injury suffered by the consumer due to the negligence of the opposite\nparty:\nProvided that the District Commission shall have the power to grant punitive\ndamages in such circumstances as it deems fit;\n(e) to pay such amount as may be awarded by it as compensation in a product\nliability action under Chapter VI;\n(f) to remove the defects in goods or deficiencies in the services in question;\n(g) to discontinue the unfair trade practice or restrictive trade practice and not to\nrepeat them;\n(h) not to offer the hazardous or unsafe goods for sale;\n(i) to withdraw the hazardous goods from being offered for sale;\n(j) to cease manufacture of hazardous goods and to desist from offering services\nwhich are hazardous in nature;\n(k) to pay such sum as may be determined by it, if it is of the opinion that loss or\ninjury has been suffered by a large number of consumers who are not identifiable\nconveniently:\nProvided that the minimum amount of sum so payable shall not be less than\ntwenty-five per cent. of the value of such defective goods sold or service provided, as\nthe case may be, to such consumers;\nFindings of\nDistrict\nCommission.\n45 of 1860.\n2 of 1974.\n5 of 1908.\n5 of 1908.\n22 THE GAZETTE OF INDIA EXTRAORDINARY [P ART II—\n(l) to issue corrective advertisement to neutralise the effect of misleading\nadvertisement at the cost of the opposite party responsible for issuing such misleading\nadvertisement;\n(m) to provide for adequate costs to parties; and\n(n) to cease and desist from issuing any misleading advertisement.\n(2) Any amount obtained under sub-section ( 1) shall be credited to such fund and\nutilised in such manner as may be prescribed.\n(3) In any proceeding conducted by the President and a member and if they differ on\nany point or points, they shall state the point or points on which they differ and refer the\nsame to another member for hearing on such point or points and the opinion of the majority\nshall be the order of the District Commission:\nProvided that the other member shall give his opinion on such point or points referred\nto him within a period of one month from the date of such reference.\n(4) Every order made by the District Commission under sub-section (1) shall be signed\nby the President and the member who conducted the proceeding:\nProvided that where the order is made as per majority opinion under sub-section (3),\nsuch order shall also be signed by the other member.",
+    "keywords": [
+      "consumer",
+      "refund",
+      "defect",
+      "purchase",
+      "bought",
+      "seller",
+      "खरीद",
+      "वापस"
+    ],
+    "verified_on": "2026-11-18",
+    "version": "2019 Gazette publication; later amendments and rules are not comprehensively indexed",
+    "status": "Excerpt checked against downloaded official publication; not a current-law certification",
+    "sha256": "0ae7f82ab5b77d50087cd4cd2dd2dbc12755c0bdb31371fdefd042b020d50756",
+    "examples": [
+      {
+        "title": "Pioneer Urban Land & Infrastructure Ltd. v. Govindan Raghavan",
+        "court": "Supreme Court of India",
+        "date": "2019-04-02",
+        "reference": "Civil Appeal 12238 of 2018 · paras. 9–10, PDF pp. 20–21",
+        "url": "https://api.sci.gov.in/supremecourt/2018/46308/46308_2018_Judgement_02-Apr-2019.pdf#page=20",
+        "takeaway": "The Court upheld a refund with interest where a builder offered possession of a flat after substantial delay.",
+        "difference": "The case concerned a flat purchase under the 1986 Act and specific contractual facts. Compare those facts and the law applicable to the present dispute."
+      }
+    ],
+    "domains": [
+      "consumer",
+      "food"
+    ],
+    "elements": [
+      "Relevant allegation established before the Commission",
+      "Suitable remedy and statutory conditions"
+    ],
+    "case_stage": "initial"
+  },
+  {
+    "id": "bns-303",
+    "kind": "statute",
+    "title": "Bharatiya Nyaya Sanhita, 2023",
+    "section": "Section 303 — Theft",
+    "url": "https://www.mha.gov.in/files/documents/250883_english01042024.pdf",
+    "text": "303.(1) Whoever, intending to take dishonestly any movable property out of the\npossession of any person without that person’s consent, moves that property in order to\nsuch taking, is said to commit theft.\nExplanation 1.—A thing so long as it is attached to the earth, not being movable\nproperty, is not the subject of theft; but it becomes capable of being the subject of theft as\nsoon as it is severed from the earth.\nExplanation2.—A moving effected by the same act which affects the severance may\nbe a theft.\nExplanation 3.—A person is said to cause a thing to move by removing an obstacle\nwhich prevented it from moving or by separating it from any other thing, as well as by\nactually moving it.\nExplanation4.—A person, who by any means causes an animal to move, is said to\nmove that animal, and to move everything which, in consequence of the motion so caused,\nis moved by that animal.\nExplanation5.—The consent mentioned in this section may be express or implied,\nand may be given either by the person in possession, or by any person having for that\npurpose authority either express or implied.\nIllustrations.\n(a) A cuts down a tree on Z’s ground, with the intention of dishonestly taking the tree\nout of Z’s possession without Z’s consent. Here, as soon as A has severed the tree in order\nto such taking, he has committed theft.\n(b) A puts a bait for dogs in his pocket, and thus induces Z’s dog to follow it. Here, if\nA ’s intention be dishonestly to take the dog out of Z’s possession without Z’s consent. A\nhas committed theft as soon as Z’s dog has begun to follow A.\n(c) A meets a bullock carrying a box of treasure. He drives the bullock in a certain\ndirection, in order that he may dishonestly take the treasure. As soon as the bullock begins\nto move, A has committed theft of the treasure.\n(d) A being Z’s servant, and entrusted by Z with the care of Z’s plate, dishonestly runs\naway with the plate, without Z’s consent. A has committed theft.\n(e) Z, going on a journey, entrusts his plate to A, the keeper of a warehouse, till Z shall\nreturn. A carries the plate to a goldsmith and sells it. Here the plate was not in Z’s possession.\nIt could not therefore be taken out of Z’s possession, and A has not committed theft, though\nhe may have committed criminal breach of trust.\nTrespassing on\nburial places,\netc.\nUttering words,\netc., with\ndeliberate\nintent to\nwound religious\nfeelings of any\nperson.\nTheft.\n78 THE GAZETTE OF INDIA EXTRAORDINARY [Part II—_____________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________\n(f) A finds a ring belonging to Z on a table in the house which Z occupies. Here the ring\nis in Z’s possession, and if A dishonestly removes it, A commits theft.\n(g) A finds a ring lying on the highroad, not in the possession of any person. A, by\ntaking it, commits no theft, though he may commit criminal misappropriation of property.\n(h) A sees a ring belonging to Z lying on a table in Z’s house. Not venturing to\nmisappropriate the ring immediately for fear of search and detection, A hides the ring in a\nplace where it is highly improbable that it will ever be found by Z, with the intention of taking\nthe ring from the hiding place and selling it when the loss is forgotten. Here A, at the time of\nfirst moving the ring, commits theft.\n(i) A delivers his watch to Z, a jeweler, to be regulated. Z carries it to his shop. A, not\nowing to the jeweler any debt for which the jeweler might lawfully detain the watch as a\nsecurity, enters the shop openly, takes his watch by force out of Z’s hand, and carries it away.\nHere A, though he may have committed criminal trespass and assault, has not committed\ntheft, in as much as what he did was not done dishonestly.\n(j) If A owes money to Z for repairing the watch, and if Z retains the watch lawfully as\na security for the debt, and A takes the watch out of Z’s possession, with the intention of\ndepriving Z of the property as a security for his debt, he commits theft, in as much as he takes\nit dishonestly.\n(k) Again, if A, having pawned his watch to Z, takes it out of Z’s possession without\nZ’s consent, not having paid what he borrowed on the watch, he commits theft, though the\nwatch is his own property in as much as he takes it dishonestly.\n(l) A takes an article belonging to Z out of Z’s possession without Z’s consent, with\nthe intention of keeping it until he obtains money from Z as a reward for its restoration. Here\nA takes dishonestly; A has therefore committed theft.\n(m) A, being on friendly terms with Z, goes into Z’s library in Z’s absence, and takes\naway a book without Z’s express consent for the purpose merely of reading it, and with the\nintention of returning it. Here, it is probable that A may have conceived that he had Z’s\nimplied consent to use Z’s book. If this was A ’s impression, A has not committed theft.\n(n) A asks charity from Z’s wife. She gives A money, food and clothes, which A knows\nto belong to Z her husband. Here it is probable that A may conceive that Z’s wife is authorised\nto give away alms. If this was A ’s impression, A has not committed theft.\n(o) A is the paramour of Z’s wife. She gives a valuable property, which A knows to\nbelong to her husband Z, and to be such property as she has no authority from Z to give. If\nA takes the property dishonestly, he commits theft.\n(p) A, in good faith, believing property belonging to Z to be A ’s own property, takes\nthat property out of Z’s possession. Here, as A does not take dishonestly, he does not\ncommit theft.\n(2) Whoever commits theft shall be punished with imprisonment of either description\nfor a term which may extend to three years, or with fine, or with both and in case of second\nor subsequent conviction of any person under this section, he shall be punished with\nrigorous imprisonment for a term which shall not be less than one year but which may extend\nto five years and with fine:\nProvided that in cases of theft where the value of the stolen property is less than five\nthousand rupees, and a person is convicted for the first time, shall upon return of the value\nof property or restoration of the stolen property, shall be punished with community service.\nSec. 1] THE GAZETTE OF INDIA EXTRAORDINARY 79_____________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________",
+    "context_text": "303.(1) Whoever, intending to take dishonestly any movable property out of the\npossession of any person without that person’s consent, moves that property in order to\nsuch taking, is said to commit theft.\nExplanation 1.—A thing so long as it is attached to the earth, not being movable\nproperty, is not the subject of theft; but it becomes capable of being the subject of theft as\nsoon as it is severed from the earth.\nExplanation2.—A moving effected by the same act which affects the severance may\nbe a theft.\nExplanation 3.—A person is said to cause a thing to move by removing an obstacle\nwhich prevented it from moving or by separating it from any other thing, as well as by\nactually moving it.\nExplanation4.—A person, who by any means causes an animal to move, is said to\nmove that animal, and to move everything which, in consequence of the motion so caused,\nis moved by that animal.\nExplanation5.—The consent mentioned in this section may be express or implied,\nand may be given either by the person in possession, or by any person having for that\npurpose authority either express or implied.\n(2) Whoever commits theft shall be punished with imprisonment of either description\nfor a term which may extend to three years, or with fine, or with both and in case of second\nor subsequent conviction of any person under this section, he shall be punished with\nrigorous imprisonment for a term which shall not be less than one year but which may extend\nto five years and with fine:\nProvided that in cases of theft where the value of the stolen property is less than five\nthousand rupees, and a person is convicted for the first time, shall upon return of the value\nof property or restoration of the stolen property, shall be punished with community service.\nSec. 1] THE GAZETTE OF INDIA EXTRAORDINARY 79_____________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________",
+    "keywords": [
+      "theft",
+      "stolen",
+      "stole",
+      "snatch",
+      "robbery",
+      "robbed",
+      "took my",
+      "someone took",
+      "taken without",
+      "चोरी",
+      "छीन"
+    ],
+    "effective_from": "2024-07-01",
+    "commencement_url": "https://www.pib.gov.in/PressReleasePage.aspx?PRID=2039055&lang=2&reg=48",
+    "verified_on": "2026-11-18",
+    "version": "2023 enacted text; applicability depends on incident date and any later amendments",
+    "status": "Excerpt checked against the official MHA publication; not a certification of current consolidated law",
+    "sha256": "c9da896e7a16c481a46235789f74f545b7a9ed7f3a5c8049d0b1b9252c6731f4",
+    "issue": "Was movable property dishonestly moved out of someone’s possession without consent?",
+    "when_to_use": "Use this as the starting point when the account describes property being taken without permission. Identify the property, possession, movement, lack of consent and circumstances suggesting dishonest intention. A missing item alone does not establish theft.",
+    "helpful_material": "Clarify when and where the item was last seen, whether anyone saw it being taken, and whether permission was given.",
+    "examples": [],
+    "plain_explanation": "This is the general theft provision. It concerns dishonest taking of movable property from another person’s possession, without consent, by moving it for that taking.",
+    "do_not_use_when": "Do not treat a missing item alone as proof of theft. If the item was misplaced, taken with consent, or taken under an honest belief of entitlement, the theft requirements need a different assessment.",
+    "domains": [
+      "theft"
+    ],
+    "elements": [
+      "Movable property",
+      "Possession of another",
+      "Movement for the taking",
+      "Absence of consent",
+      "Dishonest intention"
+    ],
+    "case_stage": "initial"
+  },
+  {
+    "id": "bns-304",
+    "kind": "statute",
+    "title": "Bharatiya Nyaya Sanhita, 2023",
+    "section": "Section 304 — Snatching",
+    "url": "https://www.mha.gov.in/files/documents/250883_english01042024.pdf",
+    "text": "304. (1) Theft is snatching if, in order to commit theft, the offender suddenly or quickly\nor forcibly seizes or secures or grabs or takes away from any person or from his possession\nany movable property.\n(2) Whoever commits snatching, shall be punished with imprisonment of either\ndescription for a term which may extend to three years, and shall also be liable to fine.",
+    "context_text": "304. (1) Theft is snatching if, in order to commit theft, the offender suddenly or quickly\nor forcibly seizes or secures or grabs or takes away from any person or from his possession\nany movable property.\n(2) Whoever commits snatching, shall be punished with imprisonment of either\ndescription for a term which may extend to three years, and shall also be liable to fine.",
+    "keywords": [
+      "theft",
+      "stolen",
+      "stole",
+      "snatch",
+      "robbery",
+      "robbed",
+      "took my",
+      "someone took",
+      "taken without",
+      "चोरी",
+      "छीन"
+    ],
+    "effective_from": "2024-07-01",
+    "commencement_url": "https://www.pib.gov.in/PressReleasePage.aspx?PRID=2039055&lang=2&reg=48",
+    "verified_on": "2026-11-18",
+    "version": "2023 enacted text; applicability depends on incident date and any later amendments",
+    "status": "Excerpt checked against the official MHA publication; not a certification of current consolidated law",
+    "sha256": "c9da896e7a16c481a46235789f74f545b7a9ed7f3a5c8049d0b1b9252c6731f4",
+    "issue": "Was property suddenly, quickly or forcibly seized from a person or their possession?",
+    "when_to_use": "Consider this more specific provision when the taking itself involved a sudden or quick grab or forcible seizure. Do not automatically equate every missing phone or every theft with snatching.",
+    "helpful_material": "Ask how the item was taken, whether it was being held or carried, and what the person actually observed.",
+    "examples": [],
+    "plain_explanation": "This provision concerns snatching: a theft involving sudden, quick or forcible seizure or taking of movable property from a person or their possession.",
+    "do_not_use_when": "Do not infer snatching just because an item was stolen or is missing. Clarify how it was taken. Snatching alone does not automatically establish the separate conditions for robbery.",
+    "domains": [
+      "theft"
+    ],
+    "elements": [
+      "Theft conditions",
+      "Sudden, quick or forcible seizure",
+      "From a person or their possession"
+    ],
+    "case_stage": "initial"
+  },
+  {
+    "id": "bns-305",
+    "kind": "statute",
+    "title": "Bharatiya Nyaya Sanhita, 2023",
+    "section": "Section 305 — Theft in a dwelling house, means of transportation or place of worship, etc.",
+    "url": "https://www.mha.gov.in/files/documents/250883_english01042024.pdf",
+    "text": "305.Whoever commits theft—\n(a) in any building, tent or vessel used as a human dwelling or used for the\ncustody of property; or\n(b) of any means of transport used for the transport of goods or passengers; or\n(c) of any article or goods from any means of transport used for the transport of\ngoods or passengers; or\n(d) of idol or icon in any place of worship; or\n(e) of any property of the Government or of a local authority,\nshall be punished with imprisonment of either description for a term which may extend to\nseven years, and shall also be liable to fine.",
+    "context_text": "305.Whoever commits theft—\n(a) in any building, tent or vessel used as a human dwelling or used for the\ncustody of property; or\n(b) of any means of transport used for the transport of goods or passengers; or\n(c) of any article or goods from any means of transport used for the transport of\ngoods or passengers; or\n(d) of idol or icon in any place of worship; or\n(e) of any property of the Government or of a local authority,\nshall be punished with imprisonment of either description for a term which may extend to\nseven years, and shall also be liable to fine.",
+    "keywords": [
+      "theft",
+      "stolen",
+      "stole",
+      "snatch",
+      "robbery",
+      "robbed",
+      "took my",
+      "someone took",
+      "taken without",
+      "चोरी",
+      "छीन"
+    ],
+    "effective_from": "2024-07-01",
+    "commencement_url": "https://www.pib.gov.in/PressReleasePage.aspx?PRID=2039055&lang=2&reg=48",
+    "verified_on": "2026-11-18",
+    "version": "2023 enacted text; applicability depends on incident date and any later amendments",
+    "status": "Excerpt checked against the official MHA publication; not a certification of current consolidated law",
+    "sha256": "c9da896e7a16c481a46235789f74f545b7a9ed7f3a5c8049d0b1b9252c6731f4",
+    "issue": "Did the theft occur in a listed setting or involve a listed type of property?",
+    "when_to_use": "Check the specific clause: a dwelling or place used for custody of property; transport used for goods or passengers; goods from such transport; an idol or icon in a place of worship; or government/local-authority property. The exact facts matter.",
+    "helpful_material": "Clarify the exact location and use of the building or vehicle. A theft outside a house is not automatically theft inside a dwelling.",
+    "examples": [],
+    "plain_explanation": "This is a special theft provision covering the settings and property categories listed in clauses (a) to (e). Clause (a) includes a building, tent or vessel used as a dwelling OR for the custody of property.",
+    "do_not_use_when": "Check every potentially relevant listed category before excluding this section. A commercial office may still fall within clause (a) if used for custody of property. If none of the listed settings or categories applies, this special provision is not indicated by that account.",
+    "domains": [
+      "theft"
+    ],
+    "elements": [
+      "Theft conditions",
+      "One of the listed settings or property categories"
+    ],
+    "case_stage": "initial"
+  },
+  {
+    "id": "bns-309",
+    "kind": "statute",
+    "title": "Bharatiya Nyaya Sanhita, 2023",
+    "section": "Section 309 — Robbery",
+    "url": "https://www.mha.gov.in/files/documents/250883_english01042024.pdf",
+    "text": "309.(1) In all robbery there is either theft or extortion.\n(2) Theft is robbery if, in order to the committing of the theft, or in committing the theft,\nor in carrying away or attempting to carry away property obtained by the theft, the offender,\nfor that end voluntarily causes or attempts to cause to any person death or hurt or wrongful\nrestraint, or fear of instant death or of instant hurt, or of instant wrongful restraint.\n(3) Extortion is robbery if the offender, at the time of committing the extortion, is in the\npresence of the person put in fear, and commits the extortion by putting that person in fear of\ninstant death, of instant hurt, or of instant wrongful restraint to that person or to some other\nperson, and, by so putting in fear, induces the person so put in fear then and there to deliver\nup the thing extorted.\nExplanation.—The offender is said to be present if he is sufficiently near to put the\nother person in fear of instant death, of instant hurt, or of instant wrongful restraint.\nIllustrations.\n(a) A holds Z down, and fraudulently takes Z’s money and jewels from Z’s clothes,\nwithout Z’s consent. Here A has committed theft, and, in order to the committing of that theft,\nhas voluntarily caused wrongful restraint to Z. A has therefore committed robbery.\nRobbery.\nSec. 1] THE GAZETTE OF INDIA EXTRAORDINARY 81_____________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________\n(b) A meets Z on the high road, shows a pistol, and demands Z’s purse. Z, in\nconsequence, surrenders his purse. Here A has extorted the purse from Z by putting him in\nfear of instant hurt, and being at the time of committing the extortion in his presence. A has\ntherefore committed robbery.\n(c) A meets Z and Z’s child on the high road. A takes the child, and threatens to fling it\ndown a precipice, unless Z delivers his purse. Z, in consequence, delivers his purse. Here A\nhas extorted the purse from Z, by causing Z to be in fear of instant hurt to the child who is\nthere present. A has therefore committed robbery on Z.\n(d) A obtains property from Z by saying—“Y our child is in the hands of my gang, and\nwill be put to death unless you send us ten thousand rupees”. This is extortion, and punishable\nas such; but it is not robbery, unless Z is put in fear of the instant death of his child.\n(4) Whoever commits robbery shall be punished with rigorous imprisonment for a term\nwhich may extend to ten years, and shall also be liable to fine; and, if the robbery be committed\non the highway between sunset and sunrise, the imprisonment may be extended to fourteen\nyears.\n(5) Whoever attempts to commit robbery shall be punished with rigorous imprisonment\nfor a term which may extend to seven years, and shall also be liable to fine.\n(6) If any person, in committing or in attempting to commit robbery, voluntarily causes\nhurt, such person, and any other person jointly concerned in committing or attempting to\ncommit such robbery, shall be punished with imprisonment for life, or with rigorous\nimprisonment for a term which may extend to ten years, and shall also be liable to fine.",
+    "context_text": "309.(1) In all robbery there is either theft or extortion.\n(2) Theft is robbery if, in order to the committing of the theft, or in committing the theft,\nor in carrying away or attempting to carry away property obtained by the theft, the offender,\nfor that end voluntarily causes or attempts to cause to any person death or hurt or wrongful\nrestraint, or fear of instant death or of instant hurt, or of instant wrongful restraint.\n(3) Extortion is robbery if the offender, at the time of committing the extortion, is in the\npresence of the person put in fear, and commits the extortion by putting that person in fear of\ninstant death, of instant hurt, or of instant wrongful restraint to that person or to some other\nperson, and, by so putting in fear, induces the person so put in fear then and there to deliver\nup the thing extorted.\nExplanation.—The offender is said to be present if he is sufficiently near to put the\nother person in fear of instant death, of instant hurt, or of instant wrongful restraint.\nIllustrations.\n(a) A holds Z down, and fraudulently takes Z’s money and jewels from Z’s clothes,\nwithout Z’s consent. Here A has committed theft, and, in order to the committing of that theft,\nhas voluntarily caused wrongful restraint to Z. A has therefore committed robbery.\nRobbery.\nSec. 1] THE GAZETTE OF INDIA EXTRAORDINARY 81_____________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________\n(b) A meets Z on the high road, shows a pistol, and demands Z’s purse. Z, in\nconsequence, surrenders his purse. Here A has extorted the purse from Z by putting him in\nfear of instant hurt, and being at the time of committing the extortion in his presence. A has\ntherefore committed robbery.\n(c) A meets Z and Z’s child on the high road. A takes the child, and threatens to fling it\ndown a precipice, unless Z delivers his purse. Z, in consequence, delivers his purse. Here A\nhas extorted the purse from Z, by causing Z to be in fear of instant hurt to the child who is\nthere present. A has therefore committed robbery on Z.\n(d) A obtains property from Z by saying—“Y our child is in the hands of my gang, and\nwill be put to death unless you send us ten thousand rupees”. This is extortion, and punishable\nas such; but it is not robbery, unless Z is put in fear of the instant death of his child.\n(4) Whoever commits robbery shall be punished with rigorous imprisonment for a term\nwhich may extend to ten years, and shall also be liable to fine; and, if the robbery be committed\non the highway between sunset and sunrise, the imprisonment may be extended to fourteen\nyears.\n(5) Whoever attempts to commit robbery shall be punished with rigorous imprisonment\nfor a term which may extend to seven years, and shall also be liable to fine.\n(6) If any person, in committing or in attempting to commit robbery, voluntarily causes\nhurt, such person, and any other person jointly concerned in committing or attempting to\ncommit such robbery, shall be punished with imprisonment for life, or with rigorous\nimprisonment for a term which may extend to ten years, and shall also be liable to fine.",
+    "keywords": [
+      "theft",
+      "stolen",
+      "stole",
+      "snatch",
+      "robbery",
+      "robbed",
+      "took my",
+      "someone took",
+      "taken without",
+      "चोरी",
+      "छीन"
+    ],
+    "effective_from": "2024-07-01",
+    "commencement_url": "https://www.pib.gov.in/PressReleasePage.aspx?PRID=2039055&lang=2&reg=48",
+    "verified_on": "2026-11-18",
+    "version": "2023 enacted text; applicability depends on incident date and any later amendments",
+    "status": "Excerpt checked against the official MHA publication; not a certification of current consolidated law",
+    "sha256": "c9da896e7a16c481a46235789f74f545b7a9ed7f3a5c8049d0b1b9252c6731f4",
+    "issue": "Was theft linked to immediate hurt, death, wrongful restraint, or fear of those harms, or did the extortion conditions apply?",
+    "when_to_use": "For a theft account, check subsection (2): the listed violence, restraint or immediate fear must be connected to committing the theft or carrying away the property. A sudden grab alone does not establish robbery. Subsection (3) separately addresses extortion in the offender’s presence with immediate fear and delivery.",
+    "helpful_material": "Ask about the exact threat or act, its timing, proximity, injury or restraint and how it was connected to the taking. Do not assume violence from the word theft.",
+    "examples": [],
+    "plain_explanation": "This provision defines robbery through theft or extortion with the additional conditions in the section. For theft, the specified death, hurt, restraint or immediate fear must be connected to committing the theft or carrying away the property.",
+    "do_not_use_when": "A sudden grab or an unrelated threat does not by itself establish robbery. Clarify the type, immediacy and connection of the harm or threat. Do not assume the required conditions from the word theft alone.",
+    "domains": [
+      "theft"
+    ],
+    "elements": [
+      "Theft or extortion",
+      "Additional statutory harm, restraint or immediate fear",
+      "Connection to the taking or delivery"
+    ],
+    "case_stage": "initial"
+  },
+  {
+    "issue": "Did a food business fail its food-safety responsibilities?",
+    "plain_explanation": "Food businesses must ensure food meets the Act and applicable rules within the business activities they control. The provision addresses unsafe, misbranded, substandard and other prohibited food.",
+    "when_to_use": "Start here for an account of contaminated, spoiled, adulterated or otherwise non-compliant food supplied by a food business.",
+    "do_not_use_when": "Disliking the taste or becoming unwell after a meal does not by itself establish a breach or prove which food caused illness. Identify the actual problem and applicable standard.",
+    "helpful_material": "What was the food, where and when was it supplied, and what did you observe? Keep packaging, order details and photographs if available. Do not delay needed medical care to obtain proof.",
+    "elements": [
+      "Food supplied by an identifiable business",
+      "Reported safety or compliance concern",
+      "Relevant business activity and control"
+    ],
+    "id": "fssa-26",
+    "kind": "statute",
+    "title": "Food Safety and Standards Act, 2006",
+    "section": "Section 26",
+    "text": "26. Responsibilities of the Food business operator. \n \n(1) Every food business operator shall ensure that the articles of  food satisfy the \nrequirements of this Act and the rules and regulations made there under at all stages of \nproduction, processing, import, distribution and sale within the businesses under his control. \n \n(2) No food business operator shall himself or by any person on his behalf  \nmanufacture, store, sell or distribute any article of food – \n \n(i) which is unsafe; or \n(ii) which is misbranded or sub-standard or contains extraneous matter; or \n27 \n \n \n(iii) for which a licence is required, except in accordanc e with the conditions of the \nlicence; or \n \n(iv) which is for the time being prohibited by the Food Authority or the Central \nGovernment or the State Government in the interest of public health; or \n \n(v) in contravention of any other provision of this Act or of any rule or regulation \nmade thereunder. \n \n  (3) No food business operator shall employ any person who is suffering  from \ninfectious, contagious or loathsome disease. \n \n(4) No food business operator shall sell or offer for sale any a rticle of food to any \nvendor unless he also gives a guarantee in writing in the form specified by regulations about \nthe nature and quality of such article to the vendor:  \n \nProvided that a bill, cash memo, or invoice in respect of t he sale of any article of food \ngiven by a food business operator to the vendor shall be deemed to be a guarantee under this \nsection, even if a guarantee in the specified form is not inc luded in the bill, cash memo or \ninvoice. \n(5) Where any food which is unsafe is part of a batch, lot or cons ignment of food of \nthe same class or description, it shall be presumed that a ll the food in that batch, lot or \nconsignment is also unsafe, unless following a detailed assessme nt within a specified time, it \nis found that there is no evidence that the rest of the batch, lot or consignment is unsafe: \n \n          Provided that any conformity of a food with specific pr ovisions applicable to that food \nshall be without prejudice to the competent authorities taking appropria te measures to impose \nrestrictions on that food being placed on the market or to require its withdrawal from the \nmarket for the reasons to be recorded in writing where such authoriti es suspect that, despite \nthe conformity, the food is unsafe.",
+    "context_text": "Source-checked explanatory summary, not a verbatim quotation: Food businesses must ensure food meets the Act and applicable rules within the business activities they control. The provision addresses unsafe, misbranded, substandard and other prohibited food. Start here for an account of contaminated, spoiled, adulterated or otherwise non-compliant food supplied by a food business. Disliking the taste or becoming unwell after a meal does not by itself establish a breach or prove which food caused illness. Identify the actual problem and applicable standard.",
+    "url": "https://www.fssai.gov.in/upload/uploadfiles/files/FOOD-ACT.pdf",
+    "domains": [
+      "food"
+    ],
+    "case_stage": "initial",
+    "keywords": [
+      "food",
+      "meal",
+      "restaurant",
+      "contaminated",
+      "poisoning",
+      "adulterated",
+      "expired",
+      "unsafe food",
+      "milk",
+      "food safety",
+      "खाना",
+      "भोजन"
+    ],
+    "verified_on": "2026-11-18",
+    "version": "Original 2006 enactment; later amendments, current penalties and regulations must be checked",
+    "status": "Excerpt checked against the stored official publication; not a comprehensive current-law certification",
+    "sha256": "4af5224f4a0e8e506919ea1659d5066e6fc0bc3372859ca4eda60442f3be0e6a",
+    "examples": [
+      {
+        "title": "Nestle India Ltd. v. Union of India",
+        "court": "Supreme Court of India",
+        "date": "2019-01-03",
+        "reference": "Civil Appeal 14539 of 2015 · order, PDF pp. 5–6",
+        "url": "https://api.sci.gov.in/supremecourt/2015/41646/41646_2015_Order_03-Jan-2019.pdf#page=5",
+        "takeaway": "The Court allowed the consumer commission to evaluate a laboratory report from court-directed food sampling.",
+        "difference": "This order dealt with testing and the next procedural step under the 1986 consumer Act. It left the merits open and does not establish a rule for private samples."
+      }
+    ]
+  },
+  {
+    "issue": "Would the purchaser-analysis route help clarify the food concern?",
+    "plain_explanation": "This section provides a purchaser route to analysis by a Food Analyst, with statutory conditions including notice to the business at purchase and prescribed fees. It also addresses the analyst report and follow-up.",
+    "when_to_use": "Explore this when a person asks about formal food analysis. Ask the food-safety authority how the statutory conditions and current sampling rules apply to an already-purchased item.",
+    "do_not_use_when": "It is not a promise that any private laboratory test qualifies or that testing is mandatory before raising a concern. Do not tell an already-past purchaser they can retrospectively satisfy the notice condition.",
+    "helpful_material": "When was it purchased, is any sample available, and was analysis mentioned at purchase? Ask the relevant authority about safe preservation and proper sampling.",
+    "elements": [
+      "Purchaser and identifiable food",
+      "Statutory notice-at-purchase condition",
+      "Proper analyst and current procedure"
+    ],
+    "id": "fssa-40",
+    "kind": "statute",
+    "title": "Food Safety and Standards Act, 2006",
+    "section": "Section 40",
+    "text": "40. Purchaser may have food analysed. \n \n(1) Nothing contained in this Act shall be held to prevent a purcha ser of any article of \nfood other than a Food Safety Officer from having such article a nalysed by the Food Analyst \non payment of such fees and receiving from the Food Analyst a report  of his analysis within \nsuch period as may be specified by regulations: \n \nProvided that such purchaser shall inform the food business operator at  the time of \npurchase of his intention to have such article so analysed:  \n \nProvided further that if the report of the Food Analyst shows t hat the article of food is \nnot in compliance with the Act or the rules or regulations made thereunder, the purchaser \nshall be entitled to get refund of the fees paid by him under this section. \n \n(2) In case the Food Analyst finds the sample in contravention of  the provisions of \nthis Act and rules and regulations made thereunder, the Food Analysts  shall forward the \nreport to the Designated Officer to follow the procedure laid down in section 42 for \nprosecution. \n \n \n39",
+    "context_text": "Source-checked explanatory summary, not a verbatim quotation: This section provides a purchaser route to analysis by a Food Analyst, with statutory conditions including notice to the business at purchase and prescribed fees. It also addresses the analyst report and follow-up. Explore this when a person asks about formal food analysis. Ask the food-safety authority how the statutory conditions and current sampling rules apply to an already-purchased item. It is not a promise that any private laboratory test qualifies or that testing is mandatory before raising a concern. Do not tell an already-past purchaser they can retrospectively satisfy the notice condition.",
+    "url": "https://www.fssai.gov.in/upload/uploadfiles/files/FOOD-ACT.pdf",
+    "domains": [
+      "food"
+    ],
+    "case_stage": "follow_up",
+    "keywords": [
+      "food",
+      "meal",
+      "restaurant",
+      "contaminated",
+      "poisoning",
+      "adulterated",
+      "expired",
+      "unsafe food",
+      "milk",
+      "food safety",
+      "खाना",
+      "भोजन"
+    ],
+    "verified_on": "2026-11-18",
+    "version": "Original 2006 enactment; later amendments, current penalties and regulations must be checked",
+    "status": "Excerpt checked against the stored official publication; not a comprehensive current-law certification",
+    "sha256": "4af5224f4a0e8e506919ea1659d5066e6fc0bc3372859ca4eda60442f3be0e6a",
+    "examples": []
+  },
+  {
+    "issue": "Do the facts raise an unsafe-food issue rather than only a quality complaint?",
+    "plain_explanation": "This provision concerns manufacture for sale, storage, sale, distribution or import of unsafe food for human consumption. Injury and causation can affect the legal assessment.",
+    "when_to_use": "Consider it if the reported facts suggest unsafe food. Food-safety findings and the circumstances must be assessed before alleging an established offence.",
+    "do_not_use_when": "Illness after eating, an expired label, or a photograph alone does not automatically establish unsafe food or causation. This source is the original 2006 text; current penalties and amendments must be checked separately.",
+    "helpful_material": "What was wrong with the food, who supplied it, when were symptoms noticed, and has a clinician or authority assessed the issue? Medical care should not wait for legal research.",
+    "elements": [
+      "Food intended for human consumption",
+      "Specified supply-chain conduct",
+      "Whether food was unsafe",
+      "Injury and causal link if alleged"
+    ],
+    "id": "fssa-59",
+    "kind": "statute",
+    "title": "Food Safety and Standards Act, 2006",
+    "section": "Section 59",
+    "text": "59. Punishment for unsafe food. \n \nAny person who, whether by himself or by any other person on his behalf, \nmanufactures for sale or stores or sells or distributes or impor ts any article of food for human \nconsumption which is unsafe, shall be punishable,– \n \n(i) where such failure or contravention does not result in injury,  with \nimprisonment for a term which may extend to six months and also with fine \nwhich may extend to one lakh rupees; \n \n(ii) where such failure or contravention results in a non-griev ous injury, with \nimprisonment for a term which may  extend to one year and also with fine \nwhich may extend to three lakh rupees; \n \n(iii) where such failure or contravention results in a grievous i njury, with \nimprisonment for a term which may extend to six years and also wit h fine \nwhich may extend to five lakh rupees; \n \n(iv) where such failure or contravention results in death, with imprisonment \nfor a term which shall not be less than seven years but which m ay extend to \nimprisonment for life and also with fine which shall not be less than ten lakh \nRupees.  \n \n47",
+    "context_text": "Source-checked explanatory summary, not a verbatim quotation: This provision concerns manufacture for sale, storage, sale, distribution or import of unsafe food for human consumption. Injury and causation can affect the legal assessment. Consider it if the reported facts suggest unsafe food. Food-safety findings and the circumstances must be assessed before alleging an established offence. Illness after eating, an expired label, or a photograph alone does not automatically establish unsafe food or causation. This source is the original 2006 text; current penalties and amendments must be checked separately.",
+    "url": "https://www.fssai.gov.in/upload/uploadfiles/files/FOOD-ACT.pdf",
+    "domains": [
+      "food"
+    ],
+    "case_stage": "initial",
+    "keywords": [
+      "food",
+      "meal",
+      "restaurant",
+      "contaminated",
+      "poisoning",
+      "adulterated",
+      "expired",
+      "unsafe food",
+      "milk",
+      "food safety",
+      "खाना",
+      "भोजन"
+    ],
+    "verified_on": "2026-11-18",
+    "version": "Original 2006 enactment; later amendments, current penalties and regulations must be checked",
+    "status": "Excerpt checked against the stored official publication; not a comprehensive current-law certification",
+    "sha256": "4af5224f4a0e8e506919ea1659d5066e6fc0bc3372859ca4eda60442f3be0e6a",
+    "examples": [
+      {
+        "title": "Nestle India Ltd. v. Union of India",
+        "court": "Supreme Court of India",
+        "date": "2019-01-03",
+        "reference": "Civil Appeal 14539 of 2015 · order, PDF pp. 5–6",
+        "url": "https://api.sci.gov.in/supremecourt/2015/41646/41646_2015_Order_03-Jan-2019.pdf#page=5",
+        "takeaway": "The Court allowed the consumer commission to evaluate a laboratory report from court-directed food sampling.",
+        "difference": "This order dealt with testing and the next procedural step under the 1986 consumer Act. It left the merits open and does not establish a rule for private samples."
+      }
+    ]
+  },
+  {
+    "issue": "Is there an injury linked to food for which compensation could be considered?",
+    "plain_explanation": "This provision addresses compensation directed by the adjudicating officer or court where supplied food causes injury or death. It does not guarantee an award on an allegation alone.",
+    "when_to_use": "Consider it as a potential later route when injury and its connection to the supplied food emerge. Keep the safety complaint and the compensation question distinct.",
+    "do_not_use_when": "Do not promise amounts or deadlines from this original enactment snapshot. A refund request without injury does not automatically meet this provision’s conditions.",
+    "helpful_material": "Clarify any medical assessment, treatment expenses and chronology. Note other possible causes honestly; preserve records you already have.",
+    "elements": [
+      "Specified food-supply conduct",
+      "Injury or death",
+      "Connection between the food and harm",
+      "Assessment by the competent authority"
+    ],
+    "id": "fssa-65",
+    "kind": "statute",
+    "title": "Food Safety and Standards Act, 2006",
+    "section": "Section 65",
+    "text": "65 . Compensation in case injury of death of consumer \n \n (l) Without prejudice to the other provisions of this Chapter, if any person whether by \nhimself or by any other person on his behalf, manufactures or distribut es or sells or imports \nany article of food causing injury to the consumer or his death, it  shall be lawful for the \nAdjudicating Officer or as the case may be, the court to direct him to pay compensation to the \nvictim or the legal representative of the victim, a sum— \n \n(a) not less than five lakh rupees in case of death; \n(b) not exceeding three lakh rupees in case of grievous injury; \nand \n(c) not exceeding one lakh rupees, in all other cases of injury:  \n \nProvided that the compensation shall be paid at the earliest and  in no case later than \nsix months from the date of occurrence of the incident: \n \nProvided further that in case of death, an interim relief sh all  be paid to the next of the \nkin within thirty days of the incident. \n \n(2) Where any person is held guilty of an offence leading to gri evous injury or death, \nthe Adjudicating Officer or the court may cause the name and plac e of residence of the \nperson held guilty, the offence and the penalty imposed to be published at the offender’s \nexpense in such newspapers or in such other manner as the Adjudica ting Officer or the court \nmay direct and the expenses of such publication shall be deeme d to be part of the cost \nattending the conviction and shall be recoverable in the same manner as a fine. \n \n(3) The Adjudicating Officer or the court may also,— \n \n(a) order for cancellation of licence, re-call of food from m arket, forfeiture of \nestablishment and property in case of grievous injury or death of consumer; \n(b) issue prohibition orders in other cases.",
+    "context_text": "Source-checked explanatory summary, not a verbatim quotation: This provision addresses compensation directed by the adjudicating officer or court where supplied food causes injury or death. It does not guarantee an award on an allegation alone. Consider it as a potential later route when injury and its connection to the supplied food emerge. Keep the safety complaint and the compensation question distinct. Do not promise amounts or deadlines from this original enactment snapshot. A refund request without injury does not automatically meet this provision’s conditions.",
+    "url": "https://www.fssai.gov.in/upload/uploadfiles/files/FOOD-ACT.pdf",
+    "domains": [
+      "food"
+    ],
+    "case_stage": "follow_up",
+    "keywords": [
+      "food",
+      "meal",
+      "restaurant",
+      "contaminated",
+      "poisoning",
+      "adulterated",
+      "expired",
+      "unsafe food",
+      "milk",
+      "food safety",
+      "खाना",
+      "भोजन"
+    ],
+    "verified_on": "2026-11-18",
+    "version": "Original 2006 enactment; later amendments, current penalties and regulations must be checked",
+    "status": "Excerpt checked against the stored official publication; not a comprehensive current-law certification",
+    "sha256": "4af5224f4a0e8e506919ea1659d5066e6fc0bc3372859ca4eda60442f3be0e6a",
+    "examples": []
+  },
+  {
+    "issue": "How would an admitted consumer complaint be considered?",
+    "plain_explanation": "This section describes the procedure after admission of a complaint, including responses, evidence and testing where required for an alleged goods defect.",
+    "when_to_use": "Use it to explain a potential later procedural stage after filing or when the other side disputes the complaint.",
+    "do_not_use_when": "Do not treat filing as automatic admission, assume every case needs a lab test, or invent a hearing timetable. Current procedural rules still need checking.",
+    "helpful_material": "Has a complaint been filed or admitted? What order or notice was received, and what is the next date recorded in it?",
+    "elements": [
+      "Complaint stage",
+      "Goods or service issue",
+      "Opposite party response",
+      "Evidence and directions in the actual proceeding"
+    ],
+    "id": "cpa-38",
+    "kind": "statute",
+    "title": "Consumer Protection Act, 2019",
+    "section": "Section 38",
+    "text": "38. (1) The District Commission shall, on admission of a complaint, or in respect of\ncases referred for mediation on failure of settlement by mediation, proceed with such\ncomplaint.\n(2) Where the complaint relates to any goods, the District Commission shall,—\n(a) refer a copy of the admitted complaint, within twenty-one days from the date\nof its admission to the opposite party mentioned in the complaint directing him to give\nhis version of the case within a period of thirty days or such extended period not\nexceeding fifteen days as may be granted by it;\n(b) if the opposite party on receipt of a complaint referred to him under clause (a)\ndenies or disputes the allegations contained in the complaint, or omits or fails to take\nany action to represent his case within the time given by the District Commission,\nproceed to settle the consumer dispute in the manner specified in clauses (c) to (g);\n(c) if the complaint alleges a defect in the goods which cannot be determined\nwithout proper analysis or test of the goods, obtain a sample of the goods from the\ncomplainant, seal it and authenticate it in the manner as may be prescribed and refer\nthe sample so sealed to the appropriate laboratory along with a direction that such\nlaboratory to make an analysis or test, whichever may be necessary, with a view to\nfinding out whether such goods suffer from any defect alleged in the complaint or\nfrom any other defect and to report its findings thereon to the District Commission\nwithin a period of forty-five days of the receipt of the reference or within such extended\nperiod as may be granted by it;\n(d) before any sample of the goods is referred to any appropriate laboratory\nunder clause (c), require the complainant to deposit to the credit of the Commission\nsuch fees as may be specified, for payment to the appropriate laboratory for carrying\nout the necessary analysis or test in relation to the goods in question;\n(e) remit the amount deposited to its credit under clause (d) to the appropriate\nlaboratory to enable it to carry out the analysis or test mentioned in clause (c) and on\nreceipt of the report from the appropriate laboratory, it shall forward a copy of the\nreport along with such remarks as it may feel appropriate to the opposite party;\n(f) if any of the parties disputes the correctness of the findings of the appropriate\nlaboratory, or disputes the correctness of the methods of analysis or test adopted by\nthe appropriate laboratory, require the opposite party or the complainant to submit in\nwriting his objections with regard to the report made by the appropriate laboratory;\n(g) give a reasonable opportunity to the complainant as well as the opposite\nparty of being heard as to the correctness or otherwise of the report made by the\nappropriate laboratory and also as to the objection made in relation thereto under\nclause (f) and issue an appropriate order under section 39.\n(3) The District Commission shall, if the complaint admitted by it under sub-section (2)\nof section 36 relates to goods in respect of which the procedure specified in sub-section (2)\ncannot be followed, or if the complaint relates to any services,—\n(a) refer a copy of such complaint to the opposite party directing him to give his\nversion of the case within a period of thirty days or such extended period not exceeding\nfifteen days as may be granted by the District Commission;\n(b) if the opposite party, on receipt of a copy of the complaint, referred to him\nunder clause ( a) denies or disputes the allegations contained in the complaint, or\nomits or fails to take any action to represent his case within the time given by the\nDistrict Commission, it shall proceed to settle the consumer dispute—\nProcedure on\nadmission of\ncomplaint.\n20 THE GAZETTE OF INDIA EXTRAORDINARY [P ART II—\n(i) on the basis of evidence brought to its notice by the complainant and\nthe opposite party, if the opposite party denies or disputes the allegations\ncontained in the complaint, or\n(ii) ex parte  on the basis of evidence brought to its notice by the\ncomplainant, where the opposite party omits or fails to take any action to represent\nhis case within the time given by the Commission;\n(c) decide the complaint on merits if the complainant fails to appear on the date\nof hearing.\n(4) For the purposes of sub-sections ( 2) and ( 3), the District Commission may, by\norder, require an electronic service provider to provide such information, documents or\nrecords, as may be specified in that order.\n(5) No proceedings complying with the procedure laid down in sub-sections (1) and\n(2) shall be called in question in any court on the ground that the principles of natural justice\nhave not been complied with.\n(6) Every complaint shall be heard by the District Commission on the basis of affidavit\nand documentary evidence placed on record:\nProvided that where an application is made for hearing or for examination of parties in\nperson or through video conferencing, the District Commission may, on sufficient cause\nbeing shown, and after recording its reasons in writing, allow the same.\n(7) Every complaint shall be disposed of as expeditiously as possible and endeavour\nshall be made to decide the complaint within a period of three months from the date of receipt\nof notice by opposite party where the complaint does not require analysis or testing of\ncommodities and within five months if it requires analysis or testing of commodities:\nProvided that no adjournment shall ordinarily be granted by the District Commission\nunless sufficient cause is shown and the reasons for grant of adjournment have been recorded\nin writing by the Commission:\nProvided further that the District Commission shall make such orders as to the costs\noccasioned by the adjournment as may be specified by regulations:\nProvided also that in the event of a complaint being disposed of after the period so\nspecified, the District Commission shall record in writing, the reasons for the same at the time\nof disposing of the said complaint.\n(8) Where during the pendency of any proceeding before the District Commission, if\nit appears necessary, it may pass such interim order as is just and proper in the facts and\ncircumstances of the case.\n(9) For the purposes of this section, the District Commission shall have the same\npowers as are vested in a civil court under the Code of Civil Procedure, 1908 while trying a\nsuit in respect of the following matters, namely:—\n(a) the summoning and enforcing the attendance of any defendant or witness\nand examining the witness on oath;\n(b) requiring the discovery and production of any document or other material\nobject as evidence;\n(c) receiving of evidence on affidavits;\n(d) the requisitioning of the report of the concerned analysis or test from the\nappropriate laboratory or from any other relevant source;\n(e) issuing of commissions for the examination of any witness, or document;\nand\n5 of 1908.\nSEC. 1] THE GAZETTE OF INDIA EXTRAORDINARY 21\n(f) any other matter which may be prescribed by the Central Government.\n(10) Every proceeding before the District Commission shall be deemed to be a judicial\nproceeding within the meaning of sections 193 and 228 of the Indian Penal Code, and the\nDistrict Commission shall be deemed to be a criminal court for the purposes of section 195\nand Chapter XXVI of the Code of Criminal Procedure, 1973.\n(11) Where the complainant is a consumer referred to in sub-clause (v) of clause (5) of\nsection 2, the provisions of Order I Rule 8 of the First Schedule to the Code of Civil Procedure,\n1908 shall apply subject to the modification that every reference therein to a suit or decree\nshall be construed as a reference to a complaint or the order of the District Commission\nthereon.\n(12) In the event of death of a complainant who is a consumer or of the opposite party\nagainst whom the complaint has been filed, the provisions of Order XXII of the First Schedule\nto the Code of Civil Procedure, 1908 shall apply subject to the modification that every\nreference therein to the plaintiff and the defendant shall be construed as reference to a\ncomplainant or the opposite party, as the case may be.",
+    "context_text": "Source-checked explanatory summary, not a verbatim quotation: This section describes the procedure after admission of a complaint, including responses, evidence and testing where required for an alleged goods defect. Use it to explain a potential later procedural stage after filing or when the other side disputes the complaint. Do not treat filing as automatic admission, assume every case needs a lab test, or invent a hearing timetable. Current procedural rules still need checking.",
+    "url": "https://consumeraffairs.gov.in/public/upload/files/CP%20Act%202019_1732700731.pdf",
+    "domains": [
+      "consumer"
+    ],
+    "case_stage": "follow_up",
+    "keywords": [
+      "consumer commission admitted complaint",
+      "consumer commission procedure",
+      "consumer complaint evidence stage"
+    ],
+    "verified_on": "2026-11-18",
+    "version": "2019 enactment; current rules and amendments require checking",
+    "status": "Excerpt checked against the stored official publication; not a comprehensive current-law certification",
+    "sha256": "0ae7f82ab5b77d50087cd4cd2dd2dbc12755c0bdb31371fdefd042b020d50756",
+    "examples": [
+      {
+        "title": "Nestle India Ltd. v. Union of India",
+        "court": "Supreme Court of India",
+        "date": "2019-01-03",
+        "reference": "Civil Appeal 14539 of 2015 · order, PDF pp. 5–6",
+        "url": "https://api.sci.gov.in/supremecourt/2015/41646/41646_2015_Order_03-Jan-2019.pdf#page=5",
+        "takeaway": "The Court allowed the consumer commission to evaluate a laboratory report from court-directed food sampling.",
+        "difference": "This order dealt with testing and the next procedural step under the 1986 consumer Act. It left the merits open and does not establish a rule for private samples."
+      }
+    ]
+  },
+  {
+    "issue": "Is the consumer complaint within the statutory filing period?",
+    "plain_explanation": "The section states a two-year period from accrual of the cause of action. It also allows consideration of a delayed complaint on sufficient cause with recorded reasons.",
+    "when_to_use": "Check this early when considering a consumer complaint, especially if events happened some time ago. Accrual and any condonation need factual and legal review.",
+    "do_not_use_when": "Do not calculate a final filing date from the purchase date alone or promise that delay will be excused. A recent message does not automatically restart time.",
+    "helpful_material": "List purchase, problem, refusal and complaint dates, and any reason for delay. Obtain timely advice if a filing deadline may be close.",
+    "elements": [
+      "Accrual of cause of action",
+      "Date of filing",
+      "Any delay and sufficient cause"
+    ],
+    "id": "cpa-69",
+    "kind": "statute",
+    "title": "Consumer Protection Act, 2019",
+    "section": "Section 69",
+    "text": "69. (1) The District Commission, the State Commission or the National Commission\nshall not admit a complaint unless it is filed within two years from the date on which the\ncause of action has arisen.\n(2) Notwithstanding anything contained in sub-section ( 1), a complaint may be\nentertained after the period specified in sub-section ( 1), if the complainant satisfies the\nDistrict Commission, the State Commission or the National Commission, as the case may be,\nthat he had sufficient cause for not filing the complaint within such period:\nProvided that no such complaint shall be entertained unless the District Commission\nor the State Commission or the National Commission, as the case may be, records its reasons\nfor condoning such delay.",
+    "context_text": "Source-checked explanatory summary, not a verbatim quotation: The section states a two-year period from accrual of the cause of action. It also allows consideration of a delayed complaint on sufficient cause with recorded reasons. Check this early when considering a consumer complaint, especially if events happened some time ago. Accrual and any condonation need factual and legal review. Do not calculate a final filing date from the purchase date alone or promise that delay will be excused. A recent message does not automatically restart time.",
+    "url": "https://consumeraffairs.gov.in/public/upload/files/CP%20Act%202019_1732700731.pdf",
+    "domains": [
+      "consumer"
+    ],
+    "case_stage": "initial",
+    "keywords": [
+      "consumer complaint limitation",
+      "consumer complaint filed late",
+      "cause of action consumer complaint",
+      "consumer complaint deadline"
+    ],
+    "verified_on": "2026-11-18",
+    "version": "2019 enactment; current rules and amendments require checking",
+    "status": "Excerpt checked against the stored official publication; not a comprehensive current-law certification",
+    "sha256": "0ae7f82ab5b77d50087cd4cd2dd2dbc12755c0bdb31371fdefd042b020d50756",
+    "examples": [],
+    "allowed_procedural_periods": [
+      "two years",
+      "2 years"
+    ]
+  },
+  {
+    "issue": "Was there a specifically described unfair trade practice?",
+    "plain_explanation": "This definition lists forms of unfair trade practice, including specified false representations and other listed conduct. The relevant limb and facts must be identified.",
+    "when_to_use": "Consider it for an account of misleading claims or another listed practice, alongside the appropriate goods or service provisions.",
+    "do_not_use_when": "A disagreement, unsuccessful service or delayed refund is not automatically every listed unfair practice. Avoid labelling ordinary non-performance as established fraud.",
+    "helpful_material": "What exactly was represented, by whom, and how did it differ from what was supplied? Preserve the advert or messages if available.",
+    "elements": [
+      "Specific representation or listed conduct",
+      "Relevant statutory limb",
+      "Difference between the promise and reported events"
+    ],
+    "id": "cpa-2-47",
+    "kind": "statute",
+    "title": "Consumer Protection Act, 2019",
+    "section": "Section 2(47)",
+    "text": "(47) \"unfair trade practice\" means a trade practice which, for the purpose of\npromoting the sale, use or supply of any goods or for the provision of any service,\nadopts any unfair method or unfair or deceptive practice including any of the following\npractices, namely:—\n(i) making any statement, whether orally or in writing or by visible\nrepresentation including by means of electronic record, which—\n(a) falsely represents that the goods are of a particular standard,\nquality, quantity, grade, composition, style or model;\n(b) falsely represents that the services are of a particular standard,\nquality or grade;\n(c) falsely represents any re-built, second-hand, renovated,\nreconditioned or old goods as new goods;\n(d) represents that the goods or services have sponsorship, approval,\nperformance, characteristics, accessories, uses or benefits which such\ngoods or services do not have;\n(e) represents that the seller or the supplier has a sponsorship or\napproval or affiliation which such seller or supplier does not have;\n(f) makes a false or misleading representation concerning the need\nfor, or the usefulness of, any goods or services;\n(g) gives to the public any warranty or guarantee of the performance,\nefficacy or length of life of a product or of any goods that is not based on\nan adequate or proper test thereof:\nProvided that where a defence is raised to the effect that such\nwarranty or guarantee is based on adequate or proper test, the burden of\nproof of such defence shall lie on the person raising such defence;\n(h) makes to the public a representation in a form that purports to\nbe—\n(A) a warranty or guarantee of a product or of any goods or\nservices; or\n(B) a promise to replace, maintain or repair an article or any\npart thereof or to repeat or continue a service until it has achieved a\nspecified result,\nSEC. 1] THE GAZETTE OF INDIA EXTRAORDINARY 9\nif such purported warranty or guarantee or promise is materially misleading or if there\nis no reasonable prospect that such warranty, guarantee or promise will be carried out;\n(i) materially misleads the public concerning the price at which a product or like\nproducts or goods or services, have been or are, ordinarily sold or provided, and, for\nthis purpose, a representation as to price shall be deemed to refer to the price at which\nthe product or goods or services has or have been sold by sellers or provided by\nsuppliers generally in the relevant market unless it is clearly specified to be the price at\nwhich the product has been sold or services have been provided by the person by\nwhom or on whose behalf the representation is made;\n(j) gives false or misleading facts disparaging the goods, services or trade of\nanother person.\nExplanation.—For the purposes of this sub-clause, a statement that is,—\n(A) expressed on an article offered or displayed for sale, or on its wrapper or\ncontainer; or\n(B) expressed on anything attached to, inserted in, or accompanying, an article\noffered or displayed for sale, or on anything on which the article is mounted for\ndisplay or sale; or\n(C) contained in or on anything that is sold, sent, delivered, transmitted or in\nany other manner whatsoever made available to a member of the public,\nshall be deemed to be a statement made to the public by, and only by, the person who had\ncaused the statement to be so expressed, made or contained;\n(ii) permitting the publication of any advertisement, whether in any\nnewspaper or otherwise, including by way of electronic record, for the sale or\nsupply at a bargain price of goods or services that are not intended to be offered\nfor sale or supply at the bargain price, or for a period that is, and in quantities\nthat are, reasonable, having regard to the nature of the market in which the\nbusiness is carried on, the nature and size of business, and the nature of the\nadvertisement.\nExplanation.—For the purpose of this sub-clause, \"bargain price\" means,—\n(A) a price that is stated in any advertisement to be a bargain price,\nby reference to an ordinary price or otherwise; or\n(B) a price that a person who reads, hears or sees the advertisement,\nwould reasonably understand to be a bargain price having regard to the\nprices at which the product advertised or like products are ordinarily sold;\n(iii) permitting—\n(a) the offering of gifts, prizes or other items with the intention of\nnot providing them as offered or creating impression that something is\nbeing given or offered free of charge when it is fully or partly covered by\nthe amount charged, in the transaction as a whole;\n(b) the conduct of any contest, lottery, game of chance or skill, for\nthe purpose of promoting, directly or indirectly, the sale, use or supply of\nany product or any business interest, except such contest, lottery, game\nof chance or skill as may be prescribed;\n(c) withholding from the participants of any scheme offering gifts,\nprizes or other items free of charge on its closure, the information about\nfinal results of the scheme.\n10 THE GAZETTE OF INDIA EXTRAORDINARY [P ART II—\nExplanation.—For the purpose of this sub-clause, the participants of a scheme shall\nbe deemed to have been informed of the final results of the scheme where such results are\nwithin a reasonable time published, prominently in the same newspaper in which the scheme\nwas originally advertised;\n(iv) permitting the sale or supply of goods intended to be used, or are of\na kind likely to be used by consumers, knowing or having reason to believe that\nthe goods do not comply with the standards prescribed by the competent\nauthority relating to performance, composition, contents, design, constructions,\nfinishing or packaging as are necessary to prevent or reduce the risk of injury to\nthe person using the goods;\n(v) permitting the hoarding or destruction of goods, or refusal to sell the\ngoods or to make them available for sale or to provide any service, if such\nhoarding or destruction or refusal raises or tends to raise or is intended to raise,\nthe cost of those or other similar goods or services;\n(vi) manufacturing of spurious goods or offering such goods for sale or\nadopting deceptive practices in the provision of services;\n(vii) not issuing bill or cash memo or receipt for the goods sold or services\nrendered in such manner as may be prescribed;\n(viii) refusing, after selling goods or rendering services, to take back or\nwithdraw defective goods or to withdraw or discontinue deficient services and\nto refund the consideration thereof, if paid, within the period stipulated in the\nbill or cash memo or receipt or in the absence of such stipulation, within a period\nof thirty days;\n(ix) disclosing to other person any personal information given in\nconfidence by the consumer unless such disclosure is made in accordance with\nthe provisions of any law for the time being in force.",
+    "context_text": "Source-checked explanatory summary, not a verbatim quotation: This definition lists forms of unfair trade practice, including specified false representations and other listed conduct. The relevant limb and facts must be identified. Consider it for an account of misleading claims or another listed practice, alongside the appropriate goods or service provisions. A disagreement, unsuccessful service or delayed refund is not automatically every listed unfair practice. Avoid labelling ordinary non-performance as established fraud.",
+    "url": "https://consumeraffairs.gov.in/public/upload/files/CP%20Act%202019_1732700731.pdf",
+    "domains": [
+      "consumer"
+    ],
+    "case_stage": "initial",
+    "keywords": [
+      "unfair trade practice",
+      "misleading advertisement",
+      "false representation seller",
+      "fake discount",
+      "hidden terms"
+    ],
+    "verified_on": "2026-11-18",
+    "version": "2019 enactment; current rules and amendments require checking",
+    "status": "Excerpt checked against the stored official publication; not a comprehensive current-law certification",
+    "sha256": "0ae7f82ab5b77d50087cd4cd2dd2dbc12755c0bdb31371fdefd042b020d50756",
+    "examples": []
+  },
+  {
+    "issue": "Who is entitled to possession of the immovable property?",
+    "plain_explanation": "A person entitled to possession of specific immovable property may recover it through the civil procedure provided by law.",
+    "when_to_use": "Use it as a starting point for a claim to recover land or a building when entitlement and possession need assessment.",
+    "do_not_use_when": "A deed, tax record or an allegation alone does not settle every title or possession dispute. Tenancy, inheritance, land and state-specific rules may change the route.",
+    "helpful_material": "Which state is the property in, who possesses it now, what right is claimed, and what documents or prior orders exist?",
+    "elements": [
+      "Identifiable immovable property",
+      "Claimed entitlement to possession",
+      "Current possession and applicable civil route"
+    ],
+    "id": "sra-5",
+    "kind": "statute",
+    "title": "Specific Relief Act, 1963",
+    "section": "Section 5",
+    "text": "5. Recovery of specific immovable property .—A person entitled to the possession of specific \nimmovable property may recover it in the manner provided by the Code of Civil Procedure,  1908                                  \n(5 of 1908).",
+    "context_text": "Source-checked explanatory summary, not a verbatim quotation: A person entitled to possession of specific immovable property may recover it through the civil procedure provided by law. Use it as a starting point for a claim to recover land or a building when entitlement and possession need assessment. A deed, tax record or an allegation alone does not settle every title or possession dispute. Tenancy, inheritance, land and state-specific rules may change the route.",
+    "url": "https://www.indiacode.nic.in/bitstream/123456789/1583/7/A1963-47.pdf",
+    "domains": [
+      "property"
+    ],
+    "case_stage": "initial",
+    "keywords": [
+      "land",
+      "property",
+      "possession",
+      "title",
+      "landlord",
+      "tenant",
+      "evicted",
+      "dispossessed",
+      "forcibly removed",
+      "kicked out",
+      "inheritance",
+      "inherited house",
+      "boundary",
+      "encroachment",
+      "trespass",
+      "entered my property",
+      "entered my house",
+      "unlawful entry",
+      "जमीन",
+      "कब्जा"
+    ],
+    "verified_on": "2026-11-18",
+    "version": "India Code publication with amendments noted; state and other applicable rules require checking",
+    "status": "Excerpt checked against the stored official publication; not a comprehensive current-law certification",
+    "sha256": "7b90aae6b01d7c9533f5b69a8ccbf00c16ba439e4624561204de236d5cb7f43d",
+    "examples": [
+      {
+        "title": "Anathula Sudhakar v. P. Buchi Reddy",
+        "court": "Supreme Court of India",
+        "date": "2008-03-25",
+        "reference": "Civil Appeal 6191 of 2001 · para. 17, PDF pp. 6–7",
+        "url": "https://api.sci.gov.in/jonew/judis/31000.pdf#page=6",
+        "takeaway": "The Court distinguished interference with possession from disputes where title or recovery of possession also needs to be decided.",
+        "difference": "Compare who possessed the property, whether title is seriously disputed, and the relief sought. The decision concerned competing claims to vacant plots."
+      }
+    ]
+  },
+  {
+    "issue": "Was a person dispossessed without consent otherwise than through due process?",
+    "plain_explanation": "This provision provides a possessory suit subject to its conditions, including a six-month window from dispossession and exclusion of suits against the Government. It does not finally determine title.",
+    "when_to_use": "Check promptly when someone reports being forcibly or unlawfully removed from possession. Confirm the dispossession date and whether this remedy fits.",
+    "do_not_use_when": "Do not use it as a general title declaration, assume it applies against Government, or ignore its time limit. Other routes may need assessment if its conditions are not met.",
+    "helpful_material": "Who was in possession, when and how was possession lost, was there consent or a court process, and is Government the opposing party?",
+    "elements": [
+      "Previous possession",
+      "Dispossession without consent otherwise than due course of law",
+      "Date and six-month condition",
+      "Government exclusion"
+    ],
+    "id": "sra-6",
+    "kind": "statute",
+    "title": "Specific Relief Act, 1963",
+    "section": "Section 6",
+    "text": "6. Suit by person dispossessed of immovable property .—(1) If any person is dispossessed without \nhis consent of immovable property otherwise than in due course of law, he or any person 3[through whom \n                                                           \n1. The words \"except the State of Jammu and Kashmir\" omitted by Act 34 of 2019, s. 95  and 96 and the Fifth Schedule                            \n(w.e.f. 31-10-2019). \n2. 1st March, 196 4, vide notification No. S.O. 189, dated 1 3th January, 196 4, see Gazette of India, Extraordinary, Part II,                             \nsec. 3(ii). \n3. Ins. by Act 18 of 2018, s. 2 (w.e.f. 1-10-2018). \n5 \n \nhe has been in possession or  any person] claiming through him may, by suit , recover possession thereof, \nnotwithstanding any other title that may be set up in such suit. \n(2) No suit under this section shall be brought— \n(a) after the expiry of six months from the date of dispossession; or \n(b) against the Government. \n(3) No appeal shall lie from any order or decree passed in any suit instituted under this section, nor \nshall any review of any such order or decree be allowed. \n(4) Nothing in this section shall bar any person from suing to establish his title to such property and to \nrecover possession thereof.",
+    "context_text": "Source-checked explanatory summary, not a verbatim quotation: This provision provides a possessory suit subject to its conditions, including a six-month window from dispossession and exclusion of suits against the Government. It does not finally determine title. Check promptly when someone reports being forcibly or unlawfully removed from possession. Confirm the dispossession date and whether this remedy fits. Do not use it as a general title declaration, assume it applies against Government, or ignore its time limit. Other routes may need assessment if its conditions are not met.",
+    "url": "https://www.indiacode.nic.in/bitstream/123456789/1583/7/A1963-47.pdf",
+    "domains": [
+      "property"
+    ],
+    "case_stage": "initial",
+    "keywords": [
+      "land",
+      "property",
+      "possession",
+      "title",
+      "landlord",
+      "tenant",
+      "evicted",
+      "dispossessed",
+      "forcibly removed",
+      "kicked out",
+      "inheritance",
+      "inherited house",
+      "boundary",
+      "encroachment",
+      "trespass",
+      "entered my property",
+      "entered my house",
+      "unlawful entry",
+      "जमीन",
+      "कब्जा"
+    ],
+    "verified_on": "2026-11-18",
+    "version": "India Code publication with amendments noted; state and other applicable rules require checking",
+    "status": "Excerpt checked against the stored official publication; not a comprehensive current-law certification",
+    "sha256": "7b90aae6b01d7c9533f5b69a8ccbf00c16ba439e4624561204de236d5cb7f43d",
+    "examples": [],
+    "allowed_procedural_periods": [
+      "six months",
+      "6 months"
+    ]
+  },
+  {
+    "issue": "Is a legal status or property right being denied?",
+    "plain_explanation": "A court may declare an entitlement to legal character or property rights in the circumstances specified. The proviso restricts a bare declaration where further available relief is omitted.",
+    "when_to_use": "Explore it where title or a claimed property right is genuinely disputed, considering possession and any consequential relief together.",
+    "do_not_use_when": "Do not assume a bare declaration alone is sufficient when possession or other further relief is required. The provision does not itself establish ownership.",
+    "helpful_material": "What right is denied, on what basis, who is in possession, and what outcome beyond a declaration is needed?",
+    "elements": [
+      "Claimed legal character or property right",
+      "Denial by the opposing party",
+      "Need for further consequential relief"
+    ],
+    "id": "sra-34",
+    "kind": "statute",
+    "title": "Specific Relief Act, 1963",
+    "section": "Section 34",
+    "text": "34. Discretion of court as to declaration of status or right .—Any person entitled to any legal \ncharacter, or to any right as to any property, may institute a suit against any person denying, or interested \nto deny, his title to such character or right, and the  court may in its discretion make therein a declaration \nthat he is so entitled, and the plaintiff need not in such suit ask for any further relief: \nProvided that no court shall make any such declaration where the plaintiff, being able to seek further \nrelief than a mere declaration of title, omits to do so. \n14 \n \nExplanation.—A trustee of property is a “person interested to deny” a title adverse to the title of some \none who is not inexistence, and for whom, if in existence, he would be a trustee.",
+    "context_text": "Source-checked explanatory summary, not a verbatim quotation: A court may declare an entitlement to legal character or property rights in the circumstances specified. The proviso restricts a bare declaration where further available relief is omitted. Explore it where title or a claimed property right is genuinely disputed, considering possession and any consequential relief together. Do not assume a bare declaration alone is sufficient when possession or other further relief is required. The provision does not itself establish ownership.",
+    "url": "https://www.indiacode.nic.in/bitstream/123456789/1583/7/A1963-47.pdf",
+    "domains": [
+      "property"
+    ],
+    "case_stage": "initial",
+    "keywords": [
+      "land",
+      "property",
+      "possession",
+      "title",
+      "landlord",
+      "tenant",
+      "evicted",
+      "dispossessed",
+      "forcibly removed",
+      "kicked out",
+      "inheritance",
+      "inherited house",
+      "boundary",
+      "encroachment",
+      "trespass",
+      "entered my property",
+      "entered my house",
+      "unlawful entry",
+      "जमीन",
+      "कब्जा"
+    ],
+    "verified_on": "2026-11-18",
+    "version": "India Code publication with amendments noted; state and other applicable rules require checking",
+    "status": "Excerpt checked against the stored official publication; not a comprehensive current-law certification",
+    "sha256": "7b90aae6b01d7c9533f5b69a8ccbf00c16ba439e4624561204de236d5cb7f43d",
+    "examples": [
+      {
+        "title": "Anathula Sudhakar v. P. Buchi Reddy",
+        "court": "Supreme Court of India",
+        "date": "2008-03-25",
+        "reference": "Civil Appeal 6191 of 2001 · para. 17, PDF pp. 6–7",
+        "url": "https://api.sci.gov.in/jonew/judis/31000.pdf#page=6",
+        "takeaway": "The Court distinguished interference with possession from disputes where title or recovery of possession also needs to be decided.",
+        "difference": "Compare who possessed the property, whether title is seriously disputed, and the relief sought. The decision concerned competing claims to vacant plots."
+      }
+    ]
+  },
+  {
+    "issue": "Is there a threatened or actual invasion of a property right or obligation?",
+    "plain_explanation": "A perpetual injunction may be granted in the statutory circumstances to prevent breach of an obligation or invasion of a property right. It is a discretionary remedy decided on the merits.",
+    "when_to_use": "Explore it for threatened interference with a claimed right, while checking title, possession, the statutory conditions and any other necessary relief.",
+    "do_not_use_when": "It is not the same as an immediately granted temporary order. A person out of possession or with disputed title may need additional relief; do not promise an injunction.",
+    "helpful_material": "What interference is happening, who possesses the property, what right supports the claim, and is urgent interim advice needed?",
+    "elements": [
+      "Relevant right or obligation",
+      "Actual or threatened invasion",
+      "Statutory grounds and adequacy of other relief"
+    ],
+    "id": "sra-38",
+    "kind": "statute",
+    "title": "Specific Relief Act, 1963",
+    "section": "Section 38",
+    "text": "38. Perpetual injunction when granted.—(1) Subject to the other provisions contained in or referred \nto by this Chapter, a  perpetual injunction may be granted to the plaintiff to prevent the breach of an \nobligation existing in his favour, whether expressly or by implication. \n(2) When any such obligation arises from contract, the court shall be guided by the rules and provisions \ncontained in Chapter II. \n(3) When the defendant invades or threatens to invade the plaintiff’s right to, or enjoyment of, property, \nthe court may grant a perpetual injunction in the following cases, namely:— \n(a) where the defendant is trustee of the property for the plaintiff; \n(b) where there exists no standard for ascertaining the actual damage caused, or likely to be caused, \nby the invasion; \n(c) where the invasion is such that compensation in money would not afford adequate relief; \n(d) where the injunction is necessary to prevent a multiplicity of judicial proceedings.",
+    "context_text": "Source-checked explanatory summary, not a verbatim quotation: A perpetual injunction may be granted in the statutory circumstances to prevent breach of an obligation or invasion of a property right. It is a discretionary remedy decided on the merits. Explore it for threatened interference with a claimed right, while checking title, possession, the statutory conditions and any other necessary relief. It is not the same as an immediately granted temporary order. A person out of possession or with disputed title may need additional relief; do not promise an injunction.",
+    "url": "https://www.indiacode.nic.in/bitstream/123456789/1583/7/A1963-47.pdf",
+    "domains": [
+      "property"
+    ],
+    "case_stage": "initial",
+    "keywords": [
+      "land",
+      "property",
+      "possession",
+      "title",
+      "landlord",
+      "tenant",
+      "evicted",
+      "dispossessed",
+      "forcibly removed",
+      "kicked out",
+      "inheritance",
+      "inherited house",
+      "boundary",
+      "encroachment",
+      "trespass",
+      "entered my property",
+      "entered my house",
+      "unlawful entry",
+      "जमीन",
+      "कब्जा"
+    ],
+    "verified_on": "2026-11-18",
+    "version": "India Code publication with amendments noted; state and other applicable rules require checking",
+    "status": "Excerpt checked against the stored official publication; not a comprehensive current-law certification",
+    "sha256": "7b90aae6b01d7c9533f5b69a8ccbf00c16ba439e4624561204de236d5cb7f43d",
+    "examples": [
+      {
+        "title": "Anathula Sudhakar v. P. Buchi Reddy",
+        "court": "Supreme Court of India",
+        "date": "2008-03-25",
+        "reference": "Civil Appeal 6191 of 2001 · para. 17, PDF pp. 6–7",
+        "url": "https://api.sci.gov.in/jonew/judis/31000.pdf#page=6",
+        "takeaway": "The Court distinguished interference with possession from disputes where title or recovery of possession also needs to be decided.",
+        "difference": "Compare who possessed the property, whether title is seriously disputed, and the relief sought. The decision concerned competing claims to vacant plots."
+      }
+    ]
+  },
+  {
+    "issue": "Do the reported acts meet criminal-trespass conditions?",
+    "plain_explanation": "Criminal trespass requires entry or unlawful remaining with the specified intent, such as committing an offence or intimidating, insulting or annoying a person in possession. House-trespass has additional setting requirements.",
+    "when_to_use": "Consider it only when the account raises the entry/remaining and intent elements, alongside any civil possession issues.",
+    "do_not_use_when": "Do not convert every boundary, title, landlord or ownership dispute into a criminal allegation. Disputed entry alone does not establish all elements.",
+    "helpful_material": "Who was in possession, what entry or remaining occurred, and what facts suggest the required intent? Distinguish observed words or acts from assumptions.",
+    "elements": [
+      "Possession of another",
+      "Entry or unlawful remaining",
+      "Specified intent",
+      "Setting if house-trespass is alleged"
+    ],
+    "id": "bns-329",
+    "kind": "statute",
+    "title": "Bharatiya Nyaya Sanhita, 2023",
+    "section": "Section 329",
+    "text": "329.(1) Whoever enters into or upon property in the possession of another with\nintent to commit an offence or to intimidate, insult or annoy any person in possession of\nsuch property or having lawfully entered into or upon such property, unlawfully remains\nthere with intent thereby to intimidate, insult or annoy any such person or with intent to\ncommit an offence is said to commit criminal trespass.\n(2) Whoever commits criminal trespass by entering into or remaining in any building,\ntent or vessel used as a human dwelling or any building used as a place for worship, or as a\nplace for the custody of property, is said to commit house-trespass.\nExplanation.—The introduction of any part of the criminal trespasser’s body is entering\nsufficient to constitute house-trespass.\n(3) Whoever commits criminal trespass shall be punished with imprisonment of either\ndescription for a term which may extend to three months, or with fine which may extend to\nfive thousand rupees, or with both.\n(4) Whoever commits house-trespass shall be punished with imprisonment of either\ndescription for a term which may extend to one year, or with fine which may extend to five\nthousand rupees, or with both.",
+    "context_text": "Source-checked explanatory summary, not a verbatim quotation: Criminal trespass requires entry or unlawful remaining with the specified intent, such as committing an offence or intimidating, insulting or annoying a person in possession. House-trespass has additional setting requirements. Consider it only when the account raises the entry/remaining and intent elements, alongside any civil possession issues. Do not convert every boundary, title, landlord or ownership dispute into a criminal allegation. Disputed entry alone does not establish all elements.",
+    "url": "https://www.mha.gov.in/files/documents/250883_english01042024.pdf",
+    "domains": [
+      "property"
+    ],
+    "case_stage": "initial",
+    "keywords": [
+      "trespass",
+      "broke in",
+      "intimidate",
+      "threatened",
+      "encroachment",
+      "entered my land"
+    ],
+    "verified_on": "2026-11-18",
+    "version": "2023 enacted text; incident-date and later-amendment checks are required",
+    "status": "Excerpt checked against the stored official publication; not a comprehensive current-law certification",
+    "sha256": "c9da896e7a16c481a46235789f74f545b7a9ed7f3a5c8049d0b1b9252c6731f4",
+    "examples": [],
+    "effective_from": "2024-07-01"
+  },
+  {
+    "issue": "Could the reported act fall within the statutory definition of rape?",
+    "plain_explanation": "The definition combines specified sexual acts with listed circumstances concerning will, consent, age or ability to communicate consent. It contains gendered statutory wording, explanations and exceptions. Lack of physical resistance alone is not consent.",
+    "when_to_use": "Use this as a conditional legal starting point for a reported rape or non-consensual sexual act. Check incident date, age and statutory conditions without requiring a graphic retelling.",
+    "do_not_use_when": "Do not infer consent from silence, lack of injury, relationship or delayed reporting. Not every sexual assault has the same legal definition. Exceptions and other applicable protections need qualified review.",
+    "helpful_material": "Is the affected person safe and able to seek care? What was their age at the incident, approximate date and state? Broad descriptions are enough for this initial stage; identifying or graphic details are not required.",
+    "elements": [
+      "Act within the statutory definition",
+      "Relevant will or consent circumstance",
+      "Age and other statutory conditions",
+      "Incident date and any applicable exception"
+    ],
+    "id": "bns-63",
+    "kind": "statute",
+    "title": "Bharatiya Nyaya Sanhita, 2023",
+    "section": "Section 63",
+    "text": "63.A man is said to commit “rape” if he—\n(a) penetrates his penis, to any extent, into the vagina, mouth, urethra or anus of\na woman or makes her to do so with him or any other person; or\n(b) inserts, to any extent, any object or a part of the body, not being the penis,\ninto the vagina, the urethra or anus of a woman or makes her to do so with him or any\nother person; or\n(c) manipulates any part of the body of a woman so as to cause penetration into\nthe vagina, urethra, anus or any part of body of such woman or makes her to do so with\nhim or any other person; or\n(d) applies his mouth to the vagina, anus, urethra of a woman or makes her to do\nso with him or any other person,\nunder the circumstances falling under any of the following seven descriptions:—\n(i) against her will;\n(ii) without her consent;\n(iii) with her consent, when her consent has been obtained by putting her or\nany person in whom she is interested, in fear of death or of hurt;\n(iv) with her consent, when the man knows that he is not her husband and that\nher consent is given because she believes that he is another man to whom she is or\nbelieves herself to be lawfully married;\n(v) with her consent when, at the time of giving such consent, by reason of\nunsoundness of mind or intoxication or the administration by him personally or through\nanother of any stupefying or unwholesome substance, she is unable to understand\nthe nature and consequences of that to which she gives consent;\n(vi) with or without her consent, when she is under eighteen years of age;\n(vii) when she is unable to communicate consent.\nExplanation 1.—For the purposes of this section, “vagina” shall also includelabia\nmajora.\nExplanation 2.—Consent means an unequivocal voluntary agreement when the woman\nby words, gestures or any form of verbal or non-verbal communication, communicates\nwillingness to participate in the specific sexual act:\nProvided that a woman who does not physically resist to the act of penetration shall\nnot by the reason only of that fact, be regarded as consenting to the sexual activity.\nException 1.––A medical procedure or intervention shall not constitute rape.\nException 2.––Sexual intercourse or sexual acts by a man with his own wife, the wife\nnot being under eighteen years of age, is not rape.",
+    "context_text": "Source-checked explanatory summary, not a verbatim quotation: The definition combines specified sexual acts with listed circumstances concerning will, consent, age or ability to communicate consent. It contains gendered statutory wording, explanations and exceptions. Lack of physical resistance alone is not consent. Use this as a conditional legal starting point for a reported rape or non-consensual sexual act. Check incident date, age and statutory conditions without requiring a graphic retelling. Do not infer consent from silence, lack of injury, relationship or delayed reporting. Not every sexual assault has the same legal definition. Exceptions and other applicable protections need qualified review.",
+    "url": "https://www.mha.gov.in/files/documents/250883_english01042024.pdf",
+    "domains": [
+      "sexual"
+    ],
+    "case_stage": "initial",
+    "keywords": [
+      "rape",
+      "raped",
+      "non-consensual intercourse",
+      "forced sex",
+      "बलात्कार"
+    ],
+    "verified_on": "2026-11-18",
+    "version": "2023 enacted text; incident-date and later-amendment checks are required",
+    "status": "Excerpt checked against the stored official publication; not a comprehensive current-law certification",
+    "sha256": "c9da896e7a16c481a46235789f74f545b7a9ed7f3a5c8049d0b1b9252c6731f4",
+    "examples": [],
+    "effective_from": "2024-07-01"
+  },
+  {
+    "issue": "Which punishment provision may follow if rape is legally established?",
+    "plain_explanation": "This section provides punishment for rape, including specified aggravated circumstances. It follows legal determination of the relevant offence and facts.",
+    "when_to_use": "Consider it after identifying the possible definition and facts. A general initial account does not establish an aggravated category or predict a sentence.",
+    "do_not_use_when": "Do not quote a guaranteed sentence or infer an aggravated circumstance, guilt or outcome from a report alone. Special age-related provisions may require further research.",
+    "helpful_material": "A legal professional should assess any relevant relationship of authority, vulnerability or other statutory circumstance from the minimum necessary facts.",
+    "elements": [
+      "Possible rape definition",
+      "Relevant statutory category",
+      "Facts required for any specified circumstance"
+    ],
+    "id": "bns-64",
+    "kind": "statute",
+    "title": "Bharatiya Nyaya Sanhita, 2023",
+    "section": "Section 64",
+    "text": "64.(1) Whoever, except in the cases provided for in sub-section (2), commits rape,\nshall be punished with rigorous imprisonment of either description for a term which shall not\nbe less than ten years, but which may extend to imprisonment for life, and shall also be liable\nto fine.\n(2) Whoever,—\n(a) being a police officer, commits rape,—\nRape.\nPunishment\nfor rape.\nSec. 1] THE GAZETTE OF INDIA EXTRAORDINARY 23_____________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________\n(i) within the limits of the police station to which such police officer is\nappointed; or\n(ii) in the premises of any station house; or\n(iii) on a woman in such police officer’s custody or in the custody of a\npolice officer subordinate to such police officer; or\n(b) being a public servant, commits rape on a woman in such public servant’s\ncustody or in the custody of a public servant subordinate to such public servant; or\n(c) being a member of the armed forces deployed in an area by the Central\nGovernment or a State Government commits rape in such area; or\n(d) being on the management or on the staff of a jail, remand home or other place\nof custody established by or under any law for the time being in force or of a women’s\nor children’s institution, commits rape on any inmate of such jail, remand home, place\nor institution; or\n(e) being on the management or on the staff of a hospital, commits rape on a\nwoman in that hospital; or\n(f) being a relative, guardian or teacher of, or a person in a position of trust or\nauthority towards the woman, commits rape on such woman; or\n(g) commits rape during communal or sectarian violence; or\n(h) commits rape on a woman knowing her to be pregnant; or\n(i) commits rape, on a woman incapable of giving consent; or\n(j) being in a position of control or dominance over a woman, commits rape on\nsuch woman; or\n(k) commits rape on a woman suffering from mental or physical disability; or\n(l) while committing rape causes grievous bodily harm or maims or disfigures or\nendangers the life of a woman; or\n(m) commits rape repeatedly on the same woman,\nshall be punished with rigorous imprisonment for a term which shall not be less than ten\nyears, but which may extend to imprisonment for life, which shall mean imprisonment for the\nremainder of that person’s natural life, and shall also be liable to fine.\nExplanation.—For the purposes of this sub-section,—\n(a) “armed forces” means the naval, army and air forces and includes any member\nof the Armed Forces constituted under any law for the time being in force, including\nthe paramilitary forces and any auxiliary forces that are under the control of the Central\nGovernment or the State Government;\n(b) “hospital” means the precincts of the hospital and includes the precincts of\nany institution for the reception and treatment of persons during convalescence or of\npersons requiring medical attention or rehabilitation;\n(c) “police officer” shall have the same meaning as assigned to the expression\n“police” under the Police Act, 1861;\n(d) “women’s or children’s institution” means an institution, whether called an\norphanage or a home for neglected women or children or a widow’s home or an\ninstitution called by any other name, which is established and maintained for the\nreception and care of women or children.\n5 of 1861.\n24 THE GAZETTE OF INDIA EXTRAORDINARY [Part II—_____________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________",
+    "context_text": "Source-checked explanatory summary, not a verbatim quotation: This section provides punishment for rape, including specified aggravated circumstances. It follows legal determination of the relevant offence and facts. Consider it after identifying the possible definition and facts. A general initial account does not establish an aggravated category or predict a sentence. Do not quote a guaranteed sentence or infer an aggravated circumstance, guilt or outcome from a report alone. Special age-related provisions may require further research.",
+    "url": "https://www.mha.gov.in/files/documents/250883_english01042024.pdf",
+    "domains": [
+      "sexual"
+    ],
+    "case_stage": "initial",
+    "keywords": [
+      "rape",
+      "raped",
+      "aggravated rape",
+      "gang rape",
+      "बलात्कार"
+    ],
+    "verified_on": "2026-11-18",
+    "version": "2023 enacted text; incident-date and later-amendment checks are required",
+    "status": "Excerpt checked against the stored official publication; not a comprehensive current-law certification",
+    "sha256": "c9da896e7a16c481a46235789f74f545b7a9ed7f3a5c8049d0b1b9252c6731f4",
+    "examples": [],
+    "effective_from": "2024-07-01"
+  },
+  {
+    "issue": "Could the reported assault or criminal force meet this provision’s conditions?",
+    "plain_explanation": "This section concerns assault or criminal force against a woman with the specified intent or knowledge concerning outraging modesty. It is distinct from the rape definition.",
+    "when_to_use": "Explore it where the description concerns unwanted assault or force and the statutory intent/knowledge and gender conditions may be relevant.",
+    "do_not_use_when": "Do not assume all unwanted contact is legally identical or that this section substitutes for a more specific applicable provision. For a child, POCSO also needs checking.",
+    "helpful_material": "Only share what you feel able to share: the broad nature of contact, age, date and context. Missing recordings or injuries does not prevent an initial legal discussion.",
+    "elements": [
+      "Assault or criminal force",
+      "Statutory gender condition",
+      "Specified intent or knowledge"
+    ],
+    "id": "bns-74",
+    "kind": "statute",
+    "title": "Bharatiya Nyaya Sanhita, 2023",
+    "section": "Section 74",
+    "text": "74.Whoever assaults or uses criminal force to any woman, intending to outrage or\nknowing it to be likely that he will thereby outrage her modesty, shall be punished with\nimprisonment of either description for a term which shall not be less than one year but which\nmay extend to five years, and shall also be liable to fine.",
+    "context_text": "Source-checked explanatory summary, not a verbatim quotation: This section concerns assault or criminal force against a woman with the specified intent or knowledge concerning outraging modesty. It is distinct from the rape definition. Explore it where the description concerns unwanted assault or force and the statutory intent/knowledge and gender conditions may be relevant. Do not assume all unwanted contact is legally identical or that this section substitutes for a more specific applicable provision. For a child, POCSO also needs checking.",
+    "url": "https://www.mha.gov.in/files/documents/250883_english01042024.pdf",
+    "domains": [
+      "sexual"
+    ],
+    "case_stage": "initial",
+    "keywords": [
+      "molested",
+      "groped",
+      "unwanted sexual touch",
+      "assaulted me",
+      "criminal force woman"
+    ],
+    "verified_on": "2026-11-18",
+    "version": "2023 enacted text; incident-date and later-amendment checks are required",
+    "status": "Excerpt checked against the stored official publication; not a comprehensive current-law certification",
+    "sha256": "c9da896e7a16c481a46235789f74f545b7a9ed7f3a5c8049d0b1b9252c6731f4",
+    "examples": [],
+    "effective_from": "2024-07-01"
+  },
+  {
+    "issue": "Does the account describe a listed form of sexual harassment?",
+    "plain_explanation": "This section lists forms of sexual harassment, including specified unwelcome physical conduct, sexual demands, pornography against a woman’s will and sexually coloured remarks, within its statutory wording.",
+    "when_to_use": "Explore the relevant listed act when the description concerns sexual harassment. Workplace-specific procedures or other statutes may also need separate research.",
+    "do_not_use_when": "Do not label every workplace disagreement as sexual harassment or assume the same statute covers every person and act. Check age and other potentially applicable protection laws.",
+    "helpful_material": "What broad type of unwelcome conduct was reported, when, in what setting, and what outcome or immediate support is wanted?",
+    "elements": [
+      "Conduct within a listed category",
+      "Applicable statutory conditions",
+      "Context and any additional protection route"
+    ],
+    "id": "bns-75",
+    "kind": "statute",
+    "title": "Bharatiya Nyaya Sanhita, 2023",
+    "section": "Section 75",
+    "text": "75.(1) A man committing any of the following acts:—\n(i) physical contact and advances involving unwelcome and explicit sexual\novertures; or\n(ii) a demand or request for sexual favours; or\n(iii) showing pornography against the will of a woman; or\n(iv) making sexually coloured remarks,\nshall be guilty of the offence of sexual harassment.\n(2) Any man who commits the offence specified in clause (i) or clause (ii) or clause (iii)\nof sub-section (1) shall be punished with rigorous imprisonment for a term which may extend\nto three years, or with fine, or with both.\n(3) Any man who commits the offence specified in clause (iv) of sub-section (1) shall\nbe punished with imprisonment of either description for a term which may extend to one year,\nor with fine, or with both.",
+    "context_text": "Source-checked explanatory summary, not a verbatim quotation: This section lists forms of sexual harassment, including specified unwelcome physical conduct, sexual demands, pornography against a woman’s will and sexually coloured remarks, within its statutory wording. Explore the relevant listed act when the description concerns sexual harassment. Workplace-specific procedures or other statutes may also need separate research. Do not label every workplace disagreement as sexual harassment or assume the same statute covers every person and act. Check age and other potentially applicable protection laws.",
+    "url": "https://www.mha.gov.in/files/documents/250883_english01042024.pdf",
+    "domains": [
+      "sexual"
+    ],
+    "case_stage": "initial",
+    "keywords": [
+      "sexual harassment",
+      "sexual remarks",
+      "sexual favours",
+      "unwelcome sexual advances",
+      "pornography shown"
+    ],
+    "verified_on": "2026-11-18",
+    "version": "2023 enacted text; incident-date and later-amendment checks are required",
+    "status": "Excerpt checked against the stored official publication; not a comprehensive current-law certification",
+    "sha256": "c9da896e7a16c481a46235789f74f545b7a9ed7f3a5c8049d0b1b9252c6731f4",
+    "examples": [],
+    "effective_from": "2024-07-01"
+  },
+  {
+    "issue": "Was the affected person below eighteen at the time?",
+    "plain_explanation": "For this Act, a child is a person below eighteen years of age. Age at the alleged incident is the important starting question.",
+    "when_to_use": "Check this when a sexual-offence concern may involve a child; the Act’s protections are not limited to girls.",
+    "do_not_use_when": "Do not infer age from school class, appearance or current age. If age is unknown, ask gently and keep child-related sections conditional.",
+    "helpful_material": "Ask only the age or approximate age at the incident initially. Do not request a child’s name, address, photograph or explicit material.",
+    "elements": [
+      "Age below eighteen at the incident"
+    ],
+    "id": "pocso-2-1-d",
+    "kind": "statute",
+    "title": "Protection of Children from Sexual Offences Act, 2012",
+    "section": "Section 2(1)(d)",
+    "text": "(d) “child” means any person below the age of eighteen years;",
+    "context_text": "Source-checked explanatory summary, not a verbatim quotation: For this Act, a child is a person below eighteen years of age. Age at the alleged incident is the important starting question. Check this when a sexual-offence concern may involve a child; the Act’s protections are not limited to girls. Do not infer age from school class, appearance or current age. If age is unknown, ask gently and keep child-related sections conditional.",
+    "url": "https://www.indiacode.nic.in/bitstream/123456789/2079/1/AA2012-32.pdf",
+    "domains": [
+      "child"
+    ],
+    "case_stage": "initial",
+    "keywords": [
+      "child",
+      "minor",
+      "under 18",
+      "under eighteen",
+      "daughter",
+      "son",
+      "बच्चा",
+      "बच्ची"
+    ],
+    "verified_on": "2026-11-18",
+    "version": "India Code text with amendment notes; incident-date and current-rule checks are required",
+    "status": "Excerpt checked against the stored official publication; not a comprehensive current-law certification",
+    "sha256": "def90f072fdb6b62fe95adafa0f5e1ef08f5f1002dbb6067f8af4b1cd94a5c5b",
+    "examples": [],
+    "effective_from": "2012-11-14"
+  },
+  {
+    "issue": "Could the alleged act fall within the child-protection definition of penetrative sexual assault?",
+    "plain_explanation": "This section defines specified penetrative sexual acts involving a child. It must be read with the child definition and relevant statutory provisions.",
+    "when_to_use": "Consider it conditionally where the account broadly indicates a penetrative sexual act and age below eighteen. A graphic retelling is not needed for initial guidance.",
+    "do_not_use_when": "Do not infer penetration from a vague reference to touching or demand explicit descriptions. A different POCSO provision may be relevant to non-penetrative conduct.",
+    "helpful_material": "Prioritise current safety, care, age at the incident and a broad non-graphic description. Seek trained child-protection assistance rather than repeatedly questioning the child.",
+    "elements": [
+      "Child at the relevant time",
+      "Act within the statutory definition"
+    ],
+    "id": "pocso-3",
+    "kind": "statute",
+    "title": "Protection of Children from Sexual Offences Act, 2012",
+    "section": "Section 3",
+    "text": "3. Penetrative sexual assault.—A person is said to commit “penetrative sexual assault” if— \n(a) he penetrates his penis, to any extent, into the vagina, mouth, urethra or anus of a child or \nmakes the child to do so with him or any other person; or \n(b) he inserts, to any extent, any object or a part of the body, not being the penis, into the vagina, \nthe urethra or anus of the child or makes the child to do so with him or any other person; or \n(c) he manipulates any part of the body of the child so as to cause penetration into the vagina, \nurethra, anus or any part  of body of the child or makes the child to  do so with him or any other \nperson; or \n(d) he applies his mouth to the penis, vagina, anus, urethra of the child or makes the child to do so \nto such person or any other person.",
+    "context_text": "Source-checked explanatory summary, not a verbatim quotation: This section defines specified penetrative sexual acts involving a child. It must be read with the child definition and relevant statutory provisions. Consider it conditionally where the account broadly indicates a penetrative sexual act and age below eighteen. A graphic retelling is not needed for initial guidance. Do not infer penetration from a vague reference to touching or demand explicit descriptions. A different POCSO provision may be relevant to non-penetrative conduct.",
+    "url": "https://www.indiacode.nic.in/bitstream/123456789/2079/1/AA2012-32.pdf",
+    "domains": [
+      "child"
+    ],
+    "case_stage": "initial",
+    "keywords": [
+      "child rape",
+      "rape of a child",
+      "daughter was raped",
+      "minor rape",
+      "penetrative sexual assault child",
+      "penetration child",
+      "sexual assault child",
+      "बच्चे से बलात्कार"
+    ],
+    "verified_on": "2026-11-18",
+    "version": "India Code text with amendment notes; incident-date and current-rule checks are required",
+    "status": "Excerpt checked against the stored official publication; not a comprehensive current-law certification",
+    "sha256": "def90f072fdb6b62fe95adafa0f5e1ef08f5f1002dbb6067f8af4b1cd94a5c5b",
+    "examples": [],
+    "effective_from": "2012-11-14"
+  },
+  {
+    "issue": "Could there have been physical contact with sexual intent without penetration?",
+    "plain_explanation": "This section addresses specified touching and other acts with sexual intent involving physical contact without penetration. The sexual-intent and contact requirements matter.",
+    "when_to_use": "Consider it for a child’s report of inappropriate sexual touching. Contact through clothing is not excluded solely because it was not skin-to-skin.",
+    "do_not_use_when": "Do not infer sexual intent from every ordinary touch, or treat absence of skin-to-skin contact as an automatic exclusion. Consider a different provision if penetration is reported.",
+    "helpful_material": "Use a broad description already shared; do not prompt for repeated or graphic details. Clarify age and what immediate support is needed.",
+    "elements": [
+      "Child at the incident",
+      "Physical contact without penetration",
+      "Sexual intent"
+    ],
+    "id": "pocso-7",
+    "kind": "statute",
+    "title": "Protection of Children from Sexual Offences Act, 2012",
+    "section": "Section 7",
+    "text": "7. Sexual assault.—Whoever, with sexual intent touches the vagina, penis, anus or breast of the child \nor makes the child touch the vagina, penis, anus or breast of such person or any other person, or does any \nother act with sexual intent which involves  physical contact without penetration is said to commit sexual \nassault.",
+    "context_text": "Source-checked explanatory summary, not a verbatim quotation: This section addresses specified touching and other acts with sexual intent involving physical contact without penetration. The sexual-intent and contact requirements matter. Consider it for a child’s report of inappropriate sexual touching. Contact through clothing is not excluded solely because it was not skin-to-skin. Do not infer sexual intent from every ordinary touch, or treat absence of skin-to-skin contact as an automatic exclusion. Consider a different provision if penetration is reported.",
+    "url": "https://www.indiacode.nic.in/bitstream/123456789/2079/1/AA2012-32.pdf",
+    "domains": [
+      "child"
+    ],
+    "case_stage": "initial",
+    "keywords": [
+      "child touching",
+      "sexual touching child",
+      "touched my daughter",
+      "daughter was touched",
+      "touched her",
+      "touching her",
+      "child was touched",
+      "molested my child",
+      "inappropriate touch child",
+      "sexual assault child"
+    ],
+    "verified_on": "2026-11-18",
+    "version": "India Code text with amendment notes; incident-date and current-rule checks are required",
+    "status": "Excerpt checked against the stored official publication; not a comprehensive current-law certification",
+    "sha256": "def90f072fdb6b62fe95adafa0f5e1ef08f5f1002dbb6067f8af4b1cd94a5c5b",
+    "examples": [
+      {
+        "title": "Attorney General for India v. Satish and connected appeals",
+        "court": "Supreme Court of India",
+        "date": "2021-11-18",
+        "reference": "Criminal Appeal 1410 of 2021 and connected appeals · majority paras. 33–35",
+        "url": "https://api.sci.gov.in/supremecourt/2021/2286/2286_2021_32_1501_31537_Judgement_18-Nov-2021.pdf#page=24",
+        "takeaway": "The Court held that physical contact through clothing can fall within section 7. Sexual intent remains a factual question.",
+        "difference": "Compare the kind of contact, age and surrounding facts. The interpretation alone does not establish what happened in another case."
+      }
+    ],
+    "effective_from": "2012-11-14"
+  },
+  {
+    "issue": "Does a child-protection concern trigger the reporting provision?",
+    "plain_explanation": "The section requires information about apprehended or known offences under the Act to be provided to the Special Juvenile Police Unit or local police. It includes child-friendly recording and protection provisions.",
+    "when_to_use": "Explain this reporting route when a possible POCSO concern is raised. Do not make reporting guidance depend on having CCTV, a medical report or a completed proof file.",
+    "do_not_use_when": "The app does not report automatically and cannot promise confidentiality against statutory reporting duties. Do not encourage private settlement or delaying urgent care while collecting evidence.",
+    "helpful_material": "Prioritise whether the child is currently safe, age at the incident and access to a trusted safe adult or trained professional. Avoid unnecessary identifying information in the app.",
+    "elements": [
+      "Apprehension or knowledge of a possible POCSO offence",
+      "Information to the statutory reporting authority",
+      "Child-friendly handling"
+    ],
+    "id": "pocso-19",
+    "kind": "statute",
+    "title": "Protection of Children from Sexual Offences Act, 2012",
+    "section": "Section 19",
+    "text": "19. Reporting of offences. —(1) Notwithstanding anything contained in the Code of Criminal \nProcedure, 1973 (2 of1974)any person(including the child), who has apprehension that an offence under \nthis Act is likely to be committed or has knowledge that such  an offence has been committed, he sha ll \nprovide such information to,— \n(a) the Special Juvenile Police Unit; or \n(b) the local police. \n(2) Every report given under sub-section (1) shall be— \n(a) ascribed an entry number and recorded in writing; \n(b) be read over to the informant; \n(c) shall be entered in a book to be kept by the Police Unit. \n(3) Where  the report under sub -section ( 1) is given by a child, the same shall be recorded under          \nsub-section (2) in a simple language so that the child understands contents being recorded. \n(4) In case contents are being recorded in the language not understood by the child or wherever it is \ndeemed necessary, a translator or an interpreter, having such qualifications, experience and on payment of \nsuch fees as may be prescribed, shall be provided to the child if he fails to understand the same. \n(5) Where the Special Juvenile Police Unit or local police is satisfied that the child against whom an \noffence has been committed is in need of care and protection, then, it shall, after recording the reaso ns in \nwriting, make immediate arrangement to give him such care and protection including admitting the child \ninto shelter home or to the nearest hospital within twenty-four hours of the report, as may be prescribed. \n(6) The Special  Juvenile Police Unit or local police shall, without unnecessary delay but within a \nperiod of twenty -four hours, report the matter to the Child Welfare Committee and the Special Court or \nwhere no Special Court has been designated, to the  Court of Session, including need of the chi ld for care \nand protection and steps taken in this regard. \n(7) No person shall incur any liability, whether civil or criminal, for giving the information in good \nfaith for the purpose of sub-section (1).",
+    "context_text": "Source-checked explanatory summary, not a verbatim quotation: The section requires information about apprehended or known offences under the Act to be provided to the Special Juvenile Police Unit or local police. It includes child-friendly recording and protection provisions. Explain this reporting route when a possible POCSO concern is raised. Do not make reporting guidance depend on having CCTV, a medical report or a completed proof file. The app does not report automatically and cannot promise confidentiality against statutory reporting duties. Do not encourage private settlement or delaying urgent care while collecting evidence.",
+    "url": "https://www.indiacode.nic.in/bitstream/123456789/2079/1/AA2012-32.pdf",
+    "domains": [
+      "child"
+    ],
+    "case_stage": "initial",
+    "keywords": [
+      "pocso report",
+      "report child sexual offence",
+      "police report child offence",
+      "reporting",
+      "police report",
+      "report"
+    ],
+    "verified_on": "2026-11-18",
+    "version": "India Code text with amendment notes; incident-date and current-rule checks are required",
+    "status": "Excerpt checked against the stored official publication; not a comprehensive current-law certification",
+    "sha256": "def90f072fdb6b62fe95adafa0f5e1ef08f5f1002dbb6067f8af4b1cd94a5c5b",
+    "examples": [],
+    "effective_from": "2012-11-14"
+  },
+  {
+    "issue": "How should a child’s statement be handled?",
+    "plain_explanation": "This section addresses recording a child’s statement, including the child’s choice of place, specified officer safeguards, avoiding contact with the accused, no overnight police-station detention and identity protection.",
+    "when_to_use": "Use it to explain protective features of statement recording if a child-related complaint is progressing.",
+    "do_not_use_when": "Do not conduct a simulated cross-examination of the child or promise every procedural detail without checking current rules. Preserve the child’s own words without coaching.",
+    "helpful_material": "A trusted safe adult and trained child-protection professional can help explain the process. Avoid making the child repeat the account unnecessarily.",
+    "elements": [
+      "Child’s statement",
+      "Choice of place and officer safeguards",
+      "Protection from accused contact",
+      "Privacy and overnight-detention safeguard"
+    ],
+    "id": "pocso-24",
+    "kind": "statute",
+    "title": "Protection of Children from Sexual Offences Act, 2012",
+    "section": "Section 24",
+    "text": "24. Reco rding of statement of a child. —(1) The statement of the child shall be recorded at the \nresidence of the child or at  a place where he usually resides or at the place of his choice and as far as \npracticable by a woman police officer not below the rank of sub-inspector. \n(2) The police officer while recording the statement of the child shall not be in uniform. \n(3) The police officer making the investigation, shall, while examining the child, ensure that at no \npoint of time the child come in the contact in any way with the accused. \n(4) No child shall be detained in the police station in the night for any reason. \n(5) The police officer shall ensure that the identity of the child is protected from the public media, \nunless otherwise directed by the Special Court in the interest of the child.",
+    "context_text": "Source-checked explanatory summary, not a verbatim quotation: This section addresses recording a child’s statement, including the child’s choice of place, specified officer safeguards, avoiding contact with the accused, no overnight police-station detention and identity protection. Use it to explain protective features of statement recording if a child-related complaint is progressing. Do not conduct a simulated cross-examination of the child or promise every procedural detail without checking current rules. Preserve the child’s own words without coaching.",
+    "url": "https://www.indiacode.nic.in/bitstream/123456789/2079/1/AA2012-32.pdf",
+    "domains": [
+      "child"
+    ],
+    "case_stage": "initial",
+    "keywords": [
+      "record child statement",
+      "child statement police",
+      "pocso statement",
+      "statement to police"
+    ],
+    "verified_on": "2026-11-18",
+    "version": "India Code text with amendment notes; incident-date and current-rule checks are required",
+    "status": "Excerpt checked against the stored official publication; not a comprehensive current-law certification",
+    "sha256": "def90f072fdb6b62fe95adafa0f5e1ef08f5f1002dbb6067f8af4b1cd94a5c5b",
+    "examples": [],
+    "effective_from": "2012-11-14"
+  },
+  {
+    "issue": "What child-specific safeguards concern medical examination?",
+    "plain_explanation": "This section provides for medical examination of a child with specified safeguards, including examination even when an FIR or complaint has not been registered, and support-person provisions.",
+    "when_to_use": "Use it to explain that needed care should not be postponed for an FIR and that child-specific examination protections must be considered.",
+    "do_not_use_when": "Do not offer a forensic diagnosis, promise examination findings or advise self-examination or collection of intimate material. A qualified clinician must provide care.",
+    "helpful_material": "Ask only whether urgent care or help reaching a clinician is needed. A trusted safe support person may assist within the statutory safeguards.",
+    "elements": [
+      "Child needing medical examination",
+      "No prior-FIR prerequisite in the provision",
+      "Specified examination and support-person safeguards"
+    ],
+    "id": "pocso-27",
+    "kind": "statute",
+    "title": "Protection of Children from Sexual Offences Act, 2012",
+    "section": "Section 27",
+    "text": "27. Medical examination of a child. —(1) The medical examination of a child in r espect of whom \nany offence has been committed under this Act, shall, notwithstanding that a First Information Report or \ncomplaint has not been registered for the  offences under this Act, be conducted in accordance with \nsection 164A of the Code of Criminal Procedure, 1973 (2 of 1973).  \n(2) In case the victim is a girl child, the medical examination shall be conducted by a woman doctor. \n(3) The medical examination shall be conducted in the presence of the parent of the child or any other \nperson in whom the child reposes trust or confidence. \n(4) Where, in case the parent of the child or other person referred to in sub -section (3) cannot be \npresent, for any  reason, during the medical examination of the child, the medical examination shall be \nconducted in the presence of a woman nominated by the head of the medical institution. \nCHAPTER VII \nSPECIAL COURTS",
+    "context_text": "Source-checked explanatory summary, not a verbatim quotation: This section provides for medical examination of a child with specified safeguards, including examination even when an FIR or complaint has not been registered, and support-person provisions. Use it to explain that needed care should not be postponed for an FIR and that child-specific examination protections must be considered. Do not offer a forensic diagnosis, promise examination findings or advise self-examination or collection of intimate material. A qualified clinician must provide care.",
+    "url": "https://www.indiacode.nic.in/bitstream/123456789/2079/1/AA2012-32.pdf",
+    "domains": [
+      "child"
+    ],
+    "case_stage": "initial",
+    "keywords": [
+      "child medical examination",
+      "medical exam pocso",
+      "medical care child sexual assault",
+      "medical care",
+      "medical exam"
+    ],
+    "verified_on": "2026-11-18",
+    "version": "India Code text with amendment notes; incident-date and current-rule checks are required",
+    "status": "Excerpt checked against the stored official publication; not a comprehensive current-law certification",
+    "sha256": "def90f072fdb6b62fe95adafa0f5e1ef08f5f1002dbb6067f8af4b1cd94a5c5b",
+    "examples": [],
+    "effective_from": "2012-11-14"
+  },
+  {
+    "id": "bnss-173",
+    "kind": "statute",
+    "title": "Bharatiya Nagarik Suraksha Sanhita, 2023",
+    "section": "Section 173 — Information in cognizable cases",
+    "url": "https://www.ncrb.mha.gov.in/uploads/SankalanPortal/ChaptersBNSS.html#173",
+    "text": "Information in cognizable cases.\n173. (1) Every information relating to the commission of a cognizable offence, irrespective of the area where the offence is committed, may be given orally or by electronic communication to an officer in charge of a police station, and if given—\n(i) orally, it shall be reduced to writing by him or under his direction, and be read over to the informant; and every such information, whether given in writing or reduced to writing as aforesaid, shall be signed by the person giving it;\n(ii) by electronic communication, it shall be taken on record by him on being signed within three days by the person giving it, and the substance thereof shall be entered in a book to be kept by such officer in such form as the State Government may by rules prescribe in this behalf:\nProvided that if the information is given by the woman against whom an offence under section 64, section 65, section 66, section 67, section 68, section 69, section 70, section 71, section 74, section 75, section 76, section 77, section 78, section 79 or section 124 of the Bharatiya Nyaya Sanhita, 2023 is alleged to have been committed or attempted, then such information shall be recorded, by a woman police officer or any woman officer:\nProvided further that—\n(a) in the event that the person against whom an offence under section 64, section 65, section 66, section 67, section 68, section 69, section 70, section 71, section 74, section 75, section 76, section 77, section 78, section 79 or section 124 of the Bharatiya Nyaya Sanhita, 2023 is alleged to have been committed or attempted, is temporarily or permanently mentally or physically disabled, then such information shall be recorded by a police officer, at the residence of the person seeking to report such offence or at a convenient place of such person's choice, in the presence of an interpreter or a special educator, as the case may be;\n(b) the recording of such information shall be videographed;\n(c) the police officer shall get the statement of the person recorded by a Magistrate under clause (a) of sub-section (6) of section 183 as soon as possible.\n(2) A copy of the information as recorded under sub-section (1) shall be given forthwith, free of cost, to the informant or the victim.\n(3) Without prejudice to the provisions contained in section 175, on receipt of information relating to the commission of any cognizable offence, which is made punishable for three years or more but less than seven years, the officer in charge of the police station may with the prior permission from an officer not below the rank of Deputy Superintendent of Police, considering the nature and gravity of the offence,—\n(i) proceed to conduct preliminary enquiry to ascertain whether there exists a prima facie case for proceeding in the matter within a period of fourteen days; or\n(ii) proceed with investigation when there exists a prima facie case.\n(4) Any person aggrieved by a refusal on the part of an officer in charge of a police station to record the information referred to in sub-section (1), may send the substance of such information, in writing and by post, to the Superintendent of Police concerned who, if satisfied that such information discloses the commission of a cognizable offence, shall either investigate the case himself or direct an investigation to be made by any police officer subordinate to him, in the manner provided by this Sanhita, and such officer shall have all the powers of an officer in charge of the police station in relation to that offence failing which such aggrieved person may make an application to the Magistrate.",
+    "context_text": "This provision covers giving information about cognizable offences, copies of recorded information, and a route when the station officer refuses to record it. Consider it for questions about recording a report or getting a copy, once the offence category and applicable procedure have been checked. An informal complaint or missing acknowledgement alone does not show that information was formally recorded or that refusal occurred.",
+    "issue": "Was information about a possible cognizable offence recorded?",
+    "plain_explanation": "This provision covers giving information about cognizable offences, copies of recorded information, and a route when the station officer refuses to record it.",
+    "when_to_use": "Consider it for questions about recording a report or getting a copy, once the offence category and applicable procedure have been checked.",
+    "do_not_use_when": "An informal complaint or missing acknowledgement alone does not show that information was formally recorded or that refusal occurred.",
+    "helpful_material": "When, where and how did you report it? What exactly did the station say or give you?",
+    "keywords": [
+      "fir",
+      "cognizable offence",
+      "copy of fir",
+      "refused to register",
+      "police acknowledgement"
+    ],
+    "domains": [
+      "criminal_procedure"
+    ],
+    "case_stage": "follow_up",
+    "effective_from": "2024-07-01",
+    "verified_on": "2026-11-18",
+    "version": "Official NCRB statute text. Check applicability and transitional provisions.",
+    "status": "Excerpt extracted from the official NCRB publication.",
+    "sha256": "36a3128371af4a6152fdf002203b9a4a71608217ebb6b2e68ffd6803cb0d093b",
+    "examples": []
+  },
+  {
+    "id": "bsa-63",
+    "kind": "statute",
+    "title": "Bharatiya Sakshya Adhiniyam, 2023",
+    "section": "Section 63 — Admissibility of electronic records",
+    "url": "https://www.ncrb.mha.gov.in/uploads/SankalanPortal/ChaptersBSA.html#63",
+    "text": "Admissibility of electronic records. (Change)\n63. Notwithstanding anything contained in this Adhiniyam, any information contained in an electronic record which is printed on paper, stored, recorded or copied in optical or magnetic media or semiconductor memory which is produced by a computer or any communication device or otherwise stored, recorded or copied in any electronic form (hereinafter referred to as the computer output) shall be deemed to be also a document, if the conditions mentioned in this section are satisfied in relation to the information and computer in question and shall be admissible in any proceedings, without further proof or production of the original, as evidence or any contents of the original or of any fact stated therein of which direct evidence would be admissible.\n(2) The conditions referred to in sub-section (1) in respect of a computer output shall be the following, namely:—\n(a) the computer output containing the information was produced by the computer or communication device during the period over which the computer or communication device was used regularly to create, store or process information for the purposes of any activity regularly carried on over that period by the person having lawful control over the use of the computer or communication device;\n(b) during the said period, information of the kind contained in the electronic record or of the kind from which the information so contained is derived was regularly fed into the computer or communication device in the ordinary course of the said activities;\n(c) throughout the material part of the said period, the computer or communication device was operating properly or, if not, then in respect of any period in which it was not operating properly or was out of operation during that part of the period, was not such as to affect the electronic record or the accuracy of its contents; and\n(d) the information contained in the electronic record reproduces or is derived from such information fed into the computer or communication device in the ordinary course of the said activities.\n(3) Where over any period, the function of creating, storing or processing information for the purposes of any activity regularly carried on over that period as mentioned in clause (a) of sub-section (2) was regularly performed by means of one or more computers or communication device, whether—\n(a) in standalone mode; or\n(b) on a computer system; or\n(c) on a computer network; or\n(d) on a computer resource enabling information creation or providing information processing and storage; or\n(e) through an intermediary,\nall the computers or communication devices used for that purpose during that period shall be treated for the purposes of this section as constituting a single computer or communication device; and references in this section to a computer or communication device shall be construed accordingly.\n(4) In any proceeding where it is desired to give a statement in evidence by virtue of this section, a certificate doing any of the following things shall be submitted along with the electronic record at each instance where it is being submitted for admission, namely:—\n(a) identifying the electronic record containing the statement and describing the manner in which it was produced;\n(b) giving such particulars of any device involved in the production of that electronic record as may be appropriate for the purpose of showing that the electronic record was produced by a computer or a communication device referred to in clauses (a) to (e) of sub-section (3);\n(c) dealing with any of the matters to which the conditions mentioned in sub-section (2) relate,\nand purporting to be signed by a person in charge of the computer or communication device or the management of the relevant activities (whichever is appropriate) and an expert shall be evidence of any matter stated in the certificate; and for the purposes of this sub-section it shall be sufficient for a matter to be stated to the best of the knowledge and belief of the person stating it in the certificate specified in the Schedule.\n(5) For the purposes of this section,—\n(a) information shall be taken to be supplied to a computer or communication device if it is supplied thereto in any appropriate form and whether it is so supplied directly or (with or without human intervention) by means of any appropriate equipment;\n(b) a computer output shall be taken to have been produced by a computer or communication device whether it was produced by it directly or (with or without human intervention) by means of any appropriate equipment or by other electronic means as referred to in clauses (a) to (e) of sub-section (3).",
+    "context_text": "This provision sets conditions for admitting computer outputs and includes requirements for a certificate when submitting them under the section. Consider it when a party plans to use an electronic copy or output in a proceeding to which this evidence law applies. A screenshot by itself does not settle authenticity or admissibility. A preliminary account can still be organised without a certificate.",
+    "issue": "Will a computer output be offered as evidence?",
+    "plain_explanation": "This provision sets conditions for admitting computer outputs and includes requirements for a certificate when submitting them under the section.",
+    "when_to_use": "Consider it when a party plans to use an electronic copy or output in a proceeding to which this evidence law applies.",
+    "do_not_use_when": "A screenshot by itself does not settle authenticity or admissibility. A preliminary account can still be organised without a certificate.",
+    "helpful_material": "Keep the original record or device details where available. Clarify how the copy was made and what the proceeding requires.",
+    "keywords": [
+      "electronic evidence",
+      "electronic record",
+      "computer output",
+      "digital evidence certificate"
+    ],
+    "domains": [
+      "criminal_procedure"
+    ],
+    "case_stage": "follow_up",
+    "effective_from": "2024-07-01",
+    "verified_on": "2026-11-18",
+    "version": "Official NCRB statute text. Check applicability and transitional provisions.",
+    "status": "Excerpt extracted from the official NCRB publication.",
+    "sha256": "2b791914882dbc4740c38e8ecb71d199bd5375f10e05ee91739611d429c6f5ed",
+    "examples": []
+  }
+]

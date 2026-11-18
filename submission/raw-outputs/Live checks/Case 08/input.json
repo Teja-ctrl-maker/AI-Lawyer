@@ -1,0 +1,16 @@
+{
+  "case": 8,
+  "title": "Property boundary dispute (land)",
+  "intake": {
+    "story": "Gopal Iyer inherited a 1,800 sq. m. plot from his father in 2012 and has farmed vegetables on it since. His neighbor, Mahesh Patil, bought the adjoining plot in 2017. Last month, Mahesh built a permanent brick fence that Gopal says cuts about 3 meters into his land along a 40-meter stretch, taking roughly 120 sq. m. Mahesh says the fence follows the \"old boundary\" that has been in place for decades, marked by a row of coconut trees and an irrigation channel, and that Gopal's father never objected.\n\nGopal's sale deed describes boundaries by reference to neighbors and landmarks rather than exact measurements, and a government survey map from 1996 shows the plot as a rough polygon with different dimensions from those in the deed. Mahesh's deed uses different landmarks, and one of them, a \"village footpath,\" no longer exists. Mahesh has told Gopal that if he wants the fence moved, he must go to court, and that he will claim the land by long possession if needed. Gopal wants the fence removed, wants to know which documents will carry the most weight, and fears that years of acquiescence by his father may now count against him.",
+    "evidence": "Gopal has his father's sale deed from 1989, the 1996 survey map, tax receipts in the family's name since 1990, and his own inheritance record from 2012. He has dated photographs of the plot from 2015 showing the coconut trees and irrigation channel, but the photos do not clearly show a boundary line. A hand-drawn sketch by a retired village officer, signed but undated, supports Gopal's approximate dimensions.\n\nMahesh has his deed from 2017 and a statement from an elderly farmer who says the \"old boundary\" ran along the channel as long as he remembers. The channel has been re-dug at least once, so its current position may not match the original. No fresh professional survey exists, and satellite images show the coconut trees in a line but cannot establish legal boundaries. Fence construction photos from last month show Gopal standing nearby without objecting at the time, which Mahesh may use as acquiescence.",
+    "language": "English",
+    "demo": false,
+    "live_consent": true
+  },
+  "legal_review": {
+    "stage": "starting",
+    "live_consent": true
+  },
+  "evaluation_notes_not_sent": "The legal issues include the hierarchy of evidence in boundary disputes (survey records versus deeds versus conduct), the need for an official fresh survey, adverse possession and its required period, and whether the fence can be challenged on an emergency basis. The AI should assess both sides fairly, recommend gathering a licensed survey as the first step, and advise on avoiding self-help, such as tearing down the fence, which could expose Gopal to liability."
+}

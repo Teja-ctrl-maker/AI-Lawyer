@@ -1,0 +1,24 @@
+{
+  "case": 7,
+  "title": "Defamation through an online review (civil/media)",
+  "intake": {
+    "story": "Dr. Farhan Siddiqui owns a mid-sized dental clinic. Six weeks ago, a patient identified only as \"Rahul K.\" posted a one-star review on a maps platform, writing that Dr. Siddiqui \"performed an unnecessary root canal to make money,\" \"uses unsterilized tools,\" and \"is a fraud who should lose his license.\" Within two weeks, the clinic's average rating dropped from 4.7 to 4.1, and Dr. Siddiqui says new-patient bookings fell sharply, with three patients cancelling and citing the review.\n\nDr. Siddiqui has no record of a patient named Rahul K. with a root canal, though he does have a patient named Rahul Khanna, who had a filling six months ago and a billing dispute over a missed appointment fee. He wants to know whether he can sue for defamation, force the platform to reveal the reviewer's identity, get the review removed, and recover lost income. His lawyer friend has told him that truth is a defense, that opinion is protected, and that suing might make the review go viral. He is torn between legal action and a calm public reply.",
+    "evidence": "Dr. Siddiqui has screenshots of the review with its timestamp, plus the clinic's rating history from the platform dashboard showing the drop. He has the booking system export showing a decline in new appointments over four weeks compared with the previous four, and three cancellation messages that mention the review. His clinic's sterilization logs and an inspection certificate from three months ago show compliance, and he has patient records showing the filling procedure for Rahul Khanna and the billing dispute.\n\nHe cannot prove that Rahul Khanna wrote the review, since the platform profile has no photo and few other reviews. The review's wording about the root canal does not match any procedure on record, which could mean it is false or that it was written by someone else entirely. A staff member says Rahul Khanna \"looked angry\" at the billing dispute, which is only circumstantial. No platform response has been received to Dr. Siddiqui's takedown request, and the drop in bookings could partly reflect seasonal slowdown, which the AI must not ignore.",
+    "language": "English",
+    "demo": false,
+    "live_consent": false
+  },
+  "legal_review": {
+    "stage": "starting",
+    "live_consent": false
+  },
+  "evaluation_notes_not_sent": "The key issues are separating factual allegations (unsterilized tools, unnecessary procedure) from opinion (\"fraud\"), whether the reviewer's identity can be established and compelled, the platform's takedown process, and how to prove actual loss. The AI should also weigh the Streisand-effect risk, recommend a safe public response, explain the evidence needed to show falsity, and note that the dentist should not retaliate against or contact the suspected patient.",
+  "draft": {
+    "options": {
+      "kind": "Case brief",
+      "subject": "Defamation through an online review (civil/media)",
+      "facts": "Dr. Farhan Siddiqui owns a mid-sized dental clinic. Six weeks ago, a patient identified only as \"Rahul K.\" posted a one-star review on a maps platform, writing that Dr. Siddiqui \"performed an unnecessary root canal to make money,\" \"uses unsterilized tools,\" and \"is a fraud who should lose his license.\" Within two weeks, the clinic's average rating dropped from 4.7 to 4.1, and Dr. Siddiqui says new-patient bookings fell sharply, with three patients cancelling and citing the review.\n\nDr. Siddiqui has no record of a patient named Rahul K. with a root canal, though he does have a patient named Rahul Khanna, who had a filling six months ago and a billing dispute over a missed appointment fee. He wants to know whether he can sue for defamation, force the platform to reveal the reviewer's identity, get the review removed, and recover lost income. His lawyer friend has told him that truth is a defense, that opinion is protected, and that suing might make the review go viral. He is torn between legal action and a calm public reply.",
+      "enclosures": "None"
+    }
+  }
+}

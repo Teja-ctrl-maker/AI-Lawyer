@@ -1,0 +1,16 @@
+{
+  "case": 18,
+  "title": "Cross-border contract and jurisdiction conflict (international)",
+  "intake": {
+    "story": "Lumen Apps, a software company in one country, signed a contract with Baltic Design Studio, a company in another country, for the design and development of a mobile app, for a fixed fee of 40,000 euros paid in three milestones. Lumen paid the first two milestones. Baltic delivered the final build two months late, and Lumen says it was full of defects and refuses to pay the third milestone of 12,000 euros. Baltic is now threatening to sue in its home courts and to retain the intellectual property rights in the app until payment is made.\n\nThe contract was drafted by Baltic, is governed by \"the laws of Baltic's country,\" and includes a clause giving \"the courts of Baltic's capital exclusive jurisdiction.\" Lumen's team says they never read that clause carefully and argues that because they are consumers of a design service and the app will be used in their own country, their local courts and law should apply. Lumen wants to know where it can be sued, whether it can bring its own claim for delay and defects, and whether a judgment from either country would be enforceable against the other.",
+    "evidence": "The contract is 15 pages and includes a milestone schedule, an acceptance clause saying the client has 10 days to report defects after each delivery, and the governing law and exclusive jurisdiction clauses. It states that IP \"transfers upon full payment.\" An email from Lumen's project manager, sent 4 days after final delivery, lists 17 defects, but a later message from the same manager says \"the app seems fine for now, we'll start testing with users,\" which Baltic says shows acceptance.\n\nInvoices and bank records confirm the first two payments. The delivery schedule shows the final milestone was due 1 September and delivered 3 November, with no written agreement to extend it. A video call recording, with consent, shows a Baltic developer acknowledging \"some bugs we need to fix,\" but no repair timeline was agreed. There is no arbitration clause, no mention of the bug-reporting process beyond acceptance, and no information on whether either party has assets in the other's country.",
+    "language": "English",
+    "demo": false,
+    "live_consent": true
+  },
+  "legal_review": {
+    "stage": "starting",
+    "live_consent": true
+  },
+  "evaluation_notes_not_sent": "The issues include the validity of the choice-of-law and exclusive jurisdiction clauses, whether Lumen is a business and not a consumer, enforcement of foreign judgments, arbitration as an alternative, and the status of IP ownership pending payment. The AI should not assume a particular country's law, should ask which countries are involved, should explain the general approach to such conflicts, and should recommend an international-trade lawyer."
+}

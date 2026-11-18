@@ -1,0 +1,28 @@
+{
+  "case": 3,
+  "title": "Consumer protection, e-commerce (consumer)",
+  "intake": {
+    "story": "Priya Menon bought a 55-inch smart TV for 62,000 from an online marketplace during a \"festival sale,\" selling through a third-party seller. The listing stated \"1-year brand warranty + 7-day replacement.\" The TV arrived with a minor box dent but worked for 19 days. On day 20, a vertical line appeared on the screen, followed by complete panel failure a week later. She raised a complaint on the platform, which routed her to the seller, who said the panel damage was \"physical\" and not covered. The brand's service center sent a technician who, after a brief visit, marked the issue as \"customer damage, warranty void\" without opening the device.\n\nPriya argues the damage is a manufacturing defect that appeared within the warranty, and that the seller and the platform both owe her a remedy. The seller says the 7-day replacement window has lapsed, the brand says warranty is void, and the platform says it is only an intermediary. Priya has spent six weeks on calls and chats, receiving contradictory responses from each party. She now wants a refund or replacement, plus compensation for the harassment, and asks who is actually legally responsible and which forum she should go to.",
+    "evidence": "Priya has the order invoice, the seller's tax invoice, the product listing screenshot showing the warranty and replacement terms, and the delivery confirmation with a timestamp. She took an unboxing video on delivery day that shows the box dent but also a working screen on first power-on, which is helpful for her. She has photos of the screen showing the vertical line and the later complete failure, with file timestamps that match her account. The platform's chat transcripts and her email threads show a pattern of being passed between parties, with the platform's agent at one point writing that \"the seller will resolve this.\"\n\nThe technician's service report states \"physical damage suspected, warranty void\" but includes no photographs, no inspection checklist, and no description of visible impact marks. Priya has no independent expert opinion yet. The warranty card was not in the box, and the brand's website says the warranty is registered automatically on purchase, a claim she has not been able to confirm. There is no evidence of any drop or mishandling, although the delivery courier's handover photo shows the box being carried loosely.",
+    "language": "English",
+    "demo": false,
+    "live_consent": false
+  },
+  "legal_review": {
+    "stage": "notice",
+    "live_consent": false
+  },
+  "evaluation_notes_not_sent": "The key issues are the liability of each of the three parties, whether the platform can really disclaim responsibility, how an unsupported \"customer damage\" finding should be treated, and whether the dented box matters. The AI should also assess whether a legal notice is worth sending first, whether the claim value justifies a formal consumer complaint, and what remedies are realistically available. It should also explain how limitation and warranty period work here.",
+  "draft": {
+    "options": {
+      "kind": "Consumer commission complaint",
+      "subject": "Consumer protection, e-commerce (consumer)",
+      "facts": "Priya Menon bought a 55-inch smart TV for 62,000 from an online marketplace during a \"festival sale,\" selling through a third-party seller. The listing stated \"1-year brand warranty + 7-day replacement.\" The TV arrived with a minor box dent but worked for 19 days. On day 20, a vertical line appeared on the screen, followed by complete panel failure a week later. She raised a complaint on the platform, which routed her to the seller, who said the panel damage was \"physical\" and not covered. The brand's service center sent a technician who, after a brief visit, marked the issue as \"customer damage, warranty void\" without opening the device.\n\nPriya argues the damage is a manufacturing defect that appeared within the warranty, and that the seller and the platform both owe her a remedy. The seller says the 7-day replacement window has lapsed, the brand says warranty is void, and the platform says it is only an intermediary. Priya has spent six weeks on calls and chats, receiving contradictory responses from each party. She now wants a refund or replacement, plus compensation for the harassment, and asks who is actually legally responsible and which forum she should go to.",
+      "enclosures": "None",
+      "sender": "Priya Menon",
+      "demand": "Refund or replacement of the television, with any additional relief for review.",
+      "transaction": "55-inch smart television ordered through an online marketplace for 62,000; confirm the invoice, currency, date and payment record.",
+      "prior": "The marketplace referred the issue to the seller. The seller and brand technician attributed the issue to physical damage."
+    }
+  }
+}
