@@ -118,7 +118,8 @@ Return ONLY a JSON object matching the requested schema, no markdown fences.
         referer = os.getenv('CASE_COMPANION_ORIGIN', '').strip()
         if referer:
             headers['HTTP-Referer'] = referer
-        headers['X-Title'] = 'Case Companion — AI Lawyer'
+        # HTTP headers must be Latin-1. Keep attribution readable and ASCII-only.
+        headers['X-Title'] = 'Case Companion - AI Lawyer'
     if os.getenv('LAWYER_API_KEY'):
         headers['Authorization'] = 'Bearer ' + os.environ['LAWYER_API_KEY']
     if not MODEL_SLOTS.acquire(blocking=False):

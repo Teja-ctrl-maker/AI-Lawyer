@@ -34,7 +34,7 @@ class ProviderTests(unittest.TestCase):
             self.assertEqual(request.full_url,'https://openrouter.ai/api/v1/chat/completions')
             self.assertEqual(json.loads(request.data)['model'],'openai/gpt-4o')
             self.assertEqual(request.get_header('Http-referer'),'https://example.test')
-            self.assertEqual(request.get_header('X-title'),'Case Companion — AI Lawyer')
+            self.assertEqual(request.get_header('X-title'),'Case Companion - AI Lawyer')
             self.assertEqual(json.loads(request.data)['provider'],{'zdr':True,'data_collection':'deny'})
             self.assertNotIn('response_format', json.loads(request.data))
 
