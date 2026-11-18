@@ -47,6 +47,10 @@ MODEL_SLOTS = threading.BoundedSemaphore(3)
 MODEL_REPLY_LIMIT = 512_000
 
 
+class ProviderOutputError(ValueError):
+    """A safe description of a malformed successful provider response."""
+
+
 def open_with_rate_retry(request):
     """Honor a provider's short Retry-After once. Never retry exhausted billing quota."""
     try:
@@ -124,13 +128,26 @@ Return ONLY a JSON object matching the requested schema, no markdown fences.
             raw = response.read(MODEL_REPLY_LIMIT + 1)
         if len(raw) > MODEL_REPLY_LIMIT:
             raise ValueError('The model response was too large. Try a shorter request.')
-        result = json.loads(raw)
-        content = result['choices'][0]['message']['content']
+        try:
+            result = json.loads(raw)
+        except json.JSONDecodeError as exc:
+            raise ProviderOutputError('The model provider returned an invalid chat response. Retry shortly.') from exc
+        choices = result.get('choices') if isinstance(result, dict) else None
+        if not isinstance(choices, list) or not choices or not isinstance(choices[0], dict):
+            raise ProviderOutputError('The model provider returned no completion. Retry shortly.')
+        choice = choices[0]
+        finish_reason = choice.get('finish_reason')
+        message = choice.get('message')
+        if not isinstance(message, dict):
+            raise ProviderOutputError('The model provider returned no message text. Retry shortly.')
+        content = message.get('content')
         if isinstance(content, list):
             content = ''.join(part.get('text', '') for part in content if isinstance(part, dict))
         if not isinstance(content, str):
-            raise ValueError('The model response did not contain text.')
+            raise ProviderOutputError('The model provider returned no usable text. Retry shortly.')
         text = content.strip()
+        if not text:
+            raise ProviderOutputError('The model provider returned an empty response. Retry shortly.')
         try:
             return json.loads(text)
         except json.JSONDecodeError:
@@ -141,10 +158,15 @@ Return ONLY a JSON object matching the requested schema, no markdown fences.
             # Some OpenAI-compatible routers add a short preface despite JSON mode.
             start = text.find('{')
             if start < 0:
-                raise
-            parsed, _ = json.JSONDecoder().raw_decode(text[start:])
+                detail = 'The model response ended before its JSON output was complete.' if finish_reason == 'length' else 'The model returned text instead of the required structured response.'
+                raise ProviderOutputError(detail + ' Retry shortly.')
+            try:
+                parsed, _ = json.JSONDecoder().raw_decode(text[start:])
+            except json.JSONDecodeError as exc:
+                detail = 'The model response ended before its JSON output was complete.' if finish_reason == 'length' else 'The model returned incomplete structured data.'
+                raise ProviderOutputError(detail + ' Retry shortly.') from exc
             if not isinstance(parsed, dict):
-                raise ValueError('The model response was not a JSON object.')
+                raise ProviderOutputError('The model response was not a JSON object. Retry shortly.')
             return parsed
     except urllib.error.HTTPError as exc:
         status=exc.code
@@ -166,6 +188,8 @@ Return ONLY a JSON object matching the requested schema, no markdown fences.
         if status==429 and exhausted:
             message='The API account has insufficient quota. Check API billing, credits and project limits before retrying.'
         raise ValueError(f'{message} (HTTP {status}) Your confirmed case is unchanged.') from None
+    except ProviderOutputError:
+        raise
     except (urllib.error.URLError, KeyError, IndexError, TypeError, AttributeError, ValueError, RecursionError, TimeoutError) as exc:
         raise ValueError('The model request failed or returned invalid JSON. Your confirmed case is unchanged. Check provider settings and retry.') from exc
     finally:

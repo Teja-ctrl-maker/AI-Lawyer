@@ -49,6 +49,14 @@ class ProviderTests(unittest.TestCase):
         with self.settings(),patch('core.MODEL_OPENER.open',return_value=response):
             self.assertEqual(core.model_json('Return JSON',{}),{'ok':True})
 
+    def test_provider_reports_a_safe_reason_for_non_json_text(self):
+        response=io.BytesIO(json.dumps({'choices':[{'finish_reason':'stop',
+            'message':{'content':'I cannot provide structured data.'}}]}).encode())
+        with self.settings(),patch('core.MODEL_OPENER.open',return_value=response):
+            with self.assertRaisesRegex(ValueError, 'text instead of the required structured response') as failure:
+                core.model_json('Return JSON',{})
+            self.assertNotIn('I cannot provide structured data.', str(failure.exception))
+
     def test_key_rejection_has_safe_message(self):
         error=urllib.error.HTTPError('https://provider.invalid',403,'Forbidden',{},io.BytesIO(b'secret provider body'))
         with self.settings(),patch('core.MODEL_OPENER.open',side_effect=error):
