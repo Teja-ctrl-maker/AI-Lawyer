@@ -22,7 +22,7 @@ ROOT = Path(__file__).resolve().parent
 for line in (ROOT / '.env').read_text(encoding='utf-8').splitlines() if (ROOT / '.env').exists() else []:
     if '=' in line and not line.lstrip().startswith('#'):
         k, v = line.split('=', 1)
-        if k.strip().startswith('LAWYER_') or k.strip() == 'PORT':
+        if k.strip().startswith('LAWYER_') or k.strip() in ('PORT', 'CASE_COMPANION_ORIGIN', 'CASE_COMPANION_LIVE_AI'):
             os.environ.setdefault(k.strip(), v.strip().strip('\"').strip("'"))
 
 DEMO_STORY = '''On 20 October 2026 the seller refused my refund in a message. I want my money back. On 5 October 2026 I bought a washing machine for Rs 18,000 from Bright Appliances in Bengaluru for my home. On 8 October 2026 it stopped working. On 10 October 2026 I emailed the seller asking for repair or refund. I have the purchase invoice, payment receipt, my email and the seller's refusal message.'''
@@ -108,6 +108,11 @@ Return ONLY a JSON object matching the requested schema, no markdown fences.
         request_body['provider'] = {'zdr': True, 'data_collection': 'deny'}
     data = json.dumps(request_body).encode()
     headers = {'Content-Type': 'application/json', 'User-Agent':'CaseCompanion/0.1'}
+    if endpoint.hostname in ('openrouter.ai', 'eu.openrouter.ai', 'us.openrouter.ai'):
+        referer = os.getenv('CASE_COMPANION_ORIGIN', '').strip()
+        if referer:
+            headers['HTTP-Referer'] = referer
+        headers['X-Title'] = 'Case Companion — AI Lawyer'
     if os.getenv('LAWYER_API_KEY'):
         headers['Authorization'] = 'Bearer ' + os.environ['LAWYER_API_KEY']
     if not MODEL_SLOTS.acquire(blocking=False):

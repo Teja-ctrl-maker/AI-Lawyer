@@ -698,11 +698,14 @@ fetch('/api/config').then(r=>r.json()).then(c=>{
     $('demoInstructions').hidden = c.accounts !== false;
     if (c.accounts === false) {
         $('startGuest').className = 'primary';
-        $('consent').closest('label').hidden = true;
+        $('consent').closest('label').hidden = !c.live;
         $('guestTitle').textContent = 'Case Companion reviewer demo';
     }
     $('consent').disabled=!c.live;
-    $('modeHelp').textContent=c.accounts === false?'Guest demo uses local legal reference search in English.':c.live?'Local by default. OpenRouter requests require zero-retention routing.':'Local mode is available in English. Live AI is unavailable.';
+    $('modeHelp').textContent = c.live && c.accounts === false
+        ? 'Live AI can help organise an out-of-order story. If it is unavailable, turn it off to continue offline in English.'
+        : c.live ? 'Local by default. OpenRouter requests require zero-retention routing.'
+        : 'Offline extraction is available in English.';
     $('kind').replaceChildren(...Object.keys(c.document_formats).map(kind => new Option(kind, kind)));
     $('kind').value = 'Case brief';
     renderDraftFields();

@@ -1,4 +1,5 @@
 """Serve the guest demo behind a managed HTTPS ingress using WSGI."""
+from collections import deque
 from email.message import Message
 from http import HTTPStatus
 from io import BytesIO
@@ -6,9 +7,15 @@ import json
 import os
 import re
 import threading
+import time
 from urllib.parse import urlsplit
 
-from server import Handler, MAX_REQUEST_BYTES, sweep_guests
+import core
+from server import GUESTS, LOCK, Handler, MAX_REQUEST_BYTES, session_active, sweep_guests
+
+LIVE_CALLS_PER_GUEST = 8
+LIVE_CALLS_PER_HOUR = 40
+live_reservations = deque()
 
 
 def configured_origin():
@@ -50,7 +57,22 @@ class HostedRequest(Handler):
         return self.origin
 
     def live_enabled(self):
-        return False
+        return os.getenv('CASE_COMPANION_LIVE_AI') == '1' and core.configured()
+
+    def reserve_live_calls(self, guest, count):
+        with LOCK:
+            if not session_active(guest):
+                raise ValueError('Your guest session ended.')
+            now = time.monotonic()
+            while live_reservations and now - live_reservations[0] >= 3600:
+                live_reservations.popleft()
+            session = GUESTS[guest]
+            if session.live_calls + count > LIVE_CALLS_PER_GUEST:
+                raise ValueError('This guest session reached its Live AI limit. Turn off Live AI to continue offline.')
+            if len(live_reservations) + count > LIVE_CALLS_PER_HOUR:
+                raise ValueError('The demo reached its hourly Live AI limit. Turn off Live AI to continue offline.')
+            session.live_calls += count
+            live_reservations.extend([now] * count)
 
     def read_json(self, size):
         # Waitress buffers and bounds the complete request before dispatch.

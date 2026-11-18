@@ -17,6 +17,16 @@ class HostedDemoTests(unittest.TestCase):
                                        'PORT': '8080'}, clear=True):
             self.assertEqual(hosted.configured_origin(), 'https://case-companion.up.railway.app')
 
+    def test_hosted_live_ai_needs_switch_and_provider_settings(self):
+        request = object.__new__(hosted.HostedRequest)
+        with patch.dict('os.environ', {'CASE_COMPANION_LIVE_AI': '1',
+                                       'LAWYER_API_BASE': 'https://openrouter.ai/api/v1',
+                                       'LAWYER_MODEL': 'openai/gpt-4o',
+                                       'LAWYER_API_KEY': 'test-only-not-a-real-key'}, clear=True):
+            self.assertTrue(request.live_enabled())
+        with patch.dict('os.environ', {'CASE_COMPANION_LIVE_AI': '1'}, clear=True):
+            self.assertFalse(request.live_enabled())
+
     def call(self, app, path, payload=None, *, host='case-companion.onrender.com', origin=None):
         environ = {}
         setup_testing_defaults(environ)

@@ -24,6 +24,7 @@ SESSIONS = {}
 class Session:
     deadline: float
     username: str | None
+    live_calls: int = 0
 
 
 GUESTS = {}
@@ -128,6 +129,9 @@ class Handler(BaseHTTPRequestHandler):
 
     def live_enabled(self):
         return core.configured()
+
+    def reserve_live_calls(self, guest, count):
+        pass
 
     def request_origin(self):
         return f"http://{self.headers['Host']}"
@@ -297,6 +301,8 @@ class Handler(BaseHTTPRequestHandler):
                 documents = core.document_passages(payload.get('documents', []))
                 if demo and documents:
                     raise ValueError('Switch to your own case to use PDF passages.')
+                if live:
+                    self.reserve_live_calls(guest, 1)
                 record=core.intake(payload.get('story',''),payload.get('evidence',''),language,demo,documents,use_live=live)
                 with LOCK:
                     if not session_active(guest):
@@ -340,6 +346,8 @@ class Handler(BaseHTTPRequestHandler):
                         if not question or question['key'] != payload['question_key']:
                             raise ValueError('This follow-up question has changed. Refresh the case summary.')
                     old_record, old_documents = case['record'], case['documents']
+                    if live:
+                        self.reserve_live_calls(guest, 1)
                     record = core.intake(update, payload.get('evidence', ''), case['language'],
                                          documents=documents, use_live=live, previous_record=old_record,
                                          focus_question=question['question'] if question else None)
@@ -375,9 +383,11 @@ class Handler(BaseHTTPRequestHandler):
                                          'court_guidance':build_court_guidance(record, candidates)})
                 if not case['confirmed']:
                     raise ValueError('Confirm the case before continuing.')
-                live = case['live'] and payload.get('live_consent') is True
+                live = case['live'] and payload.get('live_consent') is True and self.live_enabled()
                 if self.path=='/api/analyse':
                     procedure = core.procedure_context(payload)
+                    if live and not case['demo']:
+                        self.reserve_live_calls(guest, 2)
                     result, candidates = core.analyse(case['record'], case['demo'], case['language'],
                                                       procedure, case['documents'], use_live=live)
                     with LOCK:

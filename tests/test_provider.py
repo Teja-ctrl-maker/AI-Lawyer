@@ -22,6 +22,21 @@ class ProviderTests(unittest.TestCase):
             self.assertIn('Authorization',request.headers)
             self.assertEqual(request.get_header('User-agent'),'CaseCompanion/0.1')
 
+    def test_openrouter_uses_gpt4o_and_application_attribution_headers(self):
+        response=io.BytesIO(json.dumps({'choices':[{'message':{'content':'{"ok":true}'}}]}).encode())
+        with patch.dict(os.environ, {'LAWYER_API_BASE':'https://openrouter.ai/api/v1',
+                                     'LAWYER_MODEL':'openai/gpt-4o',
+                                     'LAWYER_API_KEY':'test-only-not-a-real-key',
+                                     'CASE_COMPANION_ORIGIN':'https://example.test'}), \
+             patch('core.MODEL_OPENER.open', return_value=response) as send:
+            self.assertEqual(core.model_json('Return JSON',{}),{'ok':True})
+            request=send.call_args.args[0]
+            self.assertEqual(request.full_url,'https://openrouter.ai/api/v1/chat/completions')
+            self.assertEqual(json.loads(request.data)['model'],'openai/gpt-4o')
+            self.assertEqual(request.get_header('Http-referer'),'https://example.test')
+            self.assertEqual(request.get_header('X-title'),'Case Companion — AI Lawyer')
+            self.assertEqual(json.loads(request.data)['provider'],{'zdr':True,'data_collection':'deny'})
+
     def test_key_rejection_has_safe_message(self):
         error=urllib.error.HTTPError('https://provider.invalid',403,'Forbidden',{},io.BytesIO(b'secret provider body'))
         with self.settings(),patch('core.MODEL_OPENER.open',side_effect=error):
