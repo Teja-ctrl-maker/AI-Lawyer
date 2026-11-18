@@ -1,1 +1,2 @@
--r requirements-hosted.txt
+pypdf==7.0.1
+waitress==3.0.2

@@ -1,2 +1,1 @@
--r requirements-pdf.txt
-waitress==3.0.2
+-r requirements.txt
