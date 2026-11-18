@@ -98,7 +98,8 @@ Do not add any laws or judgments outside supplied IDs. Hypotheticals must be lab
 For urgent danger or a court deadline, recommend prompt local professional assistance without inventing contacts.
 Return ONLY a JSON object matching the requested schema, no markdown fences.
 ''' + task
-    max_tokens=int(os.getenv('LAWYER_MAX_TOKENS','6000'))
+    # Match the proven local configuration. A bounded response reduces incomplete JSON.
+    max_tokens=int(os.getenv('LAWYER_MAX_TOKENS','3000'))
     if not 512<=max_tokens<=12000:
         raise ValueError('LAWYER_MAX_TOKENS must be between 512 and 12000.')
     request_body = {'model': os.environ['LAWYER_MODEL'], 'temperature': 0.1,
@@ -106,7 +107,6 @@ Return ONLY a JSON object matching the requested schema, no markdown fences.
                          {'role': 'user', 'content': json.dumps(payload, ensure_ascii=False)}]}
     if endpoint.hostname in ('openrouter.ai', 'eu.openrouter.ai', 'us.openrouter.ai'):
         request_body['provider'] = {'zdr': True, 'data_collection': 'deny'}
-        request_body['response_format'] = {'type': 'json_object'}
     data = json.dumps(request_body).encode()
     headers = {'Content-Type': 'application/json', 'User-Agent':'CaseCompanion/0.1'}
     if endpoint.hostname in ('openrouter.ai', 'eu.openrouter.ai', 'us.openrouter.ai'):

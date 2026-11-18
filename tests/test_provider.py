@@ -36,7 +36,7 @@ class ProviderTests(unittest.TestCase):
             self.assertEqual(request.get_header('Http-referer'),'https://example.test')
             self.assertEqual(request.get_header('X-title'),'Case Companion — AI Lawyer')
             self.assertEqual(json.loads(request.data)['provider'],{'zdr':True,'data_collection':'deny'})
-            self.assertEqual(json.loads(request.data)['response_format'],{'type':'json_object'})
+            self.assertNotIn('response_format', json.loads(request.data))
 
     def test_provider_accepts_a_fenced_json_object(self):
         response=io.BytesIO(json.dumps({'choices':[{'message':{'content':'```json\n{"ok":true}\n```'}}]}).encode())
