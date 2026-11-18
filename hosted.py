@@ -13,7 +13,7 @@ from server import Handler, MAX_REQUEST_BYTES, sweep_guests
 
 def configured_origin():
     origin = os.getenv('CASE_COMPANION_ORIGIN', '')
-    hostname = os.getenv('RENDER_EXTERNAL_HOSTNAME', '')
+    hostname = os.getenv('RENDER_EXTERNAL_HOSTNAME') or os.getenv('RAILWAY_PUBLIC_DOMAIN')
     if not origin and hostname:
         origin = f'https://{hostname}'
     if not origin:
@@ -93,6 +93,7 @@ def main():
     origin = configured_origin()
     port = int(os.getenv('PORT', '8766'))
     bind = '0.0.0.0' if origin.startswith('https://') else '127.0.0.1'
+    print(f'Case Companion guest demo listening on {bind}:{port}', flush=True)
     threading.Thread(target=sweep_guests, daemon=True).start()
     serve(create_app(origin), host=bind, port=port, threads=4, connection_limit=64,
           max_request_body_size=MAX_REQUEST_BYTES, max_request_header_size=16384,

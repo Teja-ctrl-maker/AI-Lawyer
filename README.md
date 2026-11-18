@@ -41,6 +41,8 @@ The hosted build runs the existing case workflow in one Waitress process behind 
 
 To test the guest build locally, install the hosting dependencies with `python -m pip install --target .deps -r requirements-hosted.txt`, put `.deps` on `PYTHONPATH`, and run `python hosted.py`. It binds to loopback when no public origin is configured. Stop the local server first or choose another `PORT`.
 
+For Railway, use Railpack with `requirements.txt` and set the start command to `python hosted.py` if the service has a dashboard override. Set `/healthz` as the deployment health check and use one replica. The app uses `RAILWAY_PUBLIC_DOMAIN` to select the HTTPS origin and listens on Railway's `PORT`. [Railway build and start commands](https://docs.railway.com/builds/build-and-start-commands)
+
 ## Workflow and limits
 
 1. Submit a story with optional evidence text, a labelled `.txt` file, or a text PDF. PDF extraction runs in a short-lived local worker. Preview the text and select up to eight pages. Live intake and analysis each receive excerpts of up to 1,600 characters from up to five relevant selected pages. Click references such as `[D1 p.2]` to check the extracted passage and its page number. Image-only scans still need a manually pasted passage. Use **Anything to correct or add?** and confirm the revised timeline when facts change.

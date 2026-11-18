@@ -12,6 +12,11 @@ import hosted
 class HostedDemoTests(unittest.TestCase):
     origin = 'https://case-companion.onrender.com'
 
+    def test_railway_domain_configures_public_https_origin(self):
+        with patch.dict('os.environ', {'RAILWAY_PUBLIC_DOMAIN': 'case-companion.up.railway.app',
+                                       'PORT': '8080'}, clear=True):
+            self.assertEqual(hosted.configured_origin(), 'https://case-companion.up.railway.app')
+
     def call(self, app, path, payload=None, *, host='case-companion.onrender.com', origin=None):
         environ = {}
         setup_testing_defaults(environ)
